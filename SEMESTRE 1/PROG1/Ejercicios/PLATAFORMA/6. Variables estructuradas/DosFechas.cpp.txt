@@ -1,0 +1,111 @@
+// Archivo de traducción de seudocódigo a C++
+#include <program1.h>
+/**
+*    Enunciado: Dadas dos fechas válidas, calcular las distancia en días entre ellas.
+*/
+procedimiento leeVar(entero porRef,entero,entero,cadena);
+funcion entero cantDias(entero,entero);
+
+estructura fecha {
+    campo entero dia;
+    campo entero mes;
+    campo entero anio;};
+
+procedimiento leeFecha(fecha porRef,cadena);
+funcion largo distEntF(fecha,fecha);
+funcion cadena cadFecha(fecha);
+funcion logico esMenorFecha(fecha,fecha);
+
+principal                                                       // Unidad de programa principal
+fecha f1,f2;
+limpiar;                                                        // Limpia la pantalla.
+leeFecha(f1,"Fecha 1");
+leeFecha(f2,"Fecha 2");
+mostrar << f1.dia << "/" << f1.mes << "/" <<f1.anio << salto
+        << f2.dia << "/" << f2.mes << "/" <<f2.anio << salto
+        << fSi(esMenorFecha(f1,f2),"Es menor","No es menor") << salto;
+
+mostrar << "La distancia en días es: " << distEntF(f1,f2) << salto;
+pausa;                                                          // Pausa antes de finalizar. 
+finPrincipal                                                    // Fin de unidad de programa principal.
+
+funcion logico esMenorFecha(fecha f1, fecha f2) {
+logico resul = f1.anio < f2.anio O 
+               f1.anio ES f2.anio Y (f1.mes < f2.mes O
+                                     f1.mes ES f2.mes Y f1.dia < f2.dia);
+retorna(resul);
+}
+
+procedimiento unDiaMas(fecha porRef f) {
+f.dia++;                                                        // Sumamos un día
+si(f.dia > cantDias(f.anio,f.mes)) entonces
+    f.dia = 1;
+    f.mes++;
+    si(f.mes > 12) entonces
+        f.mes = 1;
+        f.anio++;
+        finSi;
+    finSi;
+}
+    
+funcion largo distEntF(fecha fIni, fecha fFin) {
+largo resul = 0;
+fecha fAux;
+si(esMenorFecha(fIni,fFin)) entonces
+    fAux = fIni;    
+    repetir
+        unDiaMas(fAux);
+        resul++;
+        hasta(NO esMenorFecha(fAux,fFin));
+    sino
+    resul = -distEntF(fFin,fIni);
+    finSi;
+retorna (resul);
+}
+
+procedimiento leeFecha(fecha porRef f, cadena mens) {
+mostrar << mens << salto;
+leerM(f.anio,"Año:");                                           // El año es un valor cualquiera
+leeVar(f.mes,1,12,"Mes");
+leeVar(f.dia,1,cantDias(f.anio,f.mes),"Día");
+}
+
+funcion logico esBisiesto(entero a) {
+logico resul = esMult(a,4) Y NO esMult(a,100) O esMult(a,400);
+retorna(resul);
+}
+
+funcion entero cantDias(entero a, entero m) {
+entero resul;
+segun(m)
+    caso 1: resul = 31;
+    otroCaso 2:
+        si(esBisiesto(a)) entonces
+            resul = 29;
+            sino
+            resul = 28;
+            finSi;
+    otroCaso 3: resul = 31;
+    otroCaso 4: resul = 30;
+    otroCaso 5: resul = 31;
+    otroCaso 6: resul = 30;
+    otroCaso 7: resul = 31;
+    otroCaso 8: resul = 31;
+    otroCaso 9: resul = 30;
+    otroCaso 10: resul = 31;
+    otroCaso 11: resul = 30;
+    otroCaso 12: resul = 31;
+    finSegun;
+retorna(resul);
+}
+
+
+procedimiento leeVar(entero porRef v, entero vMin, entero vMax, cadena mens) {
+si(vMin <= vMax) entonces
+    repetir
+        leerM(v,mens << ": ");
+        hasta(vMin <= v Y v <= vMax);
+    sino
+    leeVar(v,vMax,vMin,mens);
+    finSi;
+}

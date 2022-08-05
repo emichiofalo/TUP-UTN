@@ -1,0 +1,27 @@
+K 26
+svn:wc:ra_dav:activity-url
+V 16
+/labo2/!svn/act/
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/labo2/!svn/ver/37/ejeProfiling2
+END
+manifest.mf
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/labo2/!svn/ver/37/ejeProfiling2/manifest.mf
+END
+build-before-profiler.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/labo2/!svn/ver/37/ejeProfiling2/build-before-profiler.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/labo2/!svn/ver/37/ejeProfiling2/build.xml
+END

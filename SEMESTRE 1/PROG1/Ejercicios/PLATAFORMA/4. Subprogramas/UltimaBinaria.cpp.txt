@@ -1,0 +1,86 @@
+// Archivo de traducción de seudocódigo a C++
+#include <program1.h>
+/**
+*    Enunciado: Dado un conjunto de hasta 20 valores, buscar en forma binaria la última ocurrencia de otro valor dentro del mismo, si estuviera.
+                Sino, indicarlo. 
+*/
+procedimiento leeVar(entero porRef,entero,entero,cadena);
+procedimiento leeVecOrd(entero,real[]);
+procedimiento muestVec(entero,real[]);
+funcion logico estaEnElVecB(entero,real,real[]);
+funcion entero dondEstaB(entero,real,real[]);
+
+constante entero TAM = 20;
+
+principal                                                       // Unidad de programa principal
+real vec[TAM], aBuscar;                                         // Datos (a leer)
+entero cant;                                                    // Cantidad verdadera de valores a procesar (a leer)
+limpiar;                                                        // Limpia la pantalla.
+leeVar(cant,2,TAM,"Cantidad de valores");                       // 2 <= cant <= TAM
+leeVecOrd(cant,vec);
+muestVec(cant,vec);
+leerM(aBuscar,"Valor a buscar:");
+si(estaEnElVecB(cant,aBuscar,vec)) entonces
+    mostrar << "Encontrado en la posición " << dondEstaB(cant,aBuscar,vec)+1 << salto;
+    sino
+    mostrar << "No está..." << salto;
+    finSi;
+                                                        // Pausa antes de finalizar. 
+finPrincipal                                                    // Fin de unidad de programa principal.
+    
+funcion logico estaEnElVecB(entero n, real aBusc, real v[]) {
+logico resul = dondEstaB(n,aBusc,v) >= 0;
+retorna (resul);
+}
+
+funcion entero dondEstaB(entero n, real aBusc, real v[]) {
+entero resul = -1                                               // Hipótesis pesimista (no está...)
+      ,i,m,d;
+si(aBusc > v[0] Y aBusc < v[n-1]) entonces                      // Si puede estar, lo buscamos
+    i = 0;                                                      // El extremo izquierdo es la posición 0
+    d = n - 1;                                                  // y el derecho en la última posición.
+    mientras(i+1 < d)                                           // Mientras pueda haber uno al medio,
+        m = (i + d) / 2;                                        // calculamos su posición.
+        si(aBusc < v[m]) entonces                               // Está a la izquierda...
+            d = m;                                              // así que derecho se corre hasta el medio
+            sinoSi(aBusc > v[m]) entonces                       // Está a la derecha...
+            i = m;                                              // e izquierdo se corre hasta el medio.
+            sino                                                // ¡Lo encontramos!
+            resul = m;
+            i = d;
+            finSi;
+        finMientras;
+    sinoSi(aBusc ES v[0]) entonces                              // Si es el primero
+    resul = 0;
+    sinoSi(aBusc ES v[n-1]) entonces                            // Si es el último
+    resul = n - 1;
+    finSi;
+mientras(resul < (n-1) Y v[resul+1] ES aBusc)                   // Mientras haya otro igual a la derecha,
+    resul++;                                                    // nos movemos un lugar.
+    finMientras; 
+retorna(resul);
+}
+
+procedimiento leeVar(entero porRef v, entero vMin, entero vMax, cadena mens) {
+repetir
+    leerM(v,mens<<": ");
+    hasta(vMin <= v Y v <= vMax);
+}
+
+procedimiento leeVecOrd(entero n, real v[]) {
+entero i;
+variar(i,0,n-1,1)
+    repetir
+        leerM(v[i],"Valor("<<i+1<<"): ");
+        hasta( i ES 0 O v[i] >= v[i-1]);
+    finVariar;
+}
+
+procedimiento muestVec(entero n, real v[]) {
+entero i;
+mostrar << salto << "Vector:" << salto;
+variar(i,0,n-1,1)
+    mostrar << v[i] << tabulado;
+    finVariar;
+mostrar << salto;
+}

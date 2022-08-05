@@ -1,0 +1,181 @@
+#include <program1.h>
+
+struct Lugar{
+	int valor;
+	int x;
+	int y;
+};
+
+void ImprimirMatriz(entero filas, entero columnas, vector<vector<Lugar>> &matriz){
+	for(int i = 0 ; i < filas; i++){
+		for(int j = 0; j < columnas; j++){
+			cout << matriz[i][j].valor << "\t";
+		}
+		cout <<
+		salto;
+	}
+	cout << endl;
+}
+
+void CargarMatriz (entero &filas, entero &columnas, entero filasMaximas, entero columnasMaximas){
+
+	do{
+	cout << "Cantidad de filas" << endl;
+	cin >> filas;
+	cout << "Cantidad de columnas" << endl;
+	cin >> columnas;
+	if(filas > filasMaximas || columnas > columnasMaximas){
+		cout << "El limite maximo es 20 filas y 200 columnas." << endl;
+	}
+	}while(filas > filasMaximas || columnas > columnasMaximas);
+}
+	
+void PoblarMatriz (entero &aguaArena, entero &filas, entero &columnas, vector<vector<Lugar>> &matriz, entero &cantCeldas){
+	for(int i = 0; i < filas; i++){
+		for(int j = 0; j < columnas; j++){
+			cin >> aguaArena;
+			matriz[i][j].valor = aguaArena;
+			matriz[i][j].x = i;
+			matriz[i][j].y = j;
+			cantCeldas++;
+		}
+	}
+	cout << "La playa se ha cargado exitosamente: " << endl;
+}
+
+principal
+
+constante entero filasMaximas = 20;
+constante entero columnasMaximas = 200;
+constante entero arena = 0;
+entero filas, columnas, filaAOcupar, columnaAOcupar;
+entero aguaArena; // Imput del usuario cuando se está armando la playa, 0 es para arena y -1 agua
+entero cantPersonas = 0, cantCeldas = 0;
+
+//Método para cargar de datos la matriz 
+CargarMatriz (filas, columnas, filasMaximas, columnasMaximas);
+
+//Declaramos vector dinamico de la playa 
+vector<vector<Lugar>> playaMatriz(filas,vector<Lugar>(columnas));
+
+//Se puebla con los valores de agua y arena en la original y copia
+PoblarMatriz (aguaArena, filas, columnas, playaMatriz, cantCeldas);
+
+ImprimirMatriz(filas, columnas, playaMatriz);
+cout << "****************************" << endl;
+cout << " " <<endl;
+
+
+do {
+
+	do{
+		cout << "Ingrese Fila y columna a ocupar seguido de cantidad de personas en el grupo. Si quiere salir ingrese 0 en todos los valores" << endl;
+		cin >> filaAOcupar;
+		cout << "Fila a ocupar: " << filaAOcupar << endl;
+		cin >> columnaAOcupar;
+		cout << "Columna a ocupar: " <<columnaAOcupar << endl;
+		cin >> cantPersonas;
+		if(filaAOcupar != 0 && columnaAOcupar !=0){
+			filaAOcupar--; 
+			columnaAOcupar--;
+			cout << "La posicion central del grupo sera sera: (" << filaAOcupar+1 << ", " << columnaAOcupar+1 << ")" << endl;
+		}
+		entero contador = 0;
+		Lugar lugarCentral = playaMatriz[filaAOcupar][columnaAOcupar];
+		if(lugarCentral.valor == arena){
+			for(int i = 0; i < cantPersonas; i++){
+				if (cantPersonas > 0){
+					switch (contador){
+						//centro
+					case 0:
+						playaMatriz[filaAOcupar][columnaAOcupar].valor = ++contador;
+						break;
+						//derecha
+					case 1:
+						playaMatriz[filaAOcupar][columnaAOcupar+1].valor = ++contador;
+						break;
+						//abajo
+					case 2:
+						playaMatriz[filaAOcupar+1][columnaAOcupar].valor = ++contador;
+						break;
+						//arriba
+					case 3:
+						playaMatriz[filaAOcupar-1][columnaAOcupar].valor = ++contador;
+						break;	
+						//izquierda 
+					case 4:
+						playaMatriz[filaAOcupar][columnaAOcupar-1].valor = ++contador;
+						break;
+						//abajo derecha
+					case 5:
+						playaMatriz[filaAOcupar+1][columnaAOcupar+1].valor = ++contador;
+						break;
+						//abajo izquierda 
+					case 6:
+						playaMatriz[filaAOcupar+1][columnaAOcupar-1].valor = ++contador;
+						break;
+						//arriba izquierda 
+					case 7:
+						playaMatriz[filaAOcupar-1][columnaAOcupar-1].valor = ++contador;
+						break;
+						//arriba derecha
+					case 8:
+						playaMatriz[filaAOcupar-1][columnaAOcupar+1].valor = ++contador;
+						break;
+					default:
+						break;
+					}
+					
+				}else if(cantPersonas < 0){
+					//playaMatriz[--filaAOcupar][--columnaAOcupar].valor = arena;
+					
+					switch (contador){
+					case -8:
+						playaMatriz[filaAOcupar][columnaAOcupar].valor = 0;
+						break;
+					case -7:
+						playaMatriz[filaAOcupar][columnaAOcupar+1].valor = 0;
+						break;
+					case -6:
+						playaMatriz[filaAOcupar+1][columnaAOcupar].valor = 0;
+						break;
+					case -5:
+						playaMatriz[filaAOcupar-1][columnaAOcupar].valor = 0;
+						break;	 
+					case -4:
+						playaMatriz[filaAOcupar][columnaAOcupar-1].valor = 0;
+						break;
+					case -3:
+						playaMatriz[filaAOcupar+1][columnaAOcupar+1].valor = 0;
+						break;
+					case -2:
+						playaMatriz[filaAOcupar+1][columnaAOcupar-1].valor = 0;
+						break; 
+					case -1:
+						playaMatriz[filaAOcupar-1][columnaAOcupar-1].valor = 0;
+						break;
+					case 0:
+						playaMatriz[filaAOcupar-1][columnaAOcupar+1].valor = 0;
+						break;
+					default:
+						break;
+					}
+				}else{
+					break;
+				}
+				//playaCopia = playaMatriz;
+			}
+			cantPersonas = 0;
+		}	
+	}while(cantPersonas != 0);
+}while (filaAOcupar !=0 && columnaAOcupar !=0);
+
+cout << "Ha ingresado valor de filas, columnas y personas igual a 0" << endl;
+cout << "Mostrando la playa final..." << endl;
+ImprimirMatriz(filas, columnas, playaMatriz);
+cout << "****************************" << endl;
+cout << " " <<endl;
+cout << "Muchas gracias" << endl;
+
+finPrincipal
+

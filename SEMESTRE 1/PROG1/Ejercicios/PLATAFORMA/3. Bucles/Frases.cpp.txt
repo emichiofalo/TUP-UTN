@@ -1,0 +1,56 @@
+/*
+    program1.h es el archivo de traducci�n de seudoc�digo a C++
+    Copiarlo (en Linux): /usr/local/include
+            o en Windows: c:\Archivos de Programa\Zinjai\MingW\Include              
+    Si se mantiene en la misma carpeta que los fuentes, cambiar #include <program1.h> 
+                                                            por #include "program1.h"
+*/
+#include <program1.h>
+/**
+*    Enunciado: Dado un texto terminado en punto, mostrar la palabra mas larga de la frase m�s corta.
+*/
+principal                                                                            // Unidad de programa principal
+caracter teclaAct                                                                    // Dato (a leer dentro de un bucle)
+        ,teclaAnt = ' ';                                                             // Teclazo anterior
+cadena pal                                                                           // Palabra actual
+      ,palMLFMC                                                                      // Palabra más larga de la frase más corta
+      ,palMLarga;                                                                    // Palabra más larga
+entero lFrase = 0                                                                    // Longitud de la frase actual
+      ,lFraseMCorta = 0                                                              // Longitud de la frase más corta
+      ,lPal                                                                          // Longitud de la palabra actual
+      ,lPalMLarga = 0;                                                               // Longittud de la palabra más larga
+limpiar;                                                                             // Limpia la pantalla.
+mostrar << "Ingrese un texto terminado en punto:" << salto;
+iterar
+    leeTecla(teclaAct);                                                              // Lee una tecla
+    si(esComPal(teclaAnt,teclaAct)) entonces                                         // Empieza una palabra
+        pal = teclaAct;                                                              // La palabra empieza con esta tecla
+        lPal = 1;                                                                    // y es el primer caracter
+        sinoSi(NO esSigno(teclaAct)) entonces                                        // Esta adentro de una palabra
+        pal += teclaAct;                                                             // se acumula el caracter al final de la palabra
+        lPal++;                                                                      // y hay que contarlo.
+        sinoSi(esFinPal(teclaAnt,teclaAct)) entonces                                 // Es un fin de palabra
+        lFrase += lPal;
+        si(lPal > lPalMLarga) entonces                                               // Si es la palabra más larga (hasta ahora)
+            lPalMLarga = lPal;                                                       // hay nueva longitud
+            palMLarga = pal;                                                         // y nueva palabra
+            sinoSi(lPal ES lPalMLarga) entonces                                      // o es de la misma longitud
+            palMLarga += ","+pal;                                                    // acumula el texto de la palabra actual
+            finSi
+        finSi
+    si((teclaAct ES ';' O teclaAct ES '.') Y lFrase > 0) entonces                    // Si finaliza una frase
+        si(lFrase < lFraseMCorta O lFraseMCorta ES 0) entonces                       // Si es la frase más corta hasta ahora
+            lFraseMCorta = lFrase;                                                   // Hay nueva longitud
+            palMLFMC = palMLarga;                                                    // y nueva palabra más larga
+            finSi
+        lPalMLarga = 0;
+        lFrase = 0;                                                                  // Inicializa para la frase siguiente (si hay)
+        finSi
+    salirSi(teclaAct ES '.');                                                        // Sale si es punto
+    teclaAnt = teclaAct;                                                             // Copia el te clazo actual
+    finIterar
+si(lFraseMCorta > 0) entonces                                                        // Si hay al menos una frase, habrá una palabra más larga
+    mostrar << salto << "La palabra m�s larga de la frase m�s corta es \"" << palMLFMC << "\"" << salto;
+    finSi
+pausa;                                                                               // Pausa antes de finalizar. 
+finPrincipal                                                                         // Fin de unidad de programa principal

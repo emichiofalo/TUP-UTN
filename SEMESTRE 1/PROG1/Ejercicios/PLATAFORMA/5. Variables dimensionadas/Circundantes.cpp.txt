@@ -1,0 +1,39 @@
+#include "../program1.h"
+/*
+ Enunciado: Dada una matriz de hasta 20 filas por 15 columnas, hacer:
+- Elegir una celda válida
+- calcular el promedio de los elementos circundantes
+*/
+#include "../tamatriz.h"
+// Prototipos
+procedimiento leeVar(entero porRef,entero,entero,cadena);
+procedimiento leeMat(entero,entero,real[TAMAFILA][TAMACOLU]);
+funcion real promAlrededor(entero,entero,real[TAMAFILA][TAMACOLU],entero,entero);
+
+principal
+real mat[TAMAFILA][TAMACOLU];
+entero cantFilas,cantColumn,fP,cP;
+leeVar(cantFilas,2,TAMAFILA,"Cantidad de filas:");
+leeVar(cantColumn,2,TAMACOLU,"Cantidad de columnas:");
+leeMat(cantFilas,cantColumn,mat);
+leeVar(fP,0,cantFilas-1,"Fila del punto elegido:");
+leeVar(cP,0,cantColumn-1,"Columna del punto elegido:");
+mostrar << "El promedio de los elementos circundantes es:"
+        << promAlrededor(cantFilas,cantColumn,mat,fP,cP)
+        << salto;
+finPrincipal
+
+funcion real promAlrededor(entero cF,entero cC,real m[TAMAFILA][TAMACOLU],
+                           entero fP,entero cP) {
+real resul,
+     suma = -m[fP][cP];
+entero f,c,cant = -1;
+variar(f,maximo(0,fP-1),minimo(cF-1,fP+1),1)    // Dede la fila superior a la inferior
+    variar(c,maximo(0,cP-1),minimo(cC-1,cP+1),1)    // Desde la columna 1 a la izquierda a 1 a derecha
+        cant++;                                 // Se cuenta
+        suma += m[f][c];                        // y se acumula.
+        finVariar;
+    finVariar;
+resul = suma /cant;
+regresa(resul);
+};

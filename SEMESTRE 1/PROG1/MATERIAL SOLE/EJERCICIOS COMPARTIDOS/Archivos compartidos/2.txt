@@ -1,0 +1,62 @@
+Práctico Numero 2
+
+Elaboraciones
+-Resuelva
+
+a-b*c^d >= a*b^(b*c-a/d) Y b^2-4*a*c >= d
+
+a-b*R1 >= a*b^(R2-R3) Y b^2-4*a*c >= d
+
+a-b*R1 >= a*b^R4 Y b^2-4*a*c >= d
+
+a-b*R1 >= a*R5 Y R6-4*a*c >= d
+
+a-R7 >= R8 Y R6-R9 >= d
+
+R10 >= R8 Y R11 >= d
+
+R12 Y R13 
+
+R14
+Tipo de datos de cada resultado
+R1¬c^d(real)
+R2¬b*c(real)
+R3¬a/d(real)
+R4¬R2-R3(real)
+R5¬b^R4(real)
+R6¬b^2(real)
+R7¬b*R1(real)
+R8¬a*R5(real)
+R9¬4*a*c(real)
+R10¬a-R7(real)
+R11¬R6-R9(real)
+R12¬R10 >= R8(lógico)
+R13¬R11 >= d(lógico)
+R14¬R12 Y R13(lógico)
+
+Construya una expresion lógica con no menos de 10 operadores
+y resuélvala, especificando sus condiciones de validez
+
+a+b < c*d Y >= a*b^d Y a^10-a*c/b 
+a+b < c*d Y >= a*R1 Y R2-a*c/b 
+a+b < R3 Y >= R4 Y R2-R5 
+R6 < R3 Y >= R4 Y R7
+R8 Y R9 Y R7
+R10
+
+
+
+R1¬b^d(real)
+R2¬a^10(real)
+R3¬c*d(real)
+R4¬a*R1(real)
+R5¬a*c/b(real)
+R6¬a+b(real)
+R7¬R2-R5(real)
+R8¬R6<R3(lógico)
+R9¬>=R4(lógico)
+R10¬R8 Y R9 Y R7(lógico)
+
+
+
+

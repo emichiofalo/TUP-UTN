@@ -1,0 +1,30 @@
+#include <program1.h>
+/**
+*  Enunciado:  
+*/
+
+procedimiento probar(real porRef);
+
+principal                                                       // Unidad de programa principal
+entera a = 5;
+//mostrar << a << salto;
+{
+    real b = a*1.1;
+//    mostrar << a << salto;
+    mostrar << b << salto;
+    probar(b);
+    mostrar << b << salto;
+    pausa;
+    }
+//mostrar << b << salto;
+//mostrar << a << salto;
+finPrincipal 
+                                                   // Fin de unidad de programa principal
+real a = 55;
+
+procedimiento probar(real porRef x) {
+real y = x * x;
+x += 1;
+mostrar << x << salto;
+mostrar << a << salto;
+}

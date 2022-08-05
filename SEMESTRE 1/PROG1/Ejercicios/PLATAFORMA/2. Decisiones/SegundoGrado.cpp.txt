@@ -1,0 +1,35 @@
+/*
+    program1.h es el archivo de traducción de seudocódigo a C++
+    Copiarlo (en Linux): /usr/local/include
+            o en Windows: c:\Archivos de Programa\Zinjai\MingW\Include              
+    Si se mantiene en la misma carpeta que los fuentes, cambiar #include <program1.h> 
+                                                            por #include "program1.h"
+*/
+#include <program1.h>
+/**
+*    Enunciado: 
+*/
+principal                                                       // Unidad de programa principal
+real a,b,c,d;
+limpiar;                                                        // Limpia la pantalla.
+leerM(a,"a:");
+leerM(b,"b:");
+leerM(c,"c:");
+si(a NOES 0.0) entonces
+    d = b *b - 4 * a * c;
+    si(d >= 0.0) entonces                                        // 2 raíces reales y distintas
+        mostrar << "Raiz 1:" << (-b+raiz2(d)) / (2 * a) << salto;
+        mostrar << "Raiz 2:" << (-b-raiz2(d)) / (2 * a) << salto;
+        sino                                                    // Discriminante negativo: complejos conjugados
+        mostrar << "Raiz 1: (" << (-b / (2 * a) ) << ";" <<  raiz2(-d) / (2 * a)   << " i)" << salto;
+        mostrar << "Raiz 2: (" << (-b / (2 * a) ) << ";" << -raiz2(-d) / (2 * a)   << " i)" << salto;
+        finSi
+    sinoSi(b NOES 0.0) entonces                                 // Primer grado y única raíz
+    mostrar << "Raíz: " << -c / b << salto;
+    sinoSi(c ES 0) entonces                                     // Infinitas soluciones
+    mostrar << "Infinitas soluciones..." << salto;
+    sino                                                        // Error
+    mostrar << "Sin solución..." << salto;
+    finSi
+pausa;                                                          // Pausa antes de finalizar. 
+finPrincipal                                                    // Fin de unidad de programa principal

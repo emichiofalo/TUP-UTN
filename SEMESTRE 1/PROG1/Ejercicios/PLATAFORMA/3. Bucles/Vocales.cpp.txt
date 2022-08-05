@@ -1,0 +1,26 @@
+/*
+    program1.h es el archivo de traducción de seudocódigo a C++
+    Copiarlo (en Linux): /usr/local/include
+            o en Windows: c:\Archivos de Programa\Zinjai\MingW\Include              
+    Si se mantiene en la misma carpeta que los fuentes, cambiar #include <program1.h> 
+                                                            por #include "program1.h"
+*/
+#include <program1.h>
+/**
+*    Enunciado: Dado un texto terminado en punto calcular la cantidad de vocales.
+*/
+principal                                                                            // Unidad de programa principal
+caracter tecla;                                                                      // Dato (a leer)
+entero cantVoc = 0;                                                                   // Resultado (a mostrar)
+limpiar;                                                                             // Limpia la pantalla.
+mostrar << "Ingrese un texto terminado en punto:" << salto;
+iterar
+    leeTecla(tecla);
+    salirSi(tecla ES '.');
+    si(esVocal(tecla)) entonces
+        cantVoc++;
+        finSi
+    finIterar
+mostrar << salto << "La cantidad de vocales es " << cantVoc << salto;
+pausa;                                                                               // Pausa antes de finalizar. 
+finPrincipal                                                                         // Fin de unidad de programa principal

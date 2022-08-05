@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.julio.librerias.pruebas4.CalculadoraTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.542 s - in com.julio.librerias.pruebas4.CalculadoraTest
+com.julio.librerias.pruebas4.CalculadoraTest.testSumaArreglos  Time elapsed: 0.043 s
+com.julio.librerias.pruebas4.CalculadoraTest.testSumar  Time elapsed: 0.458 s
+com.julio.librerias.pruebas4.CalculadoraTest.testDividir  Time elapsed: 0.002 s

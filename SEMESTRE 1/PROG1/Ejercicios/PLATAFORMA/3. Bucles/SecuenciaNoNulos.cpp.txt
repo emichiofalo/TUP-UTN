@@ -1,0 +1,33 @@
+/*
+    program1.h es el archivo de traducci�n de seudoc�digo a C++
+    Copiarlo (en Linux): /usr/local/include
+            o en Windows: c:\Archivos de Programa\Zinjai\MingW\Include              
+    Si se mantiene en la misma carpeta que los fuentes, cambiar #include <program1.h> 
+                                                            por #include "program1.h"
+*/
+#include <program1.h>
+/**
+*    Enunciado: Dada una secuencia de valores no nulos, calcular la secuencia más larga de negativos.
+*/
+principal                                                       // Unidad de programa principal
+real nro                                                        // Dato (a leer)
+    ,cNeg = 0                                                   // Cantidadde negativos de esta secuencia
+    ,cNMx = 0;                                                  // Cantidad máxima de negativos consecutivos
+limpiar;                                                        // Limpia la pantalla.
+iterar
+    leerM(nro,"Valor:");                                        // Lee el dato.
+    salirSi(nro ES 0.0);                                        // Sale si es cero.
+    si(nro < 0.0) entonces                                      // Si es negativo
+        cNeg++;                                                 // lo cuento
+        si(cNeg > cNMx) entonces                                // y si es la más larga
+            cNMx = cNeg;                                        // hay un nuevo máximo.
+            finSi
+        sino                                                    // sino, es positivo.
+        cNeg = 0;
+        finSi
+    finIterar;
+si(cNMx > 0) entonces
+    mostrar << "La cantidad máxima de negativos consecutivos es: " << cNMx << salto;
+    finSi
+pausa;                                                          // Pausa antes de finalizar. 
+finPrincipal                                                    // Fin de unidad de programa principal

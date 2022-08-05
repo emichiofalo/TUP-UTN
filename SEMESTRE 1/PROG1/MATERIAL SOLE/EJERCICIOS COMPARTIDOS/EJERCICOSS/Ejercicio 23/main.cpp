@@ -1,0 +1,39 @@
+#include <program1.h>
+/**
+*    Enunciado: Dada una secuencia de valores no nulos, calcular la mayor suma de tres positivos consecutivos.
+*/
+principal                                                       // Unidad de programa principal
+real nro
+    ,pos1,pos2,pos3                                             // los 3 consecutivos
+    ,suma = 0
+    ,sumaMx = 0;                                                    // Dato (a leer)
+entero cPos = 0;                                                 // Cantidad de positivos de esta secuencia
+limpiar;                                                        // Limpia la pantalla.
+iterar
+    leerM(nro,"Valor:");                                        // Lee el dato.
+    salirSi(nro ES 0.0);                                        // Sale si es cero.
+    si(nro > 0.0) entonces                                      // Si es positivo,
+        cPos++;                                                 // lo contamos
+        segun(cPos)
+            caso     1: pos1 = nro;
+            otroCaso 2: pos2 = nro;
+            otroCaso 3: pos3 = nro;
+            casoAsumido:pos1 = pos2;
+                        pos2 = pos3;
+                        pos3 = nro;
+            finSegun;
+        si(cPos >= 3) entonces
+            suma = pos1 + pos2 + pos3;
+            si(suma > sumaMx) entonces
+                sumaMx = suma;
+                finSi
+            finSi
+        sino
+        cPos = 0;
+        finSi
+   finIterar;
+si(sumaMx > 0.0) entonces
+    mostrar << "La suma máxima de 3 positivos consecutivos es: " << sumaMx << salto;
+    finSi
+pausa;                                                          // Pausa antes de finalizar. 
+finPrincipal                                                    // Fin de unidad de programa principal

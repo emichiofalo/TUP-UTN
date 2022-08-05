@@ -1,0 +1,300 @@
+#include "FechasTAD.h"
+//#include <ctime>
+Fecha::Fecha() {
+std::time_t aux1 = std::time(nullptr);
+auto resul =std::localtime(&aux1);
+anio = 1900+resul->tm_year;
+mes = 1+resul->tm_mon;
+dia = resul->tm_mday;
+//mostrar << "Creando fecha de hoy: ("<< cadFecha() <<")" << salto;
+mostrar << "Construyendo "<< esto->cadFecha() << salto;
+}
+
+Fecha::Fecha(entero esteDia,entero esteMes,entero esteAnio) {
+anio = esteAnio;
+mes = esteMes;
+dia = esteDia;
+si(NO esFechaValida()) entonces
+    std::time_t aux1 = std::time(nullptr);
+    auto resul =std::localtime(&aux1);
+    anio = 1900+resul->tm_year;
+    mes = 1+resul->tm_mon;
+    dia = resul->tm_mday;
+    finSi
+mostrar << "Construyendo "<< esto->cadFecha() << salto;
+}
+
+Fecha::Fecha(noCambia Fecha porRef fechaInicial) {
+anio = fechaInicial.anio;
+mes = fechaInicial.mes;
+dia = fechaInicial.dia;
+}
+
+Fecha::~Fecha() {
+mostrar << "Destruyendo "<< esto->cadFecha() << salto;
+}
+
+procedimiento Fecha::muestraFecha(logico esConDiaSem) {
+si(esFechaValida()) entonces
+    si(esConDiaSem) entonces 
+        mostrar << "(" << cadDiaSemana() << ") ";
+        finSi
+    mostrar << cadFecha() << salto;
+    sino
+    mostrar << cadFecha() << "-> Fecha no v�lida" << salto;
+    finSi
+}
+
+procedimiento Fecha::muestraFechaSTD(logico esConDiaSem) {
+si(esFechaValida()) entonces
+    si(esConDiaSem) entonces 
+        mostrar << "(" << cadDiaSemana() << ") ";
+        finSi
+    mostrar << anio << " " << mes << " " << dia << salto;
+    sino
+    mostrar << "Fecha no v�lida" << salto;
+    finSi
+}
+
+funcion logico Fecha::esFechaValida() {
+logico resul = (mes >= 1 Y mes <= 12) Y
+               (dia >= 1 Y dia <= cantDias(/*anio,mes*/));
+regresa(resul);
+}
+
+procedimiento Fecha::operador ++ () {
+dia++;
+si(dia > cantDias()) entonces
+    dia = 1;
+    mes++;
+    si(mes > 12) entonces
+        mes = 1;
+        anio++;
+        finSi
+    finSi
+}
+
+procedimiento Fecha::operador ++ (entero aux) {
+repetir
+    ++ apuntadoPor esto;
+    hasta(estaEntre(Zeller(),1,5));
+}
+
+procedimiento Fecha::operador -- () {
+dia--;
+si(dia < 1) entonces
+    mes--;
+    si(mes < 1) entonces
+        mes = 12;
+        anio--;
+        finSi
+    dia = cantDias(/*anio,mes*/);
+    finSi
+}
+
+procedimiento Fecha::operador -- (entero aux) {
+repetir
+    -- apuntadoPor esto;
+    hasta(estaEntre(Zeller(),1,5));
+}
+
+funcion Fecha Fecha::operador - (entero dias) {
+entero d;
+Fecha resul = apuntadoPor esto;
+si(dias >= 0) entonces
+    variarMas1(d,1,dias)
+        --resul;
+        finVariar
+    sino
+    resul = resul + (-dias);
+    finSi
+//apuntadoPor esto = resul;
+regresa(resul);
+}
+
+funcion Fecha Fecha::operador -= (entero dias) {
+Fecha resul = apuntadoPor esto;
+si(dias > 0) entonces
+    resul = resul - dias;
+    sino
+    resul = resul + (-dias);
+    finSi
+apuntadoPor esto = resul;
+regresa(resul);
+}
+
+funcion Fecha Fecha::operador + (entero dias) {
+entero d;
+Fecha resul = apuntadoPor esto;
+si(dias >= 0) entonces
+    variarMas1(d,1,dias)
+        ++resul;
+        finVariar
+    sino
+    resul = resul - (-dias);
+    finSi
+//apuntadoPor esto = resul;
+regresa(resul);
+}
+
+funcion Fecha Fecha::operador += (entero dias) {
+Fecha resul = apuntadoPor esto;
+si(dias > 0) entonces
+    resul = resul + dias;
+    sino
+    resul = resul - (-dias);
+    finSi
+apuntadoPor esto = resul;
+regresa(resul);
+}
+
+funcion logico Fecha::operador <(Fecha otraFecha) {
+logico resul = anio <  otraFecha.anio O
+               anio ES otraFecha.anio Y (mes <  otraFecha.mes O
+                                         mes ES otraFecha.mes Y dia < otraFecha.dia);
+regresa(resul);
+}
+
+funcion logico Fecha::operador >(Fecha otraFecha) {
+logico resul = anio >  otraFecha.anio O
+               anio ES otraFecha.anio Y (mes >  otraFecha.mes O
+                                         mes ES otraFecha.mes Y dia > otraFecha.dia);
+regresa(resul);
+}
+
+funcion logico Fecha::operador <=(Fecha otraFecha) {
+logico resul = NO (apuntadoPor esto > otraFecha);
+regresa(resul);
+}
+
+funcion logico Fecha::operador >=(Fecha otraFecha) {
+logico resul = NO (apuntadoPor esto < otraFecha);
+regresa(resul);
+}
+
+funcion logico Fecha::operador NOES(Fecha otraFecha) {
+logico resul = NO (apuntadoPor esto ES otraFecha);
+regresa(resul);
+}
+
+funcion logico Fecha::operador ES(Fecha otraFecha) {
+logico resul = anio ES otraFecha.anio Y
+                mes ES otraFecha.mes  Y
+                dia ES otraFecha.dia;
+regresa(resul);
+}
+
+procedimiento Fecha::leeFecha() {
+leerM(anio,"A�o:");
+leeVar(mes,1,12,"Mes:");
+leeVar(dia,1,cantDias(/*anio,mes*/),"Dia:");
+}
+
+procedimiento Fecha::leeFechArch() {
+leer(anio);
+leer(mes);
+leer(dia);
+//si(NO esFechaValida()) entonces
+//    mostrar << "No v�lida: ";
+//    muestraFecha(FALSO);
+//    finSi
+}
+
+funcion entero Fecha::cantDiasMes() {
+entero resul;
+segun(mes)
+    caso 1: caso 3: caso 5: caso 7: caso 8: caso 10: caso 12: resul = 31;
+    otroCaso 4: caso 6: caso 9: caso 11: resul = 30; 
+    otroCaso 2: resul = fSi(esBisiesto(),29,28);
+    finSegun
+regresa(resul);
+}
+
+funcion entero Fecha::cantDias() {
+entero resul;
+segun(mes)
+    caso 1: caso 3: caso 5: caso 7: caso 8: caso 10: caso 12: resul = 31;
+    otroCaso 4: caso 6: caso 9: caso 11: resul = 30; 
+    otroCaso 2: resul = fSi(esBisiesto(),29,28);
+    finSegun
+regresa(resul);
+}
+
+funcion entero Fecha::cantDiasAcum() {
+entero resul = dia;
+Fecha aux = deRef esto;
+sinSigno byte m;
+variarMenos1(m,mes-1,1)
+    aux.mes--;
+    resul += aux.cantDiasMes();
+    finVariar
+regresa(resul);
+}
+
+funcion logico Fecha::esBisiesto() {
+logico resul = esMult(anio,4) Y NO esMult(anio,100) O esMult(anio,400);
+regresa(resul);
+}
+
+funcion cadena Fecha::cadFecha() {
+cadena resul = aCadena(dia,"00") + "/" + aCadena(mes,"00") + "/" + aCadena(anio);
+regresa(resul);
+}
+
+funcion entero Fecha::Zeller() {
+entero resul
+      ,a = (14 - mes) / 12
+      ,y = anio -a
+      ,m = mes + 12 * a - 2;
+resul = (dia + y + y/4 - y/100 + y/400 + (31*m)/12) % 7;
+assert (0 <= resul Y resul < 7);
+regresa(resul);
+}
+
+funcion cadena Fecha::cadDiaSemana() {
+cadena resul [] = {"Domingo","Lunes","Martes","Mi�rcoles","Jueves","Viernes","S�bado"};
+regresa(resul[Zeller()]);
+}
+
+funcion Fecha Fecha::fecHabil() {
+Fecha resul = apuntadoPor esto;
+mientras(NO (estaEntre(resul.Zeller(),1,5)))
+    ++resul;
+    finMientras
+regresa(resul);
+}
+
+funcion entero Fecha::diasHasta(Fecha otraFecha) {
+Fecha estaFecha;                                                                // Copia la fecha actual
+estaFecha.anio = anio;
+estaFecha.mes = mes;
+estaFecha.dia = dia;
+entero resul = 0;
+si(estaFecha > otraFecha) entonces
+    resul = -otraFecha.diasHasta(estaFecha);
+    sinoSi(estaFecha < otraFecha) entonces
+    mientras(otraFecha.anio > estaFecha.anio)                                   // mientras no llegue al año mayor,
+        resul += estaFecha.cantDiasAnio();                                      //cuenta los días de ese año.
+        estaFecha.anio++;                                                       // y suma un año más a la fecha actual
+        finMientras                                                             // Sale con años iguales.
+    si(estaFecha.mes <= otraFecha.mes) entonces
+        mientras(otraFecha.mes > estaFecha.mes)                                 // Mientras no alcancemos el mes de otraFecha
+            resul += estaFecha.cantDiasMes();
+            estaFecha.mes++;
+            finMientras                                                         // Sale con meses (y años) iguales
+        sino                                                                    // estaFecha es mayor a otraFecha y 
+        resul -= otraFecha.diasHasta(estaFecha);                                 // debe descontar los días que se pasó
+        finSi
+    si(estaFecha.dia <= otraFecha.dia) entonces
+        resul += otraFecha.dia - estaFecha.dia;
+        sino
+        resul -= otraFecha.diasHasta(estaFecha);
+        finSi
+    finSi
+regresa(resul);
+}
+
+funcion entera Fecha::cantDiasAnio() {
+entero resul = fSi(esBisiesto(),366,365);
+regresa(resul);
+}

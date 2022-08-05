@@ -1,0 +1,37 @@
+/*
+    program1.h es el archivo de traducción de seudocódigo a C++
+    Copiarlo (en Linux): /usr/local/include
+            o en Windows: c:\Archivos de Programa\Zinjai\MingW\Include              
+    Si se mantiene en la misma carpeta que los fuentes, cambiar #include <program1.h> 
+                                                            por #include "program1.h"
+*/
+#include <program1.h>
+/**
+*    Enunciado: Dada una secuencia de no nulos, calcular: 1) el mayor de los pares; 2) el promedio de los impares.
+*/
+principal                                                                            // Unidad de programa principal
+entero nro                                                                           // Dato (a leer)
+      ,mayorPar = 0                                                                  // Resultado (a mostrar): mayor de los pares, inicializado en nulo (invÃ¡lido)
+      ,sumaImp = 0                                                                   //Acumulador: en cero
+      ,cantImp = 0;                                                                  //Contador: hasta ahora 0 impares.
+limpiar;                                                                             // Limpia la pantalla.
+iterar
+    leerM(nro,"Valor:");                                                             // -inf < nro << +inf
+    salirSi(nro ES 0);                                                               // Sale si es nulo,
+    si(esPar(nro)) entonces                                                          // sino, no es nulo. Si es par
+        si(nro > mayorPar O mayorPar ES 0) entonces                                  // y mayor (o primero)
+            mayorPar = nro;                                                          // hay que actualizar el mayor.
+            finSi
+        sino                                                                         // sino, es impar:
+        cantImp++;                                                                   // hay que contarlo
+        sumaImp += nro;                                                              // y acumularlo.
+        finSi
+    finIterar
+si(mayorPar NOES 0) entonces                                                         // Si hay al menos un par,
+    mostrar << "El mayor de los pares es " << mayorPar << salto;                     // se muestra el mayor.
+    finSi
+si(cantImp > 0) entonces                                                             // Si hay al menos un impar,
+    mostrar << "El promedio de los impares es " << (real)sumaImp/cantImp << salto;   // se muestra el promedio.
+    finSi
+pausa;                                                                               // Pausa antes de finalizar. 
+finPrincipal                                                                         // Fin de unidad de programa principal

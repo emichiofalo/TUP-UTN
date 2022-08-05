@@ -1,0 +1,44 @@
+#include <program1.h>
+#include "../../leeVar.h"
+/**
+*  Enunciado:  Dada una matriz de hasta 5x5 calcular la columna de menor sumatoria.
+*/
+
+funcion real sumaColu(matrizDin2D(real) m, entero c) {
+real resul = 0.0;
+paraCada(fila,m)
+    resul += fila[c];
+    finPara
+regresa(resul);
+}
+
+principal                                                       // Unidad de programa principal
+entero cF,cC,c;
+leeVar(cF,2,5,"Filas:");
+leeVar(cC,2,5,"Columnas:");
+matrizDin2D(real) mat(cF);
+iniciAlAzar;
+paraCada(fila,mat)
+    ajusTamanio(fila,cC);
+    paraCada(ele,fila)
+        ele = alAzarEntre(-10,10);
+//        ele = alAzarRealEntre(-1000.0,1000.0);
+        mostrar << ele << "   ";
+        finPara
+    mostrar << salto;
+    finPara
+entera colSumaMin = 0;
+real sumaMin = sumaColu(mat,colSumaMin);
+variarMas1(c,1,cC-1)
+    real suma = sumaColu(mat,c);
+    si(suma < sumaMin) entonces
+        colSumaMin = c;
+        sumaMin = suma;
+        finSi
+    finVariar
+mostrar << "Columna:" << colSumaMin+1 << salto;
+finPrincipal                                                    // Fin de unidad de programa principal
+
+
+
+

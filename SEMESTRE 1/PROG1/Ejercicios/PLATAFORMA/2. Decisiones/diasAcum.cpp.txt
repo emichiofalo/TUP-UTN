@@ -1,0 +1,64 @@
+#include <program1.h>
+/**
+*  Enunciado:  Dada una fecha averiguar su número de orden en ese año
+*/
+
+
+
+funcion logico esBis(sinSigno a) {
+logico resul = esMult(a,4) Y NO esMult(a,100) O esMult(a,400);
+regresa(resul);
+}
+
+funcion sinSigno canDias(sinSigno m,sinSigno a) {
+sinSigno resul;
+segunCaso(m)
+    caso 1 : caso 3 : caso 5 : resul = 31;
+    otroCaso 2 : resul = fSi(esBis(a),29,28);
+//    otroCaso 3 : resul = 31;
+    otroCaso 4 : resul = 30;
+//    otroCaso 5 : resul = 31;
+    otroCaso 6 : resul = 30;
+    otroCaso 7 : resul = 31;
+    otroCaso 8 : resul = 31;
+    otroCaso 9 : resul = 30;
+    otroCaso 10 : resul = 31;
+    otroCaso 11 : resul = 30;
+    otroCaso 12 : resul = 31;
+    finSegun
+regresa(resul);
+}
+
+funcion sinSigno acumulado(sinSigno m,sinSigno a) {
+sinSigno resul = fSi((m > 0),canDias(m,a),0);
+si(m > 1) entonces
+    resul += acumulado((m-1),a);
+    finSi
+regresa(resul);
+}
+
+funcion sinSigno orden(sinSigno d,sinSigno m,sinSigno a) {
+sinSigno resul = acumulado((m-1),a) + d;
+regresa(resul);
+}
+procedimiento leeMes(sinSigno porRef m) {
+leerM(m,"Mes:");
+si(m < 1 O m > 12) leeMes(m);
+}
+procedimiento leeDia(sinSigno a,sinSigno m,sinSigno porRef d) {
+leerM(d,"Día:");
+si(d < 1 O d > canDias(m,a)) leeDia(a,m,d);
+}
+
+principal                                                       // Unidad de programa principal
+sinSigno dia,mes,anio;
+leerM(anio,"Año:");
+leeMes(mes);
+leeDia(anio,mes,dia);
+mostrar << orden(dia,mes,anio) << salto;
+pausa;                                                          // Pausa antes de finalizar. 
+finPrincipal                                                    // Fin de unidad de programa principal
+
+
+
+

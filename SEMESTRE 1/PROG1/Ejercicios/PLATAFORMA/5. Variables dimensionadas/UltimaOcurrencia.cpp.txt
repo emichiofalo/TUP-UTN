@@ -1,0 +1,63 @@
+// Archivo de traducción de seudocódigo a C++
+#include <program1.h>
+/**
+*    Enunciado: Dado un conjunto de hasta 20 valores, buscar la última ocurrencia de otro valor dentro del mismo, si estuviera. Sino, indicarlo. 
+*/
+procedimiento leeVar(entero porRef,entero,entero,cadena);
+procedimiento leeVec(entero,real[]);
+procedimiento muestVec(entero,real[]);
+funcion logico estaEnElVec(entero,real,real[]);
+funcion entero dondEsta(entero,real,real[]);
+
+constante entero TAM = 20;
+
+principal                                                       // Unidad de programa principal
+real vec[TAM], aBuscar;                                         // Datos (a leer)
+entero cant;                                                    // Cantidad verdadera de valores a procesar (a leer)
+limpiar;                                                        // Limpia la pantalla.
+leeVar(cant,2,TAM,"Cantidad de valores");                       // 2 <= cant <= TAM
+leeVec(cant,vec);
+muestVec(cant,vec);
+leerM(aBuscar,"Valor a buscar:");
+si(estaEnElVec(cant,aBuscar,vec)) entonces
+    mostrar << "Encontrado en la posición " << dondEsta(cant,aBuscar,vec)+1 << salto;
+    sino
+    mostrar << "No está..." << salto;
+    finSi;
+pausa;                                                          // Pausa antes de finalizar. 
+finPrincipal                                                    // Fin de unidad de programa principal.
+    
+funcion logico estaEnElVec(entero n, real aBusc, real v[]) {
+logico resul = dondEsta(n,aBusc,v) >= 0;
+retorna (resul);
+}
+
+funcion entero dondEsta(entero n, real aBusc, real v[]) {
+entero resul = n-1;
+mientras(resul >= 0 Y aBusc NOES v[resul])
+    resul--;
+    finMientras;
+retorna(resul);
+}
+
+procedimiento leeVar(entero porRef v, entero vMin, entero vMax, cadena mens) {
+repetir
+    leerM(v,mens<<": ");
+    hasta(vMin <= v Y v <= vMax);
+}
+
+procedimiento leeVec(entero n, real v[]) {
+entero i;
+variar(i,0,n-1,1)
+    leerM(v[i],"Valor("<<i+1<<"): ");
+    finVariar;
+}
+
+procedimiento muestVec(entero n, real v[]) {
+entero i;
+mostrar << salto << "Vector:" << salto;
+variar(i,0,n-1,1)
+    mostrar << v[i] << tabulado;
+    finVariar;
+mostrar << salto;
+}

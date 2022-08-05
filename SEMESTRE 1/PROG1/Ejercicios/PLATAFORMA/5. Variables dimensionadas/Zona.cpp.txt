@@ -1,0 +1,66 @@
+// Archivo de traducción de seudocódigo a C++
+#include <program1.h>
+/**
+*    Enunciado: Se tiene una matriz cuadrada de hasta 19 filas por 19 columnas, cuyo tamaño real lo elige el usuario y es
+siempre impar. Se quiere calcular el promedio de la zona marcada
+-----
+-----
+--xxx
+---xx
+----x
+*/
+
+constante entero TAM = 19;
+
+procedimiento leeVar(entero porRef,entero,entero,cadena);
+procedimiento leeVarI(entero porRef,entero,entero,cadena);
+procedimiento leeMat(entero,entero,real[TAM][TAM]);
+funcion real promZM(entero,real[TAM][TAM]);
+
+principal                                                       // Unidad de programa principal
+real mat[TAM][TAM];
+entero t;
+limpiar;                                                        // Limpia la pantalla.
+leeVarI(t,3,TAM,"Tamaño");                                      // 3 <= t <= TAM Y esImpar(t)
+leeMat(t,t,mat);
+mostrar << "El promedio de la zona marcada es: " << promZM(t,mat) << salto;
+pausa;                                                          // Pausa antes de finalizar. 
+finPrincipal                                                    // Fin de unidad de programa principal.
+
+funcion real promZM(entero t, real m[TAM][TAM]) {
+real resul
+    ,suma = 0.0;                                               // Sumatoria de desvíos al cuadrado
+entero cant = 0                                                 // Cantidad de elementos procesados
+      ,medio = t / 2                                            // La mitad...
+      ,f,c;                                                     // fila y columna
+variar(f,medio,t-1,1)
+    variar(c,f,t-1,1)
+        suma += m[f][c];                                       // Acumula el valor
+        cant++;                                                 // y lo cuenta.    
+        finVariar;
+    finVariar;
+resul = suma / cant;                              // El resultado es la raíz cuadrada de la varianza de los valores.
+retorna(resul);
+}    
+
+
+procedimiento leeMat(entero cF, entero cC, real m[TAM][TAM]) {
+entero f,c;
+variar(f,0,cF-1,1)
+    variar(c,0,cC-1,1)
+        leerM(m[f][c],"Matriz("<<f+1<<","<<c+1<<"): ");
+        finVariar;
+    finVariar;
+}
+    
+procedimiento leeVarI(entero porRef v, entero vMin, entero vMax, cadena mens) {
+repetir
+    leeVar(v,vMin,vMax,mens);
+    hasta(esImpar(v));
+}
+
+procedimiento leeVar(entero porRef v, entero vMin, entero vMax, cadena mens) {
+repetir
+    leerM(v,mens<<": ");
+    hasta(vMin <= v Y v <= vMax);
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemadesigner version="6.5">
+<source>
+<database charset="utf8" collation="utf8_spanish_ci">SDCine_Chiofalo</database>
+</source>
+<canvas zoom="100">
+<tables>
+<table name="Butaca" view="colnames">
+<left>723</left>
+<top>14</top>
+<width>131</width>
+<height>119</height>
+<sql_create_table>CREATE TABLE `Butaca` (
+  `but_nro` int(2) unsigned NOT NULL AUTO_INCREMENT,
+  `but_libre` tinyint(1) DEFAULT NULL,
+  `but_sala_nro` int(2) unsigned DEFAULT NULL,
+  PRIMARY KEY (`but_nro`),
+  KEY `FK_Butaca` (`but_sala_nro`),
+  CONSTRAINT `FK_Butaca` FOREIGN KEY (`but_sala_nro`) REFERENCES `Sala` (`sala_nro`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci</sql_create_table>
+</table>
+<table name="Entrada" view="colnames">
+<left>523</left>
+<top>331</top>
+<width>144</width>
+<height>116</height>
+<sql_create_table>CREATE TABLE `Entrada` (
+  `entr_nro` int(4) unsigned NOT NULL AUTO_INCREMENT,
+  `entr_precio` float unsigned DEFAULT NULL,
+  `entr_func_nro` int(3) unsigned NOT NULL,
+  PRIMARY KEY (`entr_nro`),
+  KEY `FK_Entrada` (`entr_func_nro`),
+  CONSTRAINT `FK_Entrada` FOREIGN KEY (`entr_func_nro`) REFERENCES `Funcion` (`func_nro`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci</sql_create_table>
+</table>
+<table name="Funcion" view="colnames">
+<left>330</left>
+<top>143</top>
+<width>126</width>
+<height>146</height>
+<sql_create_table>CREATE TABLE `Funcion` (
+  `func_peli_cod` int(2) unsigned NOT NULL,
+  `func_sala_nro` int(2) unsigned NOT NULL,
+  `func_hora` varchar(5) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `func_fecha` date DEFAULT NULL,
+  `func_nro` int(3) unsigned NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`func_peli_cod`,`func_sala_nro`),
+  UNIQUE KEY `func_nro` (`func_nro`),
+  KEY `FK_Funcion_Horario` (`func_hora`),
+  KEY `FK_Funcion_Sala` (`func_sala_nro`),
+  CONSTRAINT `FK_Funcion_Pelicula` FOREIGN KEY (`func_peli_cod`) REFERENCES `Pelicula` (`peli_cod`),
+  CONSTRAINT `FK_Funcion_Horario` FOREIGN KEY (`func_hora`) REFERENCES `Horario` (`hora`),
+  CONSTRAINT `FK_Funcion_Sala` FOREIGN KEY (`func_sala_nro`) REFERENCES `Sala` (`sala_nro`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci</sql_create_table>
+</table>
+<table name="Horario" view="colnames">
+<left>517</left>
+<top>177</top>
+<width>111</width>
+<height>108</height>
+<sql_create_table>CREATE TABLE `Horario` (
+  `hora` varchar(5) COLLATE utf8_spanish_ci NOT NULL,
+  PRIMARY KEY (`hora`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci</sql_create_table>
+</table>
+<table name="Pelicula" view="colnames">
+<left>92</left>
+<top>142</top>
+<width>117</width>
+<height>146</height>
+<sql_create_table>CREATE TABLE `Pelicula` (
+  `peli_cod` int(2) unsigned NOT NULL AUTO_INCREMENT,
+  `peli_titulo` varchar(50) COLLATE utf8_spanish_ci DEFAULT NULL,
+  `peli_anio` int(4) unsigned DEFAULT NULL,
+  `peli_director` varchar(25) COLLATE utf8_spanish_ci DEFAULT NULL,
+  PRIMARY KEY (`peli_cod`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci</sql_create_table>
+</table>
+<table name="Sala" view="colnames">
+<left>514</left>
+<top>21</top>
+<width>145</width>
+<height>112</height>
+<sql_create_table>CREATE TABLE `Sala` (
+  `sala_nro` int(2) unsigned NOT NULL AUTO_INCREMENT,
+  `sala_cantButacas` int(2) unsigned DEFAULT NULL,
+  PRIMARY KEY (`sala_nro`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci</sql_create_table>
+</table>
+</tables>
+</canvas>
+</schemadesigner>

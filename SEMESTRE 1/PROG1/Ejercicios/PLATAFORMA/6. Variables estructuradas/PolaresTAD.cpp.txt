@@ -1,0 +1,49 @@
+#include "PolaresTAD.h"
+
+
+P2DPolares::P2DPolares() : P2D(0.f,0.f) {dist = 0.f;angulo = 0.f;}
+
+P2DPolares::P2DPolares(real ro, real ti) : P2D(ro * cosenoGrados(ti),ro * senoGrados(ti)) {
+dist = ro;angulo = ti;}
+
+P2DPolares::P2DPolares(noCambia P2DPolares porRef otro) : P2D(otro.dist * cosenoGrados(otro.angulo)
+                                                             ,otro.dist * senoGrados(otro.angulo)) {
+dist = otro.dist;angulo = otro.angulo;}
+
+procedimiento P2DPolares::muestra(logico salta) {muestra(); si(salta) mostrar << salto;}
+
+procedimiento P2DPolares::muestra() {
+mostrar << /*identif() << */"(" << dist << ";"<< angulo <<"°) ";
+}
+
+procedimiento P2DPolares::muestraTodo() {
+mostrar << identif() << "(" << dist << ";"<< angulo <<"°) ->";
+P2D::muestra();
+}
+
+procedimiento P2DPolares::lee() {
+real estaDist,esteAng;
+leer(estaDist);
+leer(esteAng);
+* this = P2DPolares(estaDist,esteAng);
+}
+
+procedimiento P2DPolares::leeM() {
+real estaDist,esteAng;
+leerM(estaDist,"Distancia:");
+leerM(esteAng,"Ángulo:");
+* this = P2DPolares(estaDist,esteAng);
+}
+
+procedimiento P2DPolares::leeVec(vectorDin(P2DPolares) porRef v) {
+paraCada(ele,v)
+    ele.lee();
+    finPara
+}
+
+procedimiento P2DPolares::muestraV(noCambia vectorDin(P2DPolares) porRef v) {
+paraCadaValor(ele,v);
+    ele.muestraTodo();
+    mostrar << salto;
+    finPara
+}

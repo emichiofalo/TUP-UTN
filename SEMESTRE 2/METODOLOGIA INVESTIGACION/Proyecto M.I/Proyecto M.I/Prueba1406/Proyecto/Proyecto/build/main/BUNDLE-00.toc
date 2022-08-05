@@ -1,0 +1,3 @@
+([('main',
+   '/Users/sebastiansulia/Documents/Tecnicatura_programacion/Semestre2/Metodología/Proyecto/Repos/GrupoD-TT/Proyecto/dist/main',
+   'EXECUTABLE')],)

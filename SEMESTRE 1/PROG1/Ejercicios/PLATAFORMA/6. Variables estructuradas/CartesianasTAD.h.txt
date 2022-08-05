@@ -1,0 +1,39 @@
+#ifndef CARTESIANASTAD_H
+#define CARTESIANASTAD_H
+#include <program1.h>
+estructura P2D {
+privado:
+    campo real x;
+    campo real y;
+    campo largo sinSigno id;
+    campo estatico largo sinSigno cant;
+publico:
+    P2D();
+    P2D(real,real);
+    P2D(noCambia P2D porRef);
+    ~P2D();
+    funcion logica esOrigen();
+    funcion corto sinSigno cuadrante();
+    funcion P2D operador = (P2D);
+    funcion real coordX();
+    funcion real coordY();
+    funcion largo sinSigno identif();
+    procedimiento poneId(largo sinSigno);
+    procedimiento poneXY(real,real);
+    procedimiento lee();
+    procedimiento leeM();
+    procedimiento muestra();
+    procedimiento muestra(logico);
+    funcion real dist2D(P2D);
+    procedimiento estatico leeVec(vectorDin(P2D) porRef);
+    procedimiento estatico leeVec2(vectorDin(P2D) porRef);
+    procedimiento estatico muestraV(noCambia vectorDin(P2D) porRef);
+    funcion estatico real minX(noCambia vectorDin(P2D) porRef);
+    funcion estatico real minY(noCambia vectorDin(P2D) porRef);
+    funcion estatico real maxX(noCambia vectorDin(P2D) porRef);
+    funcion estatico real maxY(noCambia vectorDin(P2D) porRef);
+    funcion estatico real distMin(P2D,noCambia vectorDin(P2D) porRef);
+};
+ 
+#endif
+

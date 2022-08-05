@@ -1,0 +1,20 @@
+// Archivo de traducción de seudocódigo a C++
+#include "program1.h"
+/**
+*    Enunciado: dados 2 numeros multiplicalos solo si son menores de 100
+*/
+principal                                                       // Unidad de programa principal
+entero num1,
+	   num2,
+       resultado;
+limpiar;                                                        // Limpia la pantalla.
+mostrar(num1"por favor ingrese primer valor: ");
+mostrar(num2"por favor ingrese segundo valor: ");
+mostrar(num3"por favor ingrese tercer valor: ");
+si (num1 Y num2 <100) entonces;
+CalcularMultiplicacion ( num1,num2, resultado);
+mostrar<<"el resultado de la multiplicacion es "<<resultado<< salto;
+sino
+	mostrar<<"el numero ingresado es mayor que 100"<< salto;
+pausa;                                                          // Pausa antes de finalizar. 
+finPrincipal                                                    // Fin de unidad de programa principal.

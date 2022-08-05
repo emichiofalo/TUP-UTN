@@ -1,0 +1,32 @@
+Ejercicio 17: Dado un número, determinar si es positivo, negativo o nulo.
+Ejercicio 21: Dada una secuencia de valores impares, sumarlos.
+Ejercicio 23: Dada una serie de tiempo, calcular sus mínimos y máximos absolutos y relativos.
+Ejercicio 24: Dada una secuencia de valores pares, mostrar el mayor.
+Ejercicio 25: Dada una fecha, calcular el número de días transcurridos desde el 31/12 del año anterior.
+Ejercicio 26: Dado un texto terminado en punto, mostrar la palabra más larga de la frase más corta.
+Ejercicio 33: Dado un texto terminado en punto, mostrar la palabra más larga.
+Ejercicio 34: Dado un número, establecer si es capicúa.
+Ejercicio 35: Dado un texto terminado en punto, mostrar las palabras palíndromas
+Ejercicio 36: Dada una secuencia de puntos bidimensionales con coordenadas (x,y) dist2intas del centro de coordenadas, mostrar el punto más cercano
+Ejercicio 38: Dado dos conjuntos de 40 valores, buscar exhaustivamente uno cualquiera y calcular cuántas veces está presente.
+Ejercicio 39: Dado un conjunto ordenado de hasta 100 valores, buscar un valor cualquiera en forma binaria.
+Ejercicio 40: Dado un conjunto de hasta 100 valores, ordenarlos.
+Ejercicio 41: Dado un conjunto de hasta 100000 valores reales, ordenarlo.
+Ejercicio 42: Dada una matriz de hasta 10 filas por 15 columnas, mostrar el promedio de sus columnas.
+Ejercicio 43: Demostrar la Conjetura de Goldbach para los números pares entre 4 y 1000000.
+Ejercicio 44: Dada una matriz de hasta 15 filas por 10 columnas, ordenarla en serpentina, empezando por la primer columna desde la primer fila.
+Ejercicio 49: Dada la fecha de hoy, obtener las fechas retrocediendo de a 100 días hasta llegar a 2500 días atrás.
+Ejercicio 51: Dado un conjunto de hasta 100 puntos en el espacio tridimensional, mostrar los dos más alejados entre sí­.
+Ejercicio 53: Calcular las notas de un curso de hasta 25 alumnos.
+Ejercicio 54: Dada una matriz de hasta 20 filas por 25 columnas, ordenarla en espiral.
+Ejercicio 55: Dada una lista de hasta 100 vecPersonas, mostrar la de más edad
+Ejercicio 57: Se tiene un conjunto de entre 2 y 100 coordenadas cartesianas (x; y). Se quiere averiguar:
+        	- El punto más cercano al centro.
+        	- Los dos puntos más lejanos entre sí­. De todo el conjunto.
+Ejercicio 58: Dado un conjunto (a leer o generar aleatoriamente) de entre 2 y 100 puntos (el tamaño debe elegirlo el usuario) en coordenadas cartesianas
+                Sobre un espacio bidimensional, se quiere averiguar:
+                - La ubicación promedio de los puntos del cuadrante 3 (promedio de las coordenadas horizontal y vertical de los puntos del
+                  cuadrante 3).
+                - La identificación de los puntos ordenados por distancia respecto del origen perteneciente al cuadrante 1.
+                En ambos casos debe contemplarse la posibilidad que no existan puntos que cumplan esas condiciones en cuyo caso la respuesta debe ser 
+                Algo similar a sín puntos...

@@ -1,0 +1,19 @@
+Asignacion-Acción primitiva que almacena un valor en memoria, en general resultado de un cálculo.
+Acción primitiva secuencial que incorpora valores al conjunto de resultados.
+Escritura-Acción primitiva secuencial que permite el ingreso de datos.
+Declaración de Variables-Acción primitiva secuencial que reserva espacio en memoria identificado con un nombre.
+Escritura-El conjunto de todos los valores que lo define.
+Variar-Estructura cíclica que ejecuta una cantidad exacta de veces, con un mínimo de cero veces.
+Iterar-Estructura cíclica que tiene su control en algún punto distinto del inicio y del final de la misma.
+Composición Múltiple-Estructura con dos o más condiciones que se evalúan consecutivamente.
+Composición Selectiva-Estructura con dos o más condiciones que se evalúan simultáneamente.
+Estructura con único punto de entrada.
+Estructura con único punto de salida.
+Mientras-Estructura de control que puede ejecutar cero vueltas como mínimo.
+Composición Alternativa-Estructura que permite elegir una de varias acciones en función de un valor numérico.
+Composición Selectiva-Estructura que permite elegir una entre dos acciones posibles.
+Mientras-Estructura que realiza una acción si y sólo si es verdadera una condición.
+Iterar-Estructura que se ejecuta al menos una vez y evalúa una condición al final de la misma.
+Expresión-Un conjunto de operadores y operandos que determinan una secuencia de cálculo para obtener un único valor.
+Composición Múltiple-Un conjunto de operadores y operandos que determinan una secuencia de cálculo para obtener uno o más valores.
+Una estructura que incluye un punto de bifurcación del flujo de ejecución. 

@@ -1,0 +1,149 @@
+#include "CartesianasTAD.h"
+
+largo sinSigno P2D::cant = 0;
+
+P2D::P2D() {
+x = 0.f;
+y = 0.f;
+id = ++cant;
+}
+
+P2D::P2D(real estaX,real estaY) {
+x = estaX; 
+y = estaY; 
+id = ++cant;
+}
+
+P2D::P2D(noCambia P2D porRef otro) {
+x = otro.x; 
+y = otro.y; 
+//id = ++cant;
+}
+
+P2D::~P2D() {
+//mostrar << "Destruyendo " << id << salto;
+//si(id ES cant) cant--;
+}
+
+funcion logica P2D::esOrigen() {regresa(x ES 0.f Y y ES 0.f);}
+
+funcion P2D P2D::operador = (P2D otro) {
+x = otro.x; 
+y = otro.y;
+regresa(deRef esto);
+}
+
+procedimiento P2D::muestra() {
+mostrar << /*id <<*/ "(" << x << ";"<< y <<") ";
+}
+
+procedimiento P2D::muestra(logico salta) {
+muestra();
+si(salta) mostrar << salto;
+}
+
+funcion real P2D::dist2D(P2D otro) {
+regresa(raiz2(cuadrado(x-otro.x)+cuadrado(y-otro.y)));
+}
+
+funcion real P2D::coordX() {regresa(x);}
+funcion real P2D::coordY() {regresa(y);}
+funcion largo sinSigno P2D::identif() {regresa(id);}
+procedimiento P2D::poneId(largo sinSigno nvaId) {id = nvaId;}
+
+funcion corto sinSigno P2D::cuadrante() {
+corto sinSigno resul;
+si(x >= 0 Y y >= 0) entonces
+    resul = 1;
+    sinoSi(x <= 0 Y y >= 0) entonces
+    resul = 2;
+    sinoSi(x <= 0 Y y <= 0) entonces
+    resul = 3;
+    sino
+    resul = 4;
+    finSi
+regresa(resul);
+}
+
+procedimiento P2D::lee() {
+leer(x);
+leer(y);
+}
+
+procedimiento P2D::leeM() {
+leerM(x,"X:");
+leerM(y,"Y:");
+}
+
+procedimiento P2D::leeVec(vectorDin(P2D) porRef v) {
+paraCada(ele,v)
+    ele.lee();
+    finPara
+}
+
+procedimiento P2D::leeVec2(vectorDin(P2D) porRef v) {
+P2D unPunto;
+iterar
+    unPunto.lee();
+    salirSi(unPunto.esOrigen());
+    agregaEleVDin(v,unPunto);
+    finIterar
+}
+
+procedimiento P2D::muestraV(noCambia vectorDin(P2D) porRef v) {
+mostrar << "Coordenadas cartesianas:" << salto;
+paraCadaValor(ele,v);
+    ele.muestra(VERDADERO);
+    finPara
+}
+
+funcion real P2D::minX(noCambia vectorDin(P2D) porRef v) {
+real resul = v[0].x;
+sinSigno i, t = tamanio(v)-1;
+variarMas1(i,1,t)
+    si(v[i].x < resul) resul = v[i].x;
+    finVariar
+regresa(resul);
+}
+
+funcion real P2D::minY(noCambia vectorDin(P2D) porRef v) {
+real resul = v[0].y;
+sinSigno i, t = tamanio(v)-1;
+variarMas1(i,1,t)
+    si(v[i].y < resul) resul = v[i].y;
+    finVariar
+regresa(resul);
+}
+
+funcion real P2D::maxX(noCambia vectorDin(P2D) porRef v) {
+real resul = v[0].x;
+sinSigno i, t = tamanio(v)-1;
+variarMas1(i,1,t)
+    si(v[i].x > resul) resul = v[i].x;
+    finVariar
+regresa(resul);
+}
+
+funcion real P2D::maxY(noCambia vectorDin(P2D) porRef v) {
+real resul = v[0].y;
+sinSigno i, t = tamanio(v)-1;
+variarMas1(i,1,t)
+    si(v[i].y > resul) resul = v[i].y;
+    finVariar
+regresa(resul);
+}
+
+funcion real P2D::distMin(P2D unPunto,noCambia vectorDin(P2D) porRef v) {
+real dist,resul = unPunto.dist2D(v[0]);
+sinSigno ind, ult = tamanio(v)-1;
+variarMas1(ind,1,ult)
+    dist = unPunto.dist2D(v[ind]);
+    si(dist < resul) resul = dist;
+    finVariar
+regresa(resul);
+}
+
+procedimiento P2D::poneXY(real xx,real yy) {
+x = xx;
+y = yy;
+}

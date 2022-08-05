@@ -1,0 +1,41 @@
+package ejeprofiling2;
+
+class Hilo extends Thread {
+
+    String mensaje = "1";
+
+    public Hilo(String mens) {
+        mensaje = mens;
+    }
+
+    public void run() {
+        int i = 0;
+        while (i++ < 100) {
+            System.out.println("soy el hilo " + mensaje);
+            try {
+                if (mensaje.equals("1")) {
+                    sleep(1500);
+                } else {
+                    sleep(100);
+                }
+            } catch (Exception e) {
+            }
+        }
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+        Hilo h1 = new Hilo("1");
+        Hilo h2 = new Hilo("2");
+        Hilo h3 = new Hilo("2");
+
+        h1.start();
+        h2.start();
+        h3.start();
+
+
+
+    }
+}

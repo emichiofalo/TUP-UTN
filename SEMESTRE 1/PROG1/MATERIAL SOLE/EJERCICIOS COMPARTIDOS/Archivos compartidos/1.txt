@@ -1,0 +1,12 @@
+
+PRACTICO NUMERO 1
+
+cociente                      125   1    2    1   8    4
+dividendo/divisor     54321   432  321  111   99  12   3
+resto                 321     11   99   12    3   0
+resultado final 3
+
+dividendo divisor cociente resto
+3150       600      5       150
+600        150      4        0
+           mcd   = 150

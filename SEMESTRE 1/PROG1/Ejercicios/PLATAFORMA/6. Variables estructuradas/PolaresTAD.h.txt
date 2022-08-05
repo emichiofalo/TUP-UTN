@@ -1,0 +1,22 @@
+#ifndef POLARESTAD_H
+#define POLARESTAD_H
+#include <CartesianasTAD.h>
+estructura P2DPolares : P2D {
+privado:
+    campo real dist;
+    campo real angulo;
+publico:
+    P2DPolares();
+    P2DPolares(real,real);
+    P2DPolares(noCambia P2DPolares porRef);
+    funcion P2D/*Polares*/ operador = (P2D);
+//    funcion P2DPolares operador = (P2DPolares);
+    procedimiento lee();
+    procedimiento leeM();
+    procedimiento muestra();
+    procedimiento muestraTodo();
+    procedimiento muestra(logico);
+    procedimiento estatico leeVec(vectorDin(P2DPolares) porRef);
+    procedimiento estatico muestraV(noCambia vectorDin(P2DPolares) porRef);
+};
+#endif
