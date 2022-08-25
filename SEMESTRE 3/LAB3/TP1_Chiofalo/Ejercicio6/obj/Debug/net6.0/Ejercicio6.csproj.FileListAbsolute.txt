@@ -1,0 +1,15 @@
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\obj\Debug\net6.0\Ejercicio6.csproj.AssemblyReference.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\obj\Debug\net6.0\Ejercicio6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\obj\Debug\net6.0\Ejercicio6.AssemblyInfoInputs.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\obj\Debug\net6.0\Ejercicio6.AssemblyInfo.cs
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\obj\Debug\net6.0\Ejercicio6.csproj.CoreCompileInputs.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\bin\Debug\net6.0\Ejercicio6.exe
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\bin\Debug\net6.0\Ejercicio6.deps.json
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\bin\Debug\net6.0\Ejercicio6.runtimeconfig.json
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\bin\Debug\net6.0\Ejercicio6.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\bin\Debug\net6.0\Ejercicio6.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\obj\Debug\net6.0\Ejercicio6.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\obj\Debug\net6.0\refint\Ejercicio6.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\obj\Debug\net6.0\Ejercicio6.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\obj\Debug\net6.0\Ejercicio6.genruntimeconfig.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP1_Chiofalo\Ejercicio6\obj\Debug\net6.0\ref\Ejercicio6.dll
