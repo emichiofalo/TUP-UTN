@@ -19,7 +19,7 @@ public class ConfigHibernate {
             config.setProperty("hibernate.connection.url", "jdbc:mysql://localhost:3306/ormfactura");
             config.setProperty("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
             config.setProperty("hibernate.connection.username", "root");//usuario db
-            config.setProperty("hibernate.connection.password", "123456");//clave db
+            config.setProperty("hibernate.connection.password", "mysql");//clave db
             config.setProperty("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
             config.setProperty("hibernate.show_sql", "true");
             config.setProperty("hibernate.hbm2ddl.auto", "update" );
