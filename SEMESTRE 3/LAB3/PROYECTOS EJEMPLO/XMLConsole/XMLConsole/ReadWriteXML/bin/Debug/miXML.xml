@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Lista de Alumnos-->
+<Alumnos>
+  <Alumno NoControl="05231104">
+    <Nombre>Edison García</Nombre>
+    <Semestre>7</Semestre>
+  </Alumno>
+  <Alumno NoControl="05231106">
+    <Nombre>Abraham Gomez García</Nombre>
+    <Semestre>9</Semestre>
+  </Alumno>
+  <Alumno NoControl="05231108">
+    <Nombre>Alejandro Carvajal</Nombre>
+    <Semestre>7</Semestre>
+  </Alumno>
+  <Alumno NoControl="06231110">
+    <Nombre>Luis Armando</Nombre>
+    <Semestre>10</Semestre>
+  </Alumno>
+</Alumnos>

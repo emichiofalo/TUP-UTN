@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<personas>
+
+  <persona nombre="Devjoker" apellido1="El apellido1"
+apellido2="El apellido1" />
+  <persona nombre="Otro nombre" apellido1="Otro apellido1"
+apellido2="Otro apellido2" />
+  <persona nombre="123123" apellido1="123123"
+apellido2="123213" />
+
+</personas>

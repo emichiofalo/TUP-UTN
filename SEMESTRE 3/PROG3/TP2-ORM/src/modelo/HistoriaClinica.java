@@ -64,8 +64,7 @@ public class HistoriaClinica extends EntityApp{
     }
     
     @OneToMany(mappedBy = "historiaClinica", cascade = CascadeType.ALL)
-   
-     public List<DetalleHistoriaClinica> getDetallesHC() {
+    public List<DetalleHistoriaClinica> getDetallesHC() {
         return detallesHC;
     }
 

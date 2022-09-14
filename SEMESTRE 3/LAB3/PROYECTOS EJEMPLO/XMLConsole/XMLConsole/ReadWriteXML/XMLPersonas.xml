@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<personas>
+
+  <persona dni="33654789">
+
+    <nombre>Leonardo</nombre>
+
+    <apellido1>Garcia</apellido1>
+
+    <apellido2>Alvarez</apellido2>
+
+  </persona>
+
+  <persona dni="11024856">
+
+    <nombre>Emiliano</nombre>
+
+    <apellido1>Forestani</apellido1>
+
+    <apellido2>Salinas</apellido2>
+
+  </persona>
+
+  <persona dni="25654987">
+
+    <nombre>Juan</nombre>
+
+    <apellido1>Perez</apellido1>
+
+    <apellido2>Castro</apellido2>
+
+  </persona>
+
+</personas>

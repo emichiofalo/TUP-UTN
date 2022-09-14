@@ -1,0 +1,69 @@
+<html>
+    <style>
+        .text{
+            font-family:'Gill Sans MT';
+            text-align: center;
+        }
+        div {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        label {
+            font-family:'Gill Sans MT';
+            display: inline-block;
+            width: 150px;
+            text-align: right;
+        }
+        button {
+            font-family:'Gill Sans MT';
+        }
+        p {
+            align-self: auto;
+        }
+    </style>
+    <head>
+        <h1 class="text">INFORMACIÓN</h1>
+    </head>
+    <body>
+        <h3 class="text">Si quieres recibir la mejor información, regístrate:</h3>
+        <form action="/form/submit" method="post">
+            <div>
+                <label>Nombre</label>
+                <input type="text" name="nombre" />
+            </div><br>
+            <div>
+                <label>Primer Apellido</label>
+                <input type="text" name="apell1" />
+            </div>
+            <div><br>
+                <label>Segundo Apellido</label>
+                <input type="text" name="apell2" />
+            </div><br>
+            <div>
+                <label>Domicilio</label>
+                <input type="text" name="domicilio" />
+            </div><br>
+            <div>
+                <label>Código Postal</label>
+                <input type="number" name="codPostal" />
+            </div><br>
+            <div>
+                <label>Teléfono</label>
+                <input type="tel" name="tel" />
+            </div><br>
+            <div>
+                <label>e-mail</label>
+                <input type="email" name="mail" />
+            </div><br>
+            <div>
+                <label>Confirmar</label>
+                <input type="email" name="e-mail" /><br>
+            </div><br>
+            <p>
+                <button type="reset" style="margin-left: 10%;">Borrar</button>
+                <button type="submit"style="margin-left: 5%">Enviar</button>
+            </p>
+        </form>
+        <a href="Ejercicio6.html" target="_self" style="font-size: medium" style="font-family: 'Gill Sans';">Ejercicio 6</a>
+    </body>
+</html>

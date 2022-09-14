@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TP4-ReadWriteFiles</id>
+    <version>1.0.0</version>
+    <authors>TP4-ReadWriteFiles</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="MySql.Data" version="8.0.30" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP4-ReadWriteFiles\TP4-ReadWriteFiles\bin\Debug\net6.0\TP4-ReadWriteFiles.runtimeconfig.json" target="lib\net6.0\TP4-ReadWriteFiles.runtimeconfig.json" />
+    <file src="C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP4-ReadWriteFiles\TP4-ReadWriteFiles\bin\Debug\net6.0\TP4-ReadWriteFiles.dll" target="lib\net6.0\TP4-ReadWriteFiles.dll" />
+  </files>
+</package>

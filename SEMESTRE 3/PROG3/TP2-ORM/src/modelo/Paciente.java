@@ -12,7 +12,6 @@ import javax.persistence.Entity;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
-import javax.persistence.PrimaryKeyJoinColumn;
 
 /**
  *
@@ -20,7 +19,6 @@ import javax.persistence.PrimaryKeyJoinColumn;
  */
 
 @Entity
-@PrimaryKeyJoinColumn(name = "idPersona")
 public class Paciente extends Persona{
     
     private int nroSocio; 

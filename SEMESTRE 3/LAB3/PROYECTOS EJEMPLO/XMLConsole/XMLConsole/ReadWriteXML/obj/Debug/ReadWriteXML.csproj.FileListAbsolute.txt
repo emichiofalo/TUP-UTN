@@ -1,0 +1,6 @@
+D:\GERARDO\UTN\LAB 3\XML\XMLConsole\ReadWriteXML\bin\Debug\ReadWriteXML.exe.config
+D:\GERARDO\UTN\LAB 3\XML\XMLConsole\ReadWriteXML\bin\Debug\ReadWriteXML.exe
+D:\GERARDO\UTN\LAB 3\XML\XMLConsole\ReadWriteXML\bin\Debug\ReadWriteXML.pdb
+D:\GERARDO\UTN\LAB 3\XML\XMLConsole\ReadWriteXML\obj\Debug\ReadWriteXML.csprojAssemblyReference.cache
+D:\GERARDO\UTN\LAB 3\XML\XMLConsole\ReadWriteXML\obj\Debug\ReadWriteXML.exe
+D:\GERARDO\UTN\LAB 3\XML\XMLConsole\ReadWriteXML\obj\Debug\ReadWriteXML.pdb

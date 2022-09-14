@@ -6,7 +6,6 @@
 package modelo;
 
 import javax.persistence.Entity;
-import javax.persistence.PrimaryKeyJoinColumn;
 
 /**
  *
@@ -14,7 +13,6 @@ import javax.persistence.PrimaryKeyJoinColumn;
  */
 
 @Entity
-@PrimaryKeyJoinColumn(name = "idPersona")
 public class Empleado extends Persona{
     
     private int nroLegajo; 
