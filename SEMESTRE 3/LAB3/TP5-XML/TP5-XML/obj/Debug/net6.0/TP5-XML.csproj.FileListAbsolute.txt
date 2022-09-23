@@ -1,0 +1,15 @@
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\bin\Debug\net6.0\TP5-XML.exe
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\bin\Debug\net6.0\TP5-XML.deps.json
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\bin\Debug\net6.0\TP5-XML.runtimeconfig.json
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\bin\Debug\net6.0\TP5-XML.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\bin\Debug\net6.0\TP5-XML.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\obj\Debug\net6.0\TP5-XML.csproj.AssemblyReference.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\obj\Debug\net6.0\TP5-XML.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\obj\Debug\net6.0\TP5-XML.AssemblyInfoInputs.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\obj\Debug\net6.0\TP5-XML.AssemblyInfo.cs
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\obj\Debug\net6.0\TP5-XML.csproj.CoreCompileInputs.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\obj\Debug\net6.0\TP5-XML.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\obj\Debug\net6.0\refint\TP5-XML.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\obj\Debug\net6.0\TP5-XML.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\obj\Debug\net6.0\TP5-XML.genruntimeconfig.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP5-XML\TP5-XML\obj\Debug\net6.0\ref\TP5-XML.dll

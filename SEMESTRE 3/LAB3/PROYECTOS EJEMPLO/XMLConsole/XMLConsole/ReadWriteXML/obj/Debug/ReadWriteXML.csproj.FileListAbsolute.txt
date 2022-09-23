@@ -4,3 +4,11 @@ D:\GERARDO\UTN\LAB 3\XML\XMLConsole\ReadWriteXML\bin\Debug\ReadWriteXML.pdb
 D:\GERARDO\UTN\LAB 3\XML\XMLConsole\ReadWriteXML\obj\Debug\ReadWriteXML.csprojAssemblyReference.cache
 D:\GERARDO\UTN\LAB 3\XML\XMLConsole\ReadWriteXML\obj\Debug\ReadWriteXML.exe
 D:\GERARDO\UTN\LAB 3\XML\XMLConsole\ReadWriteXML\obj\Debug\ReadWriteXML.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\XMLConsole\XMLConsole\ReadWriteXML\bin\Debug\ReadWriteXML.exe.config
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\XMLConsole\XMLConsole\ReadWriteXML\bin\Debug\ReadWriteXML.exe
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\XMLConsole\XMLConsole\ReadWriteXML\bin\Debug\ReadWriteXML.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\XMLConsole\XMLConsole\ReadWriteXML\obj\Debug\ReadWriteXML.csproj.AssemblyReference.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\XMLConsole\XMLConsole\ReadWriteXML\obj\Debug\ReadWriteXML.csproj.SuggestedBindingRedirects.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\XMLConsole\XMLConsole\ReadWriteXML\obj\Debug\ReadWriteXML.csproj.CoreCompileInputs.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\XMLConsole\XMLConsole\ReadWriteXML\obj\Debug\ReadWriteXML.exe
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\XMLConsole\XMLConsole\ReadWriteXML\obj\Debug\ReadWriteXML.pdb
