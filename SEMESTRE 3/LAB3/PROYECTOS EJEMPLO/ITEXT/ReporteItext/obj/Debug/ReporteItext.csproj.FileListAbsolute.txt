@@ -1,0 +1,32 @@
+E:\lab3\reportes\ReporteItext\ReporteItext\obj\Debug\ResolveAssemblyReference.cache
+E:\lab3\reportes\ReporteItext\ReporteItext\obj\Debug\ReporteItext.Form1.resources
+E:\lab3\reportes\ReporteItext\ReporteItext\obj\Debug\ReporteItext.Properties.Resources.resources
+E:\lab3\reportes\ReporteItext\ReporteItext\obj\Debug\ReporteItext.csproj.GenerateResource.Cache
+E:\lab3\reportes\ReporteItext\ReporteItext\bin\Debug\ReporteItext.exe
+E:\lab3\reportes\ReporteItext\ReporteItext\bin\Debug\ReporteItext.pdb
+E:\lab3\reportes\ReporteItext\ReporteItext\bin\Debug\itextsharp.dll
+E:\lab3\reportes\ReporteItext\ReporteItext\bin\Debug\itextsharp.pdfa.dll
+E:\lab3\reportes\ReporteItext\ReporteItext\bin\Debug\itextsharp.xtra.dll
+E:\lab3\reportes\ReporteItext\ReporteItext\obj\Debug\ReporteItext.exe
+E:\lab3\reportes\ReporteItext\ReporteItext\obj\Debug\ReporteItext.pdb
+D:\GERARDO\UTN\lab3\reportes\ReporteItext\ReporteItext\obj\Debug\ReporteItext.exe
+D:\GERARDO\UTN\lab3\reportes\ReporteItext\ReporteItext\obj\Debug\ReporteItext.pdb
+D:\GERARDO\UTN\lab3\reportes\ReporteItext\ReporteItext\obj\Debug\ReporteItext.csprojResolveAssemblyReference.cache
+D:\GERARDO\UTN\lab3\reportes\ReporteItext\ReporteItext\obj\Debug\ReporteItext.Form1.resources
+D:\GERARDO\UTN\lab3\reportes\ReporteItext\ReporteItext\obj\Debug\ReporteItext.Properties.Resources.resources
+D:\GERARDO\UTN\lab3\reportes\ReporteItext\ReporteItext\obj\Debug\ReporteItext.csproj.GenerateResource.Cache
+D:\GERARDO\UTN\lab3\reportes\ReporteItext\ReporteItext\bin\Debug\ReporteItext.exe
+D:\GERARDO\UTN\lab3\reportes\ReporteItext\ReporteItext\bin\Debug\ReporteItext.pdb
+D:\GERARDO\UTN\lab3\reportes\ReporteItext\ReporteItext\bin\Debug\itextsharp.dll
+D:\GERARDO\UTN\lab3\reportes\ReporteItext\ReporteItext\bin\Debug\itextsharp.pdfa.dll
+D:\GERARDO\UTN\lab3\reportes\ReporteItext\ReporteItext\bin\Debug\itextsharp.xtra.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ITEXT\ReporteItext\bin\Debug\ReporteItext.exe
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ITEXT\ReporteItext\bin\Debug\ReporteItext.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ITEXT\ReporteItext\obj\Debug\ReporteItext.csproj.AssemblyReference.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ITEXT\ReporteItext\obj\Debug\ReporteItext.Form1.resources
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ITEXT\ReporteItext\obj\Debug\ReporteItext.Properties.Resources.resources
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ITEXT\ReporteItext\obj\Debug\ReporteItext.csproj.GenerateResource.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ITEXT\ReporteItext\obj\Debug\ReporteItext.csproj.CoreCompileInputs.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ITEXT\ReporteItext\obj\Debug\ReporteItext.csproj.CopyComplete
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ITEXT\ReporteItext\obj\Debug\ReporteItext.exe
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ITEXT\ReporteItext\obj\Debug\ReporteItext.pdb

@@ -1,0 +1,29 @@
+D:\GERARDO\UTN\LAB 3\JSON\ReadWriteJson\bin\Debug\netcoreapp3.0\ReadWriteJson.exe
+D:\GERARDO\UTN\LAB 3\JSON\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.csprojAssemblyReference.cache
+D:\GERARDO\UTN\LAB 3\JSON\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.AssemblyInfoInputs.cache
+D:\GERARDO\UTN\LAB 3\JSON\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.AssemblyInfo.cs
+D:\GERARDO\UTN\LAB 3\JSON\ReadWriteJson\bin\Debug\netcoreapp3.0\ReadWriteJson.deps.json
+D:\GERARDO\UTN\LAB 3\JSON\ReadWriteJson\bin\Debug\netcoreapp3.0\ReadWriteJson.runtimeconfig.json
+D:\GERARDO\UTN\LAB 3\JSON\ReadWriteJson\bin\Debug\netcoreapp3.0\ReadWriteJson.runtimeconfig.dev.json
+D:\GERARDO\UTN\LAB 3\JSON\ReadWriteJson\bin\Debug\netcoreapp3.0\ReadWriteJson.dll
+D:\GERARDO\UTN\LAB 3\JSON\ReadWriteJson\bin\Debug\netcoreapp3.0\ReadWriteJson.pdb
+D:\GERARDO\UTN\LAB 3\JSON\ReadWriteJson\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+D:\GERARDO\UTN\LAB 3\JSON\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.csproj.CopyComplete
+D:\GERARDO\UTN\LAB 3\JSON\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.dll
+D:\GERARDO\UTN\LAB 3\JSON\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\bin\Debug\netcoreapp3.0\ReadWriteJson.exe
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\bin\Debug\netcoreapp3.0\ReadWriteJson.deps.json
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\bin\Debug\netcoreapp3.0\ReadWriteJson.runtimeconfig.json
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\bin\Debug\netcoreapp3.0\ReadWriteJson.runtimeconfig.dev.json
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\bin\Debug\netcoreapp3.0\ReadWriteJson.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\bin\Debug\netcoreapp3.0\ReadWriteJson.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.csproj.AssemblyReference.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.AssemblyInfoInputs.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.AssemblyInfo.cs
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.csproj.CoreCompileInputs.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.csproj.CopyComplete
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PROYECTOS EJEMPLO\ReadWriteJsonEjemplo\ReadWriteJson\obj\Debug\netcoreapp3.0\ReadWriteJson.genruntimeconfig.cache
