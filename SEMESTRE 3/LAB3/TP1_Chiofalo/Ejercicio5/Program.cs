@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("JORANADA LABORAL");
+            Console.WriteLine("JORNADA LABORAL");
             int entrada, salida;
             do
             {

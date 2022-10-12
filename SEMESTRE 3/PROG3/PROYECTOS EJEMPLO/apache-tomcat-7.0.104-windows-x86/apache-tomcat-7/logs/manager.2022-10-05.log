@@ -1,0 +1,12 @@
+oct. 05, 2022 3:39:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+oct. 05, 2022 3:39:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+oct. 05, 2022 3:39:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 05, 2022 3:39:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 05, 2022 3:39:22 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context4442278404960561682.xml'
+oct. 05, 2022 3:39:22 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/Clase05_10'

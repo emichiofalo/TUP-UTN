@@ -1,0 +1,127 @@
+oct. 05, 2022 3:39:07 P. M. org.apache.catalina.core.AprLifecycleListener init
+WARNING: The Apache Tomcat Native library failed to load. The error reported was [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\bin\tcnative-1.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform]
+java.lang.UnsatisfiedLinkError: C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\bin\tcnative-1.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+	at java.base/java.lang.ClassLoader$NativeLibrary.load0(Native Method)
+	at java.base/java.lang.ClassLoader$NativeLibrary.load(ClassLoader.java:2432)
+	at java.base/java.lang.ClassLoader$NativeLibrary.loadLibrary(ClassLoader.java:2489)
+	at java.base/java.lang.ClassLoader.loadLibrary0(ClassLoader.java:2689)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2651)
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:827)
+	at java.base/java.lang.System.loadLibrary(System.java:1871)
+	at org.apache.tomcat.jni.Library.<init>(Library.java:42)
+	at org.apache.tomcat.jni.Library.initialize(Library.java:178)
+	at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:200)
+	at org.apache.catalina.core.AprLifecycleListener.isAprAvailable(AprLifecycleListener.java:108)
+	at org.apache.catalina.connector.Connector.setProtocol(Connector.java:639)
+	at org.apache.catalina.connector.Connector.<init>(Connector.java:72)
+	at org.apache.catalina.startup.ConnectorCreateRule.begin(ConnectorCreateRule.java:62)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1263)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:510)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1377)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2710)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:534)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1216)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1525)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:637)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+oct. 05, 2022 3:39:08 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Nombre de la versión del servidor:   Apache Tomcat/7.0.104
+
+oct. 05, 2022 3:39:08 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2020 19:31:18 UTC
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Número de versión de servidor:         7.0.104.0
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Versión de Systema Operativo:      10.0
+
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Arquitectura:          amd64
+
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk-11.0.16
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           11.0.16+11-LTS-199
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Vededor JVM:     Oracle Corporation
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\logging.properties
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|EMI-CHIOFALO
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7
+oct. 05, 2022 3:39:10 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\temp
+oct. 05, 2022 3:39:11 P. M. org.apache.coyote.AbstractProtocol init
+INFO: Inicializando el manejador de protocolo ["http-bio-8080"]
+
+oct. 05, 2022 3:39:11 P. M. org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 5088 ms
+oct. 05, 2022 3:39:11 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Arrancando servicio [Catalina]
+oct. 05, 2022 3:39:11 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.104
+oct. 05, 2022 3:39:11 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\docs] de la aplicación web
+oct. 05, 2022 3:39:16 P. M. org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1.155] milliseconds.
+oct. 05, 2022 3:39:16 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\docs] has finished in [5.528] ms
+oct. 05, 2022 3:39:16 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\examples] de la aplicación web
+oct. 05, 2022 3:39:18 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\examples] has finished in [1.276] ms
+oct. 05, 2022 3:39:18 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\host-manager] de la aplicación web
+oct. 05, 2022 3:39:18 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\host-manager] has finished in [402] ms
+oct. 05, 2022 3:39:18 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\manager] de la aplicación web
+oct. 05, 2022 3:39:18 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\manager] has finished in [311] ms
+oct. 05, 2022 3:39:18 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\ROOT] de la aplicación web
+oct. 05, 2022 3:39:19 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\ROOT] has finished in [155] ms
+oct. 05, 2022 3:39:19 P. M. org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+oct. 05, 2022 3:39:19 P. M. org.apache.catalina.startup.Catalina start
+INFO: Server startup in 8143 ms
+oct. 05, 2022 3:39:22 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Clase05_10.xml]
+oct. 05, 2022 3:39:22 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Clase05_10.xml] has finished in [228] ms
+oct. 05, 2022 3:39:22 P. M. org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Clase05_10]] after start() had already been called. The second call will be ignored.

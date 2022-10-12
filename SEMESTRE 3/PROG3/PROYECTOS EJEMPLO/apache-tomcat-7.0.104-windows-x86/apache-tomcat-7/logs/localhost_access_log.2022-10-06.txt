@@ -1,0 +1,6 @@
+127.0.0.1 - - [06/Oct/2022:14:47:07 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [06/Oct/2022:14:47:07 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [06/Oct/2022:14:47:07 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [06/Oct/2022:14:47:08 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [06/Oct/2022:14:47:09 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [06/Oct/2022:14:47:10 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -

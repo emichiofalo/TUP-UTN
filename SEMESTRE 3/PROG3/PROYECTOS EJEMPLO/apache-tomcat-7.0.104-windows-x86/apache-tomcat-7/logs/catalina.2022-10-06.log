@@ -1,0 +1,10 @@
+oct. 06, 2022 2:47:10 P. M. org.apache.catalina.core.StandardServer await
+INFO: Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+oct. 06, 2022 2:47:10 P. M. org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+oct. 06, 2022 2:47:10 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Parando servicio [Catalina]
+oct. 06, 2022 2:47:11 P. M. org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+oct. 06, 2022 2:47:11 P. M. org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]

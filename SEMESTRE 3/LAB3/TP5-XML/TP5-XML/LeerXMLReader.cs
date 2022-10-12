@@ -34,7 +34,7 @@ namespace ReadWriteXML
                             Console.Write("<" + reader.Name);
 
                             while (reader.MoveToNextAttribute()) // Read the attributes.
-                                Console.Write(" " + reader.Name + "='" + reader.Value + "'");
+                            Console.Write(" " + reader.Name + "='" + reader.Value + "'");
                             Console.Write(">");
                             Console.WriteLine(">");
                             break;
