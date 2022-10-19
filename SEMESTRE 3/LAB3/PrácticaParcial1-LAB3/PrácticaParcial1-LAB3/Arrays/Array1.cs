@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PrácticaParcial1_LAB3.Auxiliar;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,7 @@ namespace PrácticaParcial1_LAB3.Arrays
                 num = Convert.ToInt32(Console.ReadLine());
                 ValidarNumImpar(num);
                 int[,] array = new int[num, num];
-                ImprimirArray(array);
+                CargarArrayCruz(array);
             }
             catch (ExceptionImpar e)
             {
@@ -33,7 +34,7 @@ namespace PrácticaParcial1_LAB3.Arrays
             }
         }
 
-        public static void ImprimirArray(int[,] array)
+        public static void CargarArrayCruz(int[,] array)
         {
             int centro = array.GetLength(0) / 2;
             for (int i = 0; i < array.GetLength(0); i++)
@@ -42,15 +43,15 @@ namespace PrácticaParcial1_LAB3.Arrays
                 {
                     if (i != centro && j != centro)
                     {
-                        Console.Write((array[i, j] = 0) + "  ");
+                        array[i, j] = 0;
                     }
                     else
                     {
-                        Console.Write((array[i, j] = 1) + "  ");
-        }
+                        array[i, j] = 1;
+                    }
                 }
-                Console.WriteLine(" ");
             }
+            MetodosArrays.ImprimirArray(array);
         }
     }
 }

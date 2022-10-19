@@ -1,0 +1,102 @@
+oct. 16, 2022 6:12:34 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+oct. 16, 2022 6:12:34 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+oct. 16, 2022 6:12:34 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:12:34 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:12:34 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context3783873505861593486.xml'
+oct. 16, 2022 6:12:34 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/EjemploJSP'
+oct. 16, 2022 6:13:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:13:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:19:00 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:19:00 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:20:24 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:20:24 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:23:27 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:23:27 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:23:45 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:23:45 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:23:56 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:23:56 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:27:25 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:27:25 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/'
+oct. 16, 2022 6:27:26 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context17864131002884703807.xml'
+oct. 16, 2022 6:27:26 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/'
+oct. 16, 2022 6:29:11 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:29:11 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:29:28 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:29:28 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:30:02 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:30:02 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:30:07 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:30:07 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/'
+oct. 16, 2022 6:30:08 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context17195652773322391359.xml'
+oct. 16, 2022 6:30:08 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/'
+oct. 16, 2022 6:30:18 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:30:18 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:30:18 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/'
+oct. 16, 2022 6:30:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context14571832567515186641.xml'
+oct. 16, 2022 6:30:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/'
+oct. 16, 2022 6:36:38 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:36:38 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:39:14 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:39:14 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:41:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:41:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:44:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:44:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/Clase05_10'
+oct. 16, 2022 6:48:13 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:48:13 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 6:48:13 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context843777501905598245.xml'
+oct. 16, 2022 6:48:13 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/TP7-JSP'
+oct. 16, 2022 6:52:53 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 16, 2022 7:13:11 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'

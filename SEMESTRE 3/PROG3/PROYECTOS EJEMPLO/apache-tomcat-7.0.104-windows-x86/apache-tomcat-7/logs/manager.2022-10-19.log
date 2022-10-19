@@ -1,0 +1,446 @@
+oct. 19, 2022 3:44:40 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+oct. 19, 2022 3:44:40 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+oct. 19, 2022 3:44:40 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 3:44:40 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 3:46:14 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 3:46:15 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 3:46:15 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 3:46:23 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 3:46:23 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 3:47:36 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 3:47:36 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 3:47:36 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context8732645113136418651.xml'
+oct. 19, 2022 3:47:36 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/WebApplication2'
+oct. 19, 2022 3:48:34 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 3:48:34 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 3:52:05 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 3:52:05 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/WebApplication2'
+oct 19, 2022 3:55:49 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+oct 19, 2022 3:55:49 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+oct 19, 2022 3:55:49 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:55:49 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/TP7-JSP'
+oct 19, 2022 3:55:50 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context14698810433260916184.xml'
+oct 19, 2022 3:55:50 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/TP7-JSP'
+oct 19, 2022 3:56:23 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:56:26 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:56:38 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:56:38 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:56:56 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:57:10 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:57:11 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:57:11 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:58:24 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:58:24 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:58:29 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:58:29 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:58:30 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:58:30 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:58:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:58:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 3:58:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:00:07 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:00:07 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:06:29 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:06:35 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:06:35 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:06:53 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:06:54 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:06:54 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:07:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:07:13 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:07:13 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:09:42 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:09:43 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:09:43 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:10:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:10:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:10:26 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:10:26 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:10:32 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:15:39 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:16:30 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:16:31 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:17:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:17:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:21:10 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:21:10 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:28:17 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:31:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:31:33 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:31:33 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:32:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:32:13 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:32:13 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:32:36 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:32:36 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:33:01 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:33:02 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:33:03 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:33:27 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:33:30 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:33:30 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:37:53 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:51:08 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:51:09 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:51:27 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:51:36 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:51:36 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:53:11 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:53:11 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:53:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:53:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:55:39 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:56:14 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:58:46 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 4:58:58 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:00:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:00:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:02:58 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:02:58 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:09:35 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:15:58 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:25:31 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:26:57 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:30:57 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:30:57 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:31:07 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:31:07 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:33:37 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:33:39 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:33:39 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:34:37 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:34:38 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:34:38 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:37:42 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:37:43 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:37:43 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:39:25 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:39:27 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:39:27 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:40:32 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:40:32 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:41:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:41:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct 19, 2022 5:41:16 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:42:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:42:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct 19, 2022 5:42:15 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:42:15 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:42:15 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct 19, 2022 5:44:25 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:44:25 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:44:25 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:45:32 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:45:34 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:45:34 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:47:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:47:35 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:47:36 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:47:36 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:49:16 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:49:16 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:51:42 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:51:45 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:51:45 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:52:35 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:52:56 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:52:57 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:52:57 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:53:23 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:53:23 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct 19, 2022 5:53:23 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:22:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+oct. 19, 2022 6:22:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+oct. 19, 2022 6:22:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:22:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:26:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:26:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 6:26:13 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:26:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:26:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:26:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 6:26:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:26:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 6:27:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:27:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 6:28:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:28:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 6:28:26 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:28:26 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:28:26 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 6:29:01 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:29:02 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:29:02 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:29:02 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 6:31:29 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:31:29 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:31:29 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:31:29 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 6:33:05 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:33:05 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:33:05 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 6:36:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+oct. 19, 2022 6:36:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+oct. 19, 2022 6:36:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:36:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:36:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 6:36:23 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:36:23 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 6:43:05 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:43:06 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:43:06 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:43:06 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 6:48:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:51:06 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:51:06 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:51:22 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:57:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 6:57:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:00:51 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:00:53 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:00:53 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:00:53 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 7:04:46 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:05:13 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:05:13 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:05:13 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 7:05:46 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:06:18 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:06:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:06:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:06:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 7:06:41 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:06:44 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:06:44 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:06:47 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 7:07:41 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:07:42 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:07:42 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:07:42 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'
+oct. 19, 2022 7:08:18 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:08:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:08:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+oct. 19, 2022 7:08:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'

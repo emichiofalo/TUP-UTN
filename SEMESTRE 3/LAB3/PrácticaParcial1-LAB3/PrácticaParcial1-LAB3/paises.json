@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "nombre": "Argentina",
+    "poblacion": 45000000,
+    "provincias": [
+      {
+        "id": 1,
+        "nombre": "Mendoza",
+        "superficie": 20000.0,
+        "departamentos": [
+          {
+            "id": 1,
+            "nombre": "Las Heras"
+          },
+          {
+            "id": 2,
+            "nombre": "Godoy Cruz"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Neuquen",
+        "superficie": 10000.0,
+        "departamentos": [
+          {
+            "id": 3,
+            "nombre": "Neuquen"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "nombre": "Buenos Aires",
+        "superficie": 4000.0,
+        "departamentos": [
+          {
+            "id": 4,
+            "nombre": "La Boca"
+          },
+          {
+            "id": 5,
+            "nombre": "San Telmo"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Brasil",
+    "poblacion": 250000000,
+    "provincias": [
+      {
+        "id": 4,
+        "nombre": "Bombas y Bombinhas",
+        "superficie": 1000.0,
+        "departamentos": [
+          {
+            "id": 6,
+            "nombre": "NN"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "nombre": "Sao Pablo",
+        "superficie": 4000.0,
+        "departamentos": []
+      },
+      {
+        "id": 6,
+        "nombre": "Brasilia",
+        "superficie": 5000.0,
+        "departamentos": []
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Chile",
+    "poblacion": 20000000,
+    "provincias": [
+      {
+        "id": 7,
+        "nombre": "Santiago",
+        "superficie": 2000.0,
+        "departamentos": [
+          {
+            "id": 7,
+            "nombre": "Compostela"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "nombre": "La Serena",
+        "superficie": 2000.0,
+        "departamentos": []
+      }
+    ]
+  }
+]

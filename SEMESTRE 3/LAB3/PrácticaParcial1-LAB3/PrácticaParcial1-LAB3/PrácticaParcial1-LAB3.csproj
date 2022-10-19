@@ -6,12 +6,15 @@
     <RootNamespace>PrácticaParcial1_LAB3</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>PrácticaParcial1_LAB3.EjercicioEstructuraDatos.Ticket</StartupObject>
+    <StartupObject>PrácticaParcial1_LAB3.JSON.WriteJson</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
     <PackageReference Include="MySql.Data.EntityFramework" Version="8.0.30" />
     <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.22" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Collections.NonGeneric" Version="4.3.0" />
   </ItemGroup>
 
 </Project>

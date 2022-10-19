@@ -60,3 +60,5 @@ C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial1-LAB3\
 C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial1-LAB3\PrácticaParcial1-LAB3\obj\Debug\net6.0\PrácticaParcial1-LAB3.pdb
 C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial1-LAB3\PrácticaParcial1-LAB3\obj\Debug\net6.0\PrácticaParcial1-LAB3.genruntimeconfig.cache
 C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial1-LAB3\PrácticaParcial1-LAB3\obj\Debug\net6.0\ref\PrácticaParcial1-LAB3.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial1-LAB3\PrácticaParcial1-LAB3\bin\Debug\net6.0\itextsharp.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial1-LAB3\PrácticaParcial1-LAB3\bin\Debug\net6.0\Newtonsoft.Json.dll

@@ -1,0 +1,8 @@
+Pais	               Poblacion pais	     Provincia	          Superficie prov.	   Departamento prov.	 
+Argentina	          45000000	           Mendoza	            20000	              Las Heras	          
+Argentina	          45000000	           Mendoza	            20000	              Godoy Cruz	         
+Argentina	          45000000	           Neuquen	            10000	              Neuquen	            
+Argentina	          45000000	           Buenos Aires	       4000	               La Boca	            
+Argentina	          45000000	           Buenos Aires	       4000	               San Telmo	          
+Brasil	             250000000	          Bombas y Bombinhas	 1000	               NN	                 
+Chile	              20000000	           Santiago	           2000	               Compostela	         

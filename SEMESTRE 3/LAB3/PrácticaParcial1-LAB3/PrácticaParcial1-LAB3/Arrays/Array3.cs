@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PrácticaParcial1_LAB3.Auxiliar;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,7 +18,7 @@ namespace PrácticaParcial1_LAB3.Arrays
                 num = Convert.ToInt32(Console.ReadLine());
                 ValidarNumImpar(num);
                 int[,] array = new int[num, num];
-                CargarArray(array);
+                CargarArrayRectangulo(array);
             }
             catch (ExceptionImpar e)
             {
@@ -33,7 +34,7 @@ namespace PrácticaParcial1_LAB3.Arrays
             }
         }
 
-        public static void CargarArray(int[,] array)
+        public static void CargarArrayRectangulo(int[,] array)
         {
             int centro = array.GetLength(0) / 2;
             for (int i = 0; i < array.GetLength(0); i++)
@@ -52,18 +53,7 @@ namespace PrácticaParcial1_LAB3.Arrays
             array[centro + 1, centro] = 1;
             array[centro + 1, centro + 1] = 1;
 
-            ImprimirArray(array);
-        }
-        private static void ImprimirArray(int[,] array)
-        {
-            for (int i = 0; i < array.GetLength(0); i++)
-            {
-                for (int j = 0; j < array.GetLength(1); j++)
-                {
-                    Console.Write((array[i, j]) + "  ");
-                }
-                Console.WriteLine("");
-            }
+            MetodosArrays.ImprimirArray(array);
         }
     }
 }

@@ -1,0 +1,87 @@
+<?xml version="1.0" standalone="no"?>
+<paises>
+  <pais id="1">
+    <nombre>Argentina</nombre>
+    <poblacion>45000000</poblacion>
+    <provincias>
+      <provincia id="1">
+        <nombre>Mendoza</nombre>
+        <superficie>20000</superficie>
+        <departamentos>
+          <departamento id="1">
+            <nombre>Las Heras</nombre>
+          </departamento>
+          <departamento id="2">
+            <nombre>Godoy Cruz</nombre>
+          </departamento>
+        </departamentos>
+      </provincia>
+      <provincia id="2">
+        <nombre>Neuquen</nombre>
+        <superficie>10000</superficie>
+        <departamentos>
+          <departamento id="3">
+            <nombre>Neuquen</nombre>
+          </departamento>
+        </departamentos>
+      </provincia>
+      <provincia id="3">
+        <nombre>Buenos Aires</nombre>
+        <superficie>4000</superficie>
+        <departamentos>
+          <departamento id="4">
+            <nombre>La Boca</nombre>
+          </departamento>
+          <departamento id="5">
+            <nombre>San Telmo</nombre>
+          </departamento>
+        </departamentos>
+      </provincia>
+    </provincias>
+  </pais>
+  <pais id="2">
+    <nombre>Brasil</nombre>
+    <poblacion>250000000</poblacion>
+    <provincias>
+      <provincia id="4">
+        <nombre>Bombas y Bombinhas</nombre>
+        <superficie>1000</superficie>
+        <departamentos>
+          <departamento id="6">
+            <nombre>NN</nombre>
+          </departamento>
+        </departamentos>
+      </provincia>
+      <provincia id="5">
+        <nombre>Sao Pablo</nombre>
+        <superficie>4000</superficie>
+        <departamentos />
+      </provincia>
+      <provincia id="6">
+        <nombre>Brasilia</nombre>
+        <superficie>5000</superficie>
+        <departamentos />
+      </provincia>
+    </provincias>
+  </pais>
+  <pais id="3">
+    <nombre>Chile</nombre>
+    <poblacion>20000000</poblacion>
+    <provincias>
+      <provincia id="7">
+        <nombre>Santiago</nombre>
+        <superficie>2000</superficie>
+        <departamentos>
+          <departamento id="7">
+            <nombre>Compostela</nombre>
+          </departamento>
+        </departamentos>
+      </provincia>
+      <provincia id="8">
+        <nombre>La Serena</nombre>
+        <superficie>2000</superficie>
+        <departamentos />
+      </provincia>
+    </provincias>
+  </pais>
+</paises>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PrácticaParcial1_LAB3.Auxiliar;
 
 namespace PrácticaParcial1_LAB3.EjercicioEstructuraDatos
 {
