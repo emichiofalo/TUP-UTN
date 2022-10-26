@@ -16,7 +16,7 @@ public class ConfigHibernate {
 
         try {
             AnnotationConfiguration config = new AnnotationConfiguration();
-            config.setProperty("hibernate.connection.url", "jdbc:mysql://localhost:3306/ormCompuComp");
+            config.setProperty("hibernate.connection.url", "jdbc:mysql://localhost:3306/ormCompuComp?serverTimezone=UTC");
             config.setProperty("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
             config.setProperty("hibernate.connection.username", "root");//usuario db
             config.setProperty("hibernate.connection.password", "mysql");//clave db

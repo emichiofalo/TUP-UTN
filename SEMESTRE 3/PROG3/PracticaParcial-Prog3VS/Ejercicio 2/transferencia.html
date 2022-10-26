@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let anioTransf = prompt("Año de transferencia: ");
+    let valorCompra = prompt("Valor de compra: ");
+    let calcular = confirm("¿Desea calcular la transferencia?");
+    if(calcular){
+        let anio = anioTransf.valueOf();
+        let valor = valorCompra.valueOf();
+        let result = (anio*valor)/(anio*50);
+        alert("Valor de la transferencia: $" + result);
+    }
+</script>

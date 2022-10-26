@@ -1,0 +1,57 @@
+import javax.persistence.*;
+
+@Entity
+implements Serializable                                                         
+//cada clase debe implementarlo
+
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
+
+@Temporal(TemporalType.DATE)                                                    
+//para cada atributo que sea de tipo Date
+
+//Relaciones 
+//OneToOne
+@OneToOne                                                                       
+//en la clase que lleva la FK
+@JoinColumn(name = "xxx")                                                       
+//nombre de la FK. Crea una columna que relaciona una tabla con la otra.
+
+//ManyToOne
+@ManyToOne(cascade = CascadeType.ALL)                                           
+//se pone en el atributo único con el que se relaciona cada objeto de esta clase
+@JoinColumn(name = "xxx")                                                       
+//nombre de la FK. Crea una columna que relaciona una tabla con la otra.
+
+@OneToMany(mappedBy = "xxx", cascade = CascadeType.ALL)                         
+//se pone en la lista de los objetos que se relacionan con esta clase. 
+                                                                                
+//xxx= atributo del modelo de objetos de la otra clase
+
+//ManyToMany
+@ManyToMany(fetch=FetchType.LAZY,                                               
+//va en el atributo(list) donde se da la relación many to many 
+targetEntity=xxx.class,                                                         
+//xxx=clase con la que se establece la relación
+cascade=CascadeType.ALL)
+@JoinTable(                                                                     
+//tabla intermedia
+name="xxx",                                                                     
+//crear el nombre de la tabla intermedia
+joinColumns=@JoinColumn(name="xxx"),                                            
+//nombre del atributo del modelo de objeto de esta clase
+inverseJoinColumns=@JoinColumn(name="xxx"))                                     
+//nombre del atributo del modelo de objeto de la clase con la que se relaciona
+
+@ManyToMany(                                                                    
+//va en el atributo(list) donde se da la relación many to many
+cascade = {CascadeType.PERSIST, CascadeType.MERGE},
+mappedBy = "xxx",                                                               
+//nombre del atributo(list) de la clase que estableció la relación
+targetEntity = xxx.class)                                                       
+//nombre de la clase donde se encuentra ese atributo(list)
+
+//Herencia
+@MappedSuperclass                                                               
+//clase padre de las entidades, las hijas solo extienden de esta como siempre
+@Inheritance(strategy = InheritanceType.JOINED)

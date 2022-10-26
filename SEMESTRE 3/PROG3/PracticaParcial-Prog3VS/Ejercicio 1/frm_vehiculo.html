@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<style>
+    table, td {
+        border-collapse: collapse;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form style="font-size: 12px; font-family:Arial, Helvetica, sans-serif";>
+        <table align="center" width="60%" border="1px solid black";>
+            <tr>
+                <td>Imagenes</td>
+                <td style="color:green; font-size: 20px; text-align: center;"><strong>Administrar Vehiculo</strong></td>
+            </tr>
+            <tr>    
+                <td><strong>Tipo Vehiculo</strong></td>
+                <td><select id= "TVselect" name="tipoVehiculo" onChange="AsignaEquipamiento()">
+                    <option value="Auto">Auto</option>
+                    <option value="Moto">Moto</option>
+                    <option value="Camión">Camión</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><strong>Marca</strong></td>
+                <td><input type="text" name="marca" id="marca"></td>
+            </tr>
+            <tr>
+                <td><strong>Modelo</strong></td>
+                <td><input type="text" name="modelo" id="modelo"></td>
+            </tr>
+            <tr>
+                <td><strong>Dominio/Patente</strong></td>
+                <td><input type="text" name="domPat" id="domPat"></td>
+            </tr>
+            <tr>
+                <td><strong>Combustible</strong></td>
+                <td><select id="combSelect" name="combustible">
+                    <option value="Diésel">Diésel</option>
+                    <option value="GNC">GNC</option>
+                    <option value="Nafta">Nafta</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><strong>Nuevo/Usado</strong></td>
+                <td>
+                    <input type="radio" name="newUsed" id="nuevo"><label id="new">Nuevo - 0 Km</label> <br>
+                    <input type="radio" name="newUsed" id="usado"><label id="used">Usado</label>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Equipamiento</strong></td>
+                <td>
+                    <input type="checkbox" id="AC" name="aireAc"><label id="ACl">Aire Acondicionado</label> <br>
+                    <input type="checkbox" id="DA" name="direcAs"><label id="DAl">Dirección Asistida</label> <br>
+                    <input type="checkbox" id="AL" name="alarm"><label id="ALl">Alarma</label> <br>
+                    <input type="checkbox" id="ABS" name="frenos"><label id="ABSl">Frenos ABS</label> 
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Descripción</strong></td>
+                <td><textarea id="descripcion" name="descripcion" rows="8" cols="40%"></textarea></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit" onClick="ValidarCampos();">JavaScript</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+<script src="vehiculos.js"></script>s

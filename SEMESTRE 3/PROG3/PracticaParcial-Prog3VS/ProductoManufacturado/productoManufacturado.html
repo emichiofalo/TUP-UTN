@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>CARGA DE DATOS: </p>
+        <p>Tiempo de Fabricación: <input type="number" id="tmpFabrictx" name="tempFabric"> </p>
+        <p>Denominación: <input type="text" id="denomtx" name="denom"> </p>
+        <p>Precio Venta: <input type="text" id="precioVentatx" name="precioVenta"> </p>
+        <p>Margen Gananacia: <input type="number" id="margGananciatx" name="margGanancia"> </p>
+        <p>Rubro: <select name="rubro" id="rubroSlct">
+            <option value="Agrícola">Agrícola</option>
+            <option value="Metalmecánica">Metalmecánica</option>
+            <option value="Alimentaria">Alimentaria</option>
+        </select> </p>
+        <button type="button" onclick="ValidarCampos()">Cargar</button>
+    </form>
+    <br>
+    <table style="display: none;" id="tablaDatos">
+        <tr><td>DATOS CARGADOS: </td></tr>
+        <tr><td>Tiempo de Fabricación: </td><td id="tdTiempo"></td></tr>
+        <tr><td>Denominación: </td><td id="tdDenom"></td></tr>
+        <tr><td>Precio Venta: </td><td id="tdPrecio"></td></tr>
+        <tr><td>Margen Gananacia: </td><td id="tdGanancia"></td></tr>
+        <tr><td>Rubro: </td><td id="tdRubro"></td></tr>
+    </table>
+</body>
+</html>
+<script src="validaciones.js"></script>

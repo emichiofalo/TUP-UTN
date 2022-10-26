@@ -1,0 +1,12 @@
+127.0.0.1 - - [25/Oct/2022:19:48:23 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [25/Oct/2022:19:48:23 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [25/Oct/2022:19:48:23 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [25/Oct/2022:19:48:23 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - - [25/Oct/2022:19:48:23 -0300] "HEAD /netbeans-tomcat-status-test HTTP/1.1" 404 -
+127.0.0.1 - admin [25/Oct/2022:19:48:23 -0300] "GET /manager/text/list HTTP/1.1" 200 532
+127.0.0.1 - admin [25/Oct/2022:19:48:23 -0300] "GET /manager/text/list HTTP/1.1" 200 532
+127.0.0.1 - admin [25/Oct/2022:19:48:24 -0300] "GET /manager/text/reload?path=/TP7-JSP HTTP/1.1" 200 77
+0:0:0:0:0:0:0:1 - - [25/Oct/2022:19:48:24 -0300] "GET /TP7-JSP HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [25/Oct/2022:19:48:24 -0300] "GET /TP7-JSP/ HTTP/1.1" 200 2376
+0:0:0:0:0:0:0:1 - - [25/Oct/2022:19:48:24 -0300] "GET /favicon.ico HTTP/1.1" 404 695
+0:0:0:0:0:0:0:1 - - [25/Oct/2022:19:48:28 -0300] "GET /TP7-JSP/tabla3.jsp HTTP/1.1" 200 2082
