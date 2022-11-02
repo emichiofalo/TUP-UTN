@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th {
+        color: black;
+        background-color: beige;
+    }
+    th, td {
+        padding: 10px;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD - Empleados</title>
+</head>
+<body>
+    <form action="" method="post" id="form">
+        <h3>EMPLEADOS</h3>
+        <p>Legajo: <input type="number" name="legajo" id="legajotxt"></p>
+        <p>Apellido: <input type="text" name="apellido" id="apellidotxt"></p>
+        <p>Nombre: <input type="text" name="nombre" id="nombretxt"></p>
+        <p>DNI: <input type="number" name="dni" id="dnitxt"></p>
+        <p>Sector: <input type="text" name="sector" id="sectortxt"></p>
+        <p>Fecha de ingreso: <input type="date" name="fecha" id="date"></p>
+        <p>Activo: <input type="radio" name="activo" id="activoSI" value="Si">Si
+                   <input type="radio" name="activo" id="activoNO" value="No">No</p>
+    </form>
+    <button type="submit" onclick="window.location='/insert'">Cargar</button>
+    <button type="reset">Limpiar</button>
+    <button type="submit" onclick="actualizarEmpleado()">Modificar</button>
+    <button type="submit" onclick="eliminarEmpleado()">Eliminar</button>
+    <br><br><br>
+    <table id="tblEmpleados">
+        <tr>
+            <th>Legajo</th>
+            <th>Apellido</th>
+            <th>Nombre</th>
+            <th>DNI</th>
+            <th>Sector</th>
+            <th>Fecha ingreso</th>
+            <th>Activo</th>
+        </tr>
+    </table>
+</body>
+</html>

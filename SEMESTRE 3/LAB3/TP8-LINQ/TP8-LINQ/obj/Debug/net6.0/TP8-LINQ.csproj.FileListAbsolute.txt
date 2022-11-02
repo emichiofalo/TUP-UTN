@@ -1,0 +1,15 @@
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\bin\Debug\net6.0\TP8-LINQ.exe
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\bin\Debug\net6.0\TP8-LINQ.deps.json
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\bin\Debug\net6.0\TP8-LINQ.runtimeconfig.json
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\bin\Debug\net6.0\TP8-LINQ.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\bin\Debug\net6.0\TP8-LINQ.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\obj\Debug\net6.0\TP8-LINQ.csproj.AssemblyReference.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\obj\Debug\net6.0\TP8-LINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\obj\Debug\net6.0\TP8-LINQ.AssemblyInfoInputs.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\obj\Debug\net6.0\TP8-LINQ.AssemblyInfo.cs
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\obj\Debug\net6.0\TP8-LINQ.csproj.CoreCompileInputs.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\obj\Debug\net6.0\TP8-LINQ.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\obj\Debug\net6.0\refint\TP8-LINQ.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\obj\Debug\net6.0\TP8-LINQ.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\obj\Debug\net6.0\TP8-LINQ.genruntimeconfig.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\TP8-LINQ\TP8-LINQ\obj\Debug\net6.0\ref\TP8-LINQ.dll
