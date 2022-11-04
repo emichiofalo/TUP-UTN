@@ -18,7 +18,7 @@ export const getEmpleados = (req:Request, res:Response) => new Promise((resolve,
   }); 
 
 export const getEmpleadosXLegajo = (req:Request, res:Response) => new Promise((resolve, reject) => {
-    const ljEmp = parseInt(req.params.id);
+    const ljEmp = parseInt(req.params.legajo);
     cxMysql.getConnection((err, connection) => {
         if (err){
           console.error(err);
@@ -80,7 +80,7 @@ export const actualizarEmpleado = (req:Request, res:Response) => new Promise((re
 });
 
 export const eliminarEmpleado = (req:Request, res:Response) => new Promise((resolve, reject) => {
-    const ljEmp = parseInt(req.params.id);
+    const ljEmp = parseInt(req.params.legajo);
     cxMysql.getConnection((err, connection) => {
           if (err) {
             console.error(err);

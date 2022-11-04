@@ -20,7 +20,7 @@ const getEmpleados = (req, res) => new Promise((resolve, reject) => {
 });
 exports.getEmpleados = getEmpleados;
 const getEmpleadosXLegajo = (req, res) => new Promise((resolve, reject) => {
-    const ljEmp = parseInt(req.params.id);
+    const ljEmp = parseInt(req.params.legajo);
     mysqldb_1.cxMysql.getConnection((err, connection) => {
         if (err) {
             console.error(err);
@@ -84,7 +84,7 @@ const actualizarEmpleado = (req, res) => new Promise((resolve, reject) => {
 });
 exports.actualizarEmpleado = actualizarEmpleado;
 const eliminarEmpleado = (req, res) => new Promise((resolve, reject) => {
-    const ljEmp = parseInt(req.params.id);
+    const ljEmp = parseInt(req.params.legajo);
     mysqldb_1.cxMysql.getConnection((err, connection) => {
         if (err) {
             console.error(err);

@@ -20,7 +20,7 @@
     <title>CRUD - Empleados</title>
 </head>
 <body>
-    <form action="" method="post" id="form">
+    <form action="" method="post" id="dataForm">
         <h3>EMPLEADOS</h3>
         <p>Legajo: <input type="number" name="legajo" id="legajotxt"></p>
         <p>Apellido: <input type="text" name="apellido" id="apellidotxt"></p>
@@ -31,10 +31,10 @@
         <p>Activo: <input type="radio" name="activo" id="activoSI" value="Si">Si
                    <input type="radio" name="activo" id="activoNO" value="No">No</p>
     </form>
-    <button type="submit" onclick="window.location='/insert'">Cargar</button>
+    <button type="button" id="btnCargar" onclick="cargarEmpleado()">Cargar</button>
     <button type="reset">Limpiar</button>
-    <button type="submit" onclick="actualizarEmpleado()">Modificar</button>
-    <button type="submit" onclick="eliminarEmpleado()">Eliminar</button>
+    <button type="submit" id="btnModificar" onclick="window.location='/update'">Modificar</button>
+    <button type="submit" id="btnEliminar" onclick="window.location='/delete/:legajo'">Eliminar</button>
     <br><br><br>
     <table id="tblEmpleados">
         <tr>
@@ -48,4 +48,28 @@
         </tr>
     </table>
 </body>
+
+<script>
+    alert("hola2");
+    var legajo = document.getElementById("legajotxt").value;
+    var apellido = document.getElementById("apellidotxt").value;
+    var nombre = document.getElementById("nombretxt").value;
+    var dni = document.getElementById("dnitxt").value;
+    var sector = document.getElementById("sectortxt").value;
+    var fecha = document.getElementById("date").value;
+    var activo;
+    if (document.getElementById("activoSI").checked) {
+        activo = document.getElementById("activoSI").value;
+    }else if (document.getElementById("activoNO").checked) {
+        activo = document.getElementById("activoNO").value;
+    }
+
+    function cargarEmpleado(){
+        alert(apellido);
+        var url = "/insert?apellido="+apellido+"&nombre="+nombre+"&dni="+dni+"&sector="+sector+"&fecha_ingreso="+fecha+"&activo="+activo;
+        window.location = url;
+    }
+</script>
+
 </html>
+
