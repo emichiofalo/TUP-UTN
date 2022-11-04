@@ -1,0 +1,11 @@
+{
+  "Empleado": {
+    "legajo": { "int" : {} },
+    "apellido": { "string" : {} },
+    "nombre": { "string" : {} },
+    "dni": { "int" : {} },
+    "sector": { "string" : {} },
+    "fecha_ingreso": { "string" : {} },
+    "activo": { "boolean" : {} }
+    }
+}
