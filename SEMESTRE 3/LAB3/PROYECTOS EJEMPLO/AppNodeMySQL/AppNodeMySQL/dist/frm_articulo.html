@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <link href="bootstrap-5.2.2-dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body onload="getArticulosJSON()">
+        <h1>Ejecutar ABM Articulos - npm run dev</h1>
+       
+        <div id="frmArticulo" style="width: 50%;" class="container text-left">
+            <div class="row">
+                <div class="col">ID (solo lectura)</div>
+                <div class="col"><input type="text" id="artID" name="artID" readonly/></div>
+            </div>
+            <div class="row">
+                <div class="col">Fecha Alta (solo lectura)</div>
+                <div class="col"><input type="text" id="artFecha" name="artFecha" readonly/></div>
+            </div>
+            <div class="row">
+                <div class="col">Código</div>
+                <div class="col"><input type="text" id="artCodigo" name="artCodigo" required /></div>
+            </div>
+            <div class="row">
+                <div class="col">Denominacion</div>
+                <div class="col"><input type="text" id="artDenominacion" name="artDenominacion" required/></div>
+            </div>
+            <div class="row">
+                <div class="col">Precio</div>
+                <div class="col"><input type="number" id="artPrecio" name="artPrecio" required /></div>
+            </div>
+            <div class="row">
+                <div class="col">Publicado</div>
+                <div class="col">
+                    <select id="artPublicado" name="artPublicado">
+                        <option value="Y">SI</option>
+                        <option value="N">NO</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="txtMensaje" style="color: blue; font-weight: bold;"></div>
+                </div>
+                <div class="col">
+                    <button onclick="limpiarDatos()">LIMPIAR</button>
+                    <button onclick="insertarActualizarDatos()">GUARDAR</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div style="text-align: center;">
+            <input type="text" id="txtSearch" name="txtSearch"  />
+            <button id="btListar" onclick="getArticulosJSON()">BUSCAR</button>
+        </div>
+        
+        <div id="listaArticulos" class="container text-center">
+
+        </div>
+        <script>var exports = {};</script>
+        <script src="frm_articulo.js"></script>
+    </body>
+</html>

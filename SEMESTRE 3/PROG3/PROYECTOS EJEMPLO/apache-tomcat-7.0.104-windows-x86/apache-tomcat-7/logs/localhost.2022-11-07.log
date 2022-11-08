@@ -1,0 +1,665 @@
+nov 07, 2022 6:55:55 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/apprest] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [57] en el archivo jsp: [/index.jsp]
+'<>' operator is not allowed for source level below 1.7
+54:         <div id="listaEmpleados" class="container text-center">
+55:             <%
+56:                 AgendaManager magendas = new AgendaManager();
+57:                 List<Agenda> agendas = new ArrayList<>();
+58:                 agendas = magendas.getAll();
+59:                 for(Agenda a : agendas){
+60:                 %>
+
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [57] en el archivo jsp: [/index.jsp]
+'<>' operator is not allowed for source level below 1.7
+54:         <div id="listaEmpleados" class="container text-center">
+55:             <%
+56:                 AgendaManager magendas = new AgendaManager();
+57:                 List<Agenda> agendas = new ArrayList<>();
+58:                 agendas = magendas.getAll();
+59:                 for(Agenda a : agendas){
+60:                 %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 07, 2022 6:56:22 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/apprest] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [57] en el archivo jsp: [/index.jsp]
+agendas cannot be resolved to a variable
+54:         <div id="listaEmpleados" class="container text-center">
+55:             <%
+56:                 AgendaManager magendas = new AgendaManager();
+57:                 agendas = magendas.getAll();
+58:                 for(Agenda a : agendas){
+59:                 %>
+60:                 <div class="row">
+
+
+Ha tenido lugar un error en la línea: [58] en el archivo jsp: [/index.jsp]
+agendas cannot be resolved to a variable
+55:             <%
+56:                 AgendaManager magendas = new AgendaManager();
+57:                 agendas = magendas.getAll();
+58:                 for(Agenda a : agendas){
+59:                 %>
+60:                 <div class="row">
+61:                     <div class="col"><% String.valueOf(a.getId()); %> </div>
+
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [57] en el archivo jsp: [/index.jsp]
+agendas cannot be resolved to a variable
+54:         <div id="listaEmpleados" class="container text-center">
+55:             <%
+56:                 AgendaManager magendas = new AgendaManager();
+57:                 agendas = magendas.getAll();
+58:                 for(Agenda a : agendas){
+59:                 %>
+60:                 <div class="row">
+
+
+Ha tenido lugar un error en la línea: [58] en el archivo jsp: [/index.jsp]
+agendas cannot be resolved to a variable
+55:             <%
+56:                 AgendaManager magendas = new AgendaManager();
+57:                 agendas = magendas.getAll();
+58:                 for(Agenda a : agendas){
+59:                 %>
+60:                 <div class="row">
+61:                     <div class="col"><% String.valueOf(a.getId()); %> </div>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 07, 2022 6:56:50 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/apprest] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [57] en el archivo jsp: [/index.jsp]
+'<>' operator is not allowed for source level below 1.7
+54:         <div id="listaEmpleados" class="container text-center">
+55:             <%
+56:                 AgendaManager magendas = new AgendaManager();
+57:                 List<Agenda> agendas = new ArrayList<>();
+58:                 agendas = magendas.getAll();
+59:                 for(Agenda a : agendas){
+60:                 %>
+
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [57] en el archivo jsp: [/index.jsp]
+'<>' operator is not allowed for source level below 1.7
+54:         <div id="listaEmpleados" class="container text-center">
+55:             <%
+56:                 AgendaManager magendas = new AgendaManager();
+57:                 List<Agenda> agendas = new ArrayList<>();
+58:                 agendas = magendas.getAll();
+59:                 for(Agenda a : agendas){
+60:                 %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 07, 2022 7:00:14 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/apprest] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [57] en el archivo jsp: [/index.jsp]
+'<>' operator is not allowed for source level below 1.7
+54:         <div id="listaEmpleados" class="container text-center">
+55:             <%
+56:                 AgendaManager magendas = new AgendaManager();
+57:                 List<Agenda> agendas = new ArrayList<>();
+58:                 agendas = magendas.getAll();
+59:                 for(Agenda a : agendas){
+60:                 %>
+
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [57] en el archivo jsp: [/index.jsp]
+'<>' operator is not allowed for source level below 1.7
+54:         <div id="listaEmpleados" class="container text-center">
+55:             <%
+56:                 AgendaManager magendas = new AgendaManager();
+57:                 List<Agenda> agendas = new ArrayList<>();
+58:                 agendas = magendas.getAll();
+59:                 for(Agenda a : agendas){
+60:                 %>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 07, 2022 7:11:23 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/apprest] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [71] en el archivo jsp: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+68:                     <div class="col" onclick="eliminarEmpleado('+emp.legajo+')" style="cursor:pointer; color:red">Eliminar</div>
+69:                     </div>
+70:                 <%
+71:                 }
+72:             %>
+73:         </div>
+74:         
+
+
+Ha tenido lugar un error en la línea: [180] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+Ha tenido lugar un error en la línea: [182] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [182] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [183] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [183] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [185] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+response cannot be resolved
+
+Ha tenido lugar un error en la línea: [186] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [188] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [191] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [191] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved
+
+Ha tenido lugar un error en la línea: [194] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+Syntax error on token "finally", { expected
+
+Ha tenido lugar un error en la línea: [195] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [71] en el archivo jsp: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+68:                     <div class="col" onclick="eliminarEmpleado('+emp.legajo+')" style="cursor:pointer; color:red">Eliminar</div>
+69:                     </div>
+70:                 <%
+71:                 }
+72:             %>
+73:         </div>
+74:         
+
+
+Ha tenido lugar un error en la línea: [180] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+Ha tenido lugar un error en la línea: [182] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [182] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [183] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [183] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [185] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+response cannot be resolved
+
+Ha tenido lugar un error en la línea: [186] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [188] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [191] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [191] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved
+
+Ha tenido lugar un error en la línea: [194] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+Syntax error on token "finally", { expected
+
+Ha tenido lugar un error en la línea: [195] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 07, 2022 7:11:50 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/apprest] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [71] en el archivo jsp: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+68:                     <div class="col" onclick="" style="cursor:pointer; color:red">Eliminar</div>
+69:                     </div>
+70:                 <%
+71:                 }
+72:             %>
+73:         </div>
+74:         
+
+
+Ha tenido lugar un error en la línea: [180] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+Ha tenido lugar un error en la línea: [182] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [182] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [183] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [183] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [185] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+response cannot be resolved
+
+Ha tenido lugar un error en la línea: [186] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [188] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [191] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [191] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved
+
+Ha tenido lugar un error en la línea: [194] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+Syntax error on token "finally", { expected
+
+Ha tenido lugar un error en la línea: [195] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [71] en el archivo jsp: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+68:                     <div class="col" onclick="" style="cursor:pointer; color:red">Eliminar</div>
+69:                     </div>
+70:                 <%
+71:                 }
+72:             %>
+73:         </div>
+74:         
+
+
+Ha tenido lugar un error en la línea: [180] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+Ha tenido lugar un error en la línea: [182] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [182] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [183] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [183] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [185] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+response cannot be resolved
+
+Ha tenido lugar un error en la línea: [186] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [188] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [191] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [191] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved
+
+Ha tenido lugar un error en la línea: [194] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+Syntax error on token "finally", { expected
+
+Ha tenido lugar un error en la línea: [195] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 07, 2022 7:12:08 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/apprest] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [71] en el archivo jsp: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+68:                     <div class="col" style="cursor:pointer; color:red">Eliminar</div>
+69:                     </div>
+70:                 <%
+71:                 }
+72:             %>
+73:         </div>
+74:         
+
+
+Ha tenido lugar un error en la línea: [180] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+Ha tenido lugar un error en la línea: [182] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [182] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [183] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [183] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [185] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+response cannot be resolved
+
+Ha tenido lugar un error en la línea: [186] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [188] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [191] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [191] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved
+
+Ha tenido lugar un error en la línea: [194] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+Syntax error on token "finally", { expected
+
+Ha tenido lugar un error en la línea: [195] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [71] en el archivo jsp: [/index.jsp]
+Syntax error, insert "Finally" to complete TryStatement
+68:                     <div class="col" style="cursor:pointer; color:red">Eliminar</div>
+69:                     </div>
+70:                 <%
+71:                 }
+72:             %>
+73:         </div>
+74:         
+
+
+Ha tenido lugar un error en la línea: [180] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+Syntax error on token "catch", Identifier expected
+
+Ha tenido lugar un error en la línea: [182] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [182] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [183] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [183] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [185] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+response cannot be resolved
+
+Ha tenido lugar un error en la línea: [186] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [188] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+out cannot be resolved
+
+Ha tenido lugar un error en la línea: [191] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Ha tenido lugar un error en la línea: [191] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved
+
+Ha tenido lugar un error en la línea: [194] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+Syntax error on token "finally", { expected
+
+Ha tenido lugar un error en la línea: [195] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\apprest\org\apache\jsp\index_jsp.java]
+_jspx_page_context cannot be resolved to a variable
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+

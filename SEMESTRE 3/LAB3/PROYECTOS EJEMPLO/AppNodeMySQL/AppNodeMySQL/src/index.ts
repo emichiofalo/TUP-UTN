@@ -1,10 +1,14 @@
-import express from "express";
+import express from "express";  
 const app = express();
+const cors = require('cors');
 
 import rutas from './rutas';
 
 //para transformar los datos a objetos json
 app.use(express.json());
+app.use(cors({
+    origin: '*'
+}));
 //transformar los datos de un formulario html a objetos json 
 app.use(express.urlencoded({extended:false}));
 

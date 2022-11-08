@@ -1,0 +1,1651 @@
+nov 06, 2022 10:36:41 A. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/index.jsp]
+Auxiliares cannot be resolved to a type
+14:     <body>
+15:         <h3>PaÃ­ses y provincias</h3>
+16:         <%
+17:             Auxiliares aux = new Auxiliares();
+18:             String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+19:             Class.forName(JDBC_DRIVER);
+20:             java.sql.Connection con = java.sql.DriverManager.getConnection("jdbc:mysql://localhost:3306/ubicacion?serverTimezone=UTC", "root", "mysql");
+
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/index.jsp]
+Auxiliares cannot be resolved to a type
+14:     <body>
+15:         <h3>PaÃ­ses y provincias</h3>
+16:         <%
+17:             Auxiliares aux = new Auxiliares();
+18:             String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+19:             Class.forName(JDBC_DRIVER);
+20:             java.sql.Connection con = java.sql.DriverManager.getConnection("jdbc:mysql://localhost:3306/ubicacion?serverTimezone=UTC", "root", "mysql");
+
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/index.jsp]
+Auxiliares cannot be resolved to a type
+14:     <body>
+15:         <h3>PaÃ­ses y provincias</h3>
+16:         <%
+17:             Auxiliares aux = new Auxiliares();
+18:             String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+19:             Class.forName(JDBC_DRIVER);
+20:             java.sql.Connection con = java.sql.DriverManager.getConnection("jdbc:mysql://localhost:3306/ubicacion?serverTimezone=UTC", "root", "mysql");
+
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/index.jsp]
+Auxiliares cannot be resolved to a type
+14:     <body>
+15:         <h3>PaÃ­ses y provincias</h3>
+16:         <%
+17:             Auxiliares aux = new Auxiliares();
+18:             String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+19:             Class.forName(JDBC_DRIVER);
+20:             java.sql.Connection con = java.sql.DriverManager.getConnection("jdbc:mysql://localhost:3306/ubicacion?serverTimezone=UTC", "root", "mysql");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 10:37:05 A. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/index.jsp]
+Auxiliares cannot be resolved to a type
+14:     <body>
+15:         <h3>PaÃ­ses y provincias</h3>
+16:         <%
+17:             Auxiliares aux = new Auxiliares();
+18:             String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+19:             Class.forName(JDBC_DRIVER);
+20:             java.sql.Connection con = java.sql.DriverManager.getConnection("jdbc:mysql://localhost:3306/ubicacion?serverTimezone=UTC", "root", "mysql");
+
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/index.jsp]
+Auxiliares cannot be resolved to a type
+14:     <body>
+15:         <h3>PaÃ­ses y provincias</h3>
+16:         <%
+17:             Auxiliares aux = new Auxiliares();
+18:             String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+19:             Class.forName(JDBC_DRIVER);
+20:             java.sql.Connection con = java.sql.DriverManager.getConnection("jdbc:mysql://localhost:3306/ubicacion?serverTimezone=UTC", "root", "mysql");
+
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/index.jsp]
+Auxiliares cannot be resolved to a type
+14:     <body>
+15:         <h3>PaÃ­ses y provincias</h3>
+16:         <%
+17:             Auxiliares aux = new Auxiliares();
+18:             String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+19:             Class.forName(JDBC_DRIVER);
+20:             java.sql.Connection con = java.sql.DriverManager.getConnection("jdbc:mysql://localhost:3306/ubicacion?serverTimezone=UTC", "root", "mysql");
+
+
+Ha tenido lugar un error en la línea: [17] en el archivo jsp: [/index.jsp]
+Auxiliares cannot be resolved to a type
+14:     <body>
+15:         <h3>PaÃ­ses y provincias</h3>
+16:         <%
+17:             Auxiliares aux = new Auxiliares();
+18:             String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+19:             Class.forName(JDBC_DRIVER);
+20:             java.sql.Connection con = java.sql.DriverManager.getConnection("jdbc:mysql://localhost:3306/ubicacion?serverTimezone=UTC", "root", "mysql");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 10:37:06 A. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [java.lang.ClassNotFoundException: org.apache.jsp.index_jsp] con causa raíz
+java.lang.ClassNotFoundException: org.apache.jsp.index_jsp
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:433)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:157)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:193)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:414)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 10:39:00 A. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [14] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\Pr_cticaParcial2_Prog3\org\apache\jsp\index_jsp.java]
+Syntax error on token ".", delete this token
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/index.jsp]
+Auxiliares cannot be resolved to a type
+16:     <body>
+17:         <h3>PaÃ­ses y provincias</h3>
+18:         <%
+19:             Auxiliares aux = new Auxiliares();
+20:             String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+21:             Class.forName(JDBC_DRIVER);
+22:             java.sql.Connection con = java.sql.DriverManager.getConnection("jdbc:mysql://localhost:3306/ubicacion?serverTimezone=UTC", "root", "mysql");
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/index.jsp]
+Auxiliares cannot be resolved to a type
+16:     <body>
+17:         <h3>PaÃ­ses y provincias</h3>
+18:         <%
+19:             Auxiliares aux = new Auxiliares();
+20:             String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+21:             Class.forName(JDBC_DRIVER);
+22:             java.sql.Connection con = java.sql.DriverManager.getConnection("jdbc:mysql://localhost:3306/ubicacion?serverTimezone=UTC", "root", "mysql");
+
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [14] en el fichero java generado: [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\work\Catalina\localhost\Pr_cticaParcial2_Prog3\org\apache\jsp\index_jsp.java]
+Syntax error on token ".", delete this token
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/index.jsp]
+Auxiliares cannot be resolved to a type
+16:     <body>
+17:         <h3>PaÃ­ses y provincias</h3>
+18:         <%
+19:             Auxiliares aux = new Auxiliares();
+20:             String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+21:             Class.forName(JDBC_DRIVER);
+22:             java.sql.Connection con = java.sql.DriverManager.getConnection("jdbc:mysql://localhost:3306/ubicacion?serverTimezone=UTC", "root", "mysql");
+
+
+Ha tenido lugar un error en la línea: [19] en el archivo jsp: [/index.jsp]
+Auxiliares cannot be resolved to a type
+16:     <body>
+17:         <h3>PaÃ­ses y provincias</h3>
+18:         <%
+19:             Auxiliares aux = new Auxiliares();
+20:             String JDBC_DRIVER = "com.mysql.jdbc.Driver";
+21:             Class.forName(JDBC_DRIVER);
+22:             java.sql.Connection con = java.sql.DriverManager.getConnection("jdbc:mysql://localhost:3306/ubicacion?serverTimezone=UTC", "root", "mysql");
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 10:39:00 A. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [java.lang.ClassNotFoundException: org.apache.jsp.index_jsp] con causa raíz
+java.lang.ClassNotFoundException: org.apache.jsp.index_jsp
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:433)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:157)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:193)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:414)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 10:39:01 A. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [java.lang.ClassNotFoundException: org.apache.jsp.index_jsp] con causa raíz
+java.lang.ClassNotFoundException: org.apache.jsp.index_jsp
+	at java.base/java.net.URLClassLoader.findClass(URLClassLoader.java:433)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:132)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:63)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:157)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:193)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:414)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 11:00:27 A. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [40] en el archivo jsp: [/index.jsp]
+Duplicate local variable st
+37:             <tr>
+38:                 <td>Provincia <select name="paises" id="paises">
+39:                         <%
+40:                             java.sql.Statement st = con.createStatement();
+41:                             String query = "SELECT * FROM pais";
+42:                             java.sql.ResultSet rs = st.executeQuery(query);
+43:                             while (rs.next()) {
+
+
+Ha tenido lugar un error en la línea: [41] en el archivo jsp: [/index.jsp]
+Duplicate local variable query
+38:                 <td>Provincia <select name="paises" id="paises">
+39:                         <%
+40:                             java.sql.Statement st = con.createStatement();
+41:                             String query = "SELECT * FROM pais";
+42:                             java.sql.ResultSet rs = st.executeQuery(query);
+43:                             while (rs.next()) {
+44:                         %>
+
+
+Ha tenido lugar un error en la línea: [42] en el archivo jsp: [/index.jsp]
+Duplicate local variable rs
+39:                         <%
+40:                             java.sql.Statement st = con.createStatement();
+41:                             String query = "SELECT * FROM pais";
+42:                             java.sql.ResultSet rs = st.executeQuery(query);
+43:                             while (rs.next()) {
+44:                         %>
+45:                         <option value="<% out.println(rs.getString(2)); %> name="pais"></option>
+
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [40] en el archivo jsp: [/index.jsp]
+Duplicate local variable st
+37:             <tr>
+38:                 <td>Provincia <select name="paises" id="paises">
+39:                         <%
+40:                             java.sql.Statement st = con.createStatement();
+41:                             String query = "SELECT * FROM pais";
+42:                             java.sql.ResultSet rs = st.executeQuery(query);
+43:                             while (rs.next()) {
+
+
+Ha tenido lugar un error en la línea: [41] en el archivo jsp: [/index.jsp]
+Duplicate local variable query
+38:                 <td>Provincia <select name="paises" id="paises">
+39:                         <%
+40:                             java.sql.Statement st = con.createStatement();
+41:                             String query = "SELECT * FROM pais";
+42:                             java.sql.ResultSet rs = st.executeQuery(query);
+43:                             while (rs.next()) {
+44:                         %>
+
+
+Ha tenido lugar un error en la línea: [42] en el archivo jsp: [/index.jsp]
+Duplicate local variable rs
+39:                         <%
+40:                             java.sql.Statement st = con.createStatement();
+41:                             String query = "SELECT * FROM pais";
+42:                             java.sql.ResultSet rs = st.executeQuery(query);
+43:                             while (rs.next()) {
+44:                         %>
+45:                         <option value="<% out.println(rs.getString(2)); %> name="pais"></option>
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 11:00:42 A. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/index.jsp] en línea [28]
+
+25:                         <%
+26:                             java.sql.Statement st = con.createStatement();
+27:                             String query = "SELECT * FROM provincias";
+28:                             java.sql.ResultSet rs = st.executeQuery(query);
+29:                             while (rs.next()) {
+30:                         %>
+31:                         <option value="<% out.println(rs.getString(2)); %> name="pais"></option>
+
+
+Stacktrace:] con causa raíz
+java.sql.SQLSyntaxErrorException: Table 'ubicacion.provincias' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:109)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 11:26:35 A. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [25] en el archivo jsp: [/index.jsp]
+selected cannot be resolved to a variable
+22:         <table>
+23:             <tr>
+24:                 <% long idPais = 0;%>
+25:                 <td>PaÃ­s: <select name="paises" id="paises" onselect="<%idPais=request.getParameter(selected);%>">
+26:                         <%
+27:                             java.sql.Statement st = con.createStatement();
+28:                             String query = "SELECT * FROM pais";
+
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [25] en el archivo jsp: [/index.jsp]
+selected cannot be resolved to a variable
+22:         <table>
+23:             <tr>
+24:                 <% long idPais = 0;%>
+25:                 <td>PaÃ­s: <select name="paises" id="paises" onselect="<%idPais=request.getParameter(selected);%>">
+26:                         <%
+27:                             java.sql.Statement st = con.createStatement();
+28:                             String query = "SELECT * FROM pais";
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 11:55:41 A. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/index.jsp] en línea [33]
+
+30:                             while (rs.next()) {
+31:                         %>
+32:                                 <option value="<%out.println(rs.getLong(1));%>" name="<%out.println(rs.getString(2));%>"><%out.println(rs.getString(2));%></option>
+33:                                 <%value = Long.parseLong(request.getParameter("paises"));
+34:                                 out.println(value);%>
+35:                         <%
+36:                             }
+
+
+Stacktrace:] con causa raíz
+java.lang.NumberFormatException: null
+	at java.base/java.lang.Long.parseLong(Long.java:677)
+	at java.base/java.lang.Long.parseLong(Long.java:839)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:126)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 11:59:50 A. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/index.jsp] en línea [33]
+
+30:                             while (rs.next()) {
+31:                         %>
+32:                                 <option value="<%out.println(rs.getLong(1));%>"><%out.println(rs.getString(2));%></option>
+33:                                 <%value = Long.parseLong(request.getParameter("paises"));
+34:                                 out.println(value);%>
+35:                         <%
+36:                             }
+
+
+Stacktrace:] con causa raíz
+java.lang.NumberFormatException: null
+	at java.base/java.lang.Long.parseLong(Long.java:677)
+	at java.base/java.lang.Long.parseLong(Long.java:839)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:124)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 12:08:27 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/index.jsp] en línea [35]
+
+32:                             while (rs.next()) {
+33:                         %>
+34:                         <%value2 = request.getParameter("paises");%>        
+35:                         <option value="<%rs.getLong(2);%>"><%out.println(value2);%></option> 
+36:                         <%
+37:                             }
+38:                         %>
+
+
+Stacktrace:] con causa raíz
+java.lang.NumberFormatException: For input string: "Argentina"
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:556)
+	at com.mysql.cj.protocol.a.MysqlTextValueDecoder.getDouble(MysqlTextValueDecoder.java:240)
+	at com.mysql.cj.result.AbstractNumericValueFactory.createFromBytes(AbstractNumericValueFactory.java:57)
+	at com.mysql.cj.protocol.a.MysqlTextValueDecoder.decodeByteArray(MysqlTextValueDecoder.java:134)
+	at com.mysql.cj.protocol.result.AbstractResultsetRow.decodeAndCreateReturnValue(AbstractResultsetRow.java:133)
+	at com.mysql.cj.protocol.result.AbstractResultsetRow.getValueFromBytes(AbstractResultsetRow.java:241)
+	at com.mysql.cj.protocol.a.result.ByteArrayRow.getValue(ByteArrayRow.java:91)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1301)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getLong(ResultSetImpl.java:823)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:123)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 12:10:53 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/index.jsp] en línea [27]
+
+24:             <tr>
+25:                 <% long idPais = 0, value = 0;
+26:                 String value2 = "";%>
+27:                 <td>PaÃ­s: <select name="paises" id="paises" onchange="<% idPais = Long.parseLong(request.getParameter("paises")); %>">
+28:                         <%
+29:                             java.sql.Statement st = con.createStatement();
+30:                             String query = "SELECT * FROM pais";
+
+
+Stacktrace:] con causa raíz
+java.lang.NumberFormatException: null
+	at java.base/java.lang.Long.parseLong(Long.java:677)
+	at java.base/java.lang.Long.parseLong(Long.java:839)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:109)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 12:11:47 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/index.jsp] en línea [36]
+
+33:                         %>
+34:                         <option value="<%out.println(rs.getLong(1));%>"><%out.println(rs.getString(2));%></option> 
+35:                         <%
+36:                             out.println(Long.parseLong(request.getParameter("paises")));
+37:                             }
+38:                         %>
+39:                     </select></td>
+
+
+Stacktrace:] con causa raíz
+java.lang.NumberFormatException: null
+	at java.base/java.lang.Long.parseLong(Long.java:677)
+	at java.base/java.lang.Long.parseLong(Long.java:839)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:127)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 12:30:24 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/index.jsp] en línea [39]
+
+36:                         %>
+37:                     </select>
+38:                     <p name="valor">${param.input_user}</p>
+39:                     <% long valor = Long.parseLong(request.getParameter("valor"));%>
+40:                 <td>Provincias: <select name="provincias" id="provincias">
+41:                         <%
+42:                             query = "SELECT * FROM provincia WHERE idPais="+valor;
+
+
+Stacktrace:] con causa raíz
+java.lang.NumberFormatException: null
+	at java.base/java.lang.Long.parseLong(Long.java:677)
+	at java.base/java.lang.Long.parseLong(Long.java:839)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:130)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 12:58:59 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/index.jsp] en línea [27]
+
+24:         
+25:             <table>
+26:                 <tr>
+27:                     <td>PaÃ­s: <select name="paises" id="paises" onchange="<%aux.getSelect(Long.parseLong(request.getParameter("paises")));%>">
+28:                             <option value="empty"></option> 
+29:                             <%
+30:                                 java.sql.Statement st = con.createStatement();
+
+
+Stacktrace:] con causa raíz
+java.lang.NumberFormatException: null
+	at java.base/java.lang.Long.parseLong(Long.java:677)
+	at java.base/java.lang.Long.parseLong(Long.java:839)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:108)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 1:00:59 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [27] en el archivo jsp: [/index.jsp]
+The method getSelect(long) in the type Auxiliares is not applicable for the arguments ()
+24:         
+25:             <table>
+26:                 <tr>
+27:                     <td>PaÃ­s: <select name="paises" id="paises" onchange="<%aux.getSelect();%>">
+28:                             <option value="empty"></option> 
+29:                             <%
+30:                                 java.sql.Statement st = con.createStatement();
+
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [27] en el archivo jsp: [/index.jsp]
+The method getSelect(long) in the type Auxiliares is not applicable for the arguments ()
+24:         
+25:             <table>
+26:                 <tr>
+27:                     <td>PaÃ­s: <select name="paises" id="paises" onchange="<%aux.getSelect();%>">
+28:                             <option value="empty"></option> 
+29:                             <%
+30:                                 java.sql.Statement st = con.createStatement();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 1:03:07 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/index.jsp] en línea [27]
+
+24:         <form>
+25:             <table>
+26:                 <tr>
+27:                     <td>PaÃ­s: <select name="paises" id="paises" onchange="<%aux.getSelect(Long.parseLong(request.getParameter("valor")));%>">
+28:                             <option value="empty"></option> 
+29:                             <%
+30:                                 java.sql.Statement st = con.createStatement();
+
+
+Stacktrace:] con causa raíz
+java.lang.NumberFormatException: null
+	at java.base/java.lang.Long.parseLong(Long.java:677)
+	at java.base/java.lang.Long.parseLong(Long.java:839)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:108)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 1:04:42 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [27] en el archivo jsp: [/index.jsp]
+The method parseLong(String) in the type Long is not applicable for the arguments (int)
+24:         <form>
+25:             <table>
+26:                 <tr>
+27:                     <td>PaÃ­s: <select name="paises" id="paises" onchange="<%aux.getSelect(Long.parseLong(1);%>">
+28:                             <option value="empty"></option> 
+29:                             <%
+30:                                 java.sql.Statement st = con.createStatement();
+
+
+Ha tenido lugar un error en la línea: [27] en el archivo jsp: [/index.jsp]
+Syntax error, insert ")" to complete Expression
+24:         <form>
+25:             <table>
+26:                 <tr>
+27:                     <td>PaÃ­s: <select name="paises" id="paises" onchange="<%aux.getSelect(Long.parseLong(1);%>">
+28:                             <option value="empty"></option> 
+29:                             <%
+30:                                 java.sql.Statement st = con.createStatement();
+
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [27] en el archivo jsp: [/index.jsp]
+The method parseLong(String) in the type Long is not applicable for the arguments (int)
+24:         <form>
+25:             <table>
+26:                 <tr>
+27:                     <td>PaÃ­s: <select name="paises" id="paises" onchange="<%aux.getSelect(Long.parseLong(1);%>">
+28:                             <option value="empty"></option> 
+29:                             <%
+30:                                 java.sql.Statement st = con.createStatement();
+
+
+Ha tenido lugar un error en la línea: [27] en el archivo jsp: [/index.jsp]
+Syntax error, insert ")" to complete Expression
+24:         <form>
+25:             <table>
+26:                 <tr>
+27:                     <td>PaÃ­s: <select name="paises" id="paises" onchange="<%aux.getSelect(Long.parseLong(1);%>">
+28:                             <option value="empty"></option> 
+29:                             <%
+30:                                 java.sql.Statement st = con.createStatement();
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 7:02:30 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3_2] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/index.jsp] en línea [36]
+
+33:             </tr>
+34:             <%
+35:                 while(rs.next()){
+36:                     long id = rs.getLong(0);
+37:             %>
+38:             <tr>
+39:                 <td><% out.println(rs.getString(1)); %></td>
+
+
+Stacktrace:] con causa raíz
+java.sql.SQLException: Column Index out of range, 0 < 1.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkColumnBounds(ResultSetImpl.java:464)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1300)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getLong(ResultSetImpl.java:823)
+	at org.apache.jsp.index_jsp._jspService(index_jsp.java:117)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 7:04:51 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3_2] lanzó la excepción [No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [44] en el archivo jsp: [/index.jsp]
+id cannot be resolved to a type
+41:                 <td><% out.println(rs.getDouble(4)); %></td>
+42:                 <td><% out.println(rs.getString(5)); %></td>
+43:                 <td><% out.println(rs.getInt(6)); %></td>
+44:                 <td><a onclick="window.location.href = "factura_detalle.jsp?idFactura=" + <%id%>;">Ver Detalle</a></td>
+45:             </tr>
+46:             <%
+47:                 }  
+
+
+Ha tenido lugar un error en la línea: [44] en el archivo jsp: [/index.jsp]
+Duplicate local variable out
+41:                 <td><% out.println(rs.getDouble(4)); %></td>
+42:                 <td><% out.println(rs.getString(5)); %></td>
+43:                 <td><% out.println(rs.getInt(6)); %></td>
+44:                 <td><a onclick="window.location.href = "factura_detalle.jsp?idFactura=" + <%id%>;">Ver Detalle</a></td>
+45:             </tr>
+46:             <%
+47:                 }  
+
+
+Ha tenido lugar un error en la línea: [44] en el archivo jsp: [/index.jsp]
+Syntax error on token ".", ; expected
+41:                 <td><% out.println(rs.getDouble(4)); %></td>
+42:                 <td><% out.println(rs.getString(5)); %></td>
+43:                 <td><% out.println(rs.getInt(6)); %></td>
+44:                 <td><a onclick="window.location.href = "factura_detalle.jsp?idFactura=" + <%id%>;">Ver Detalle</a></td>
+45:             </tr>
+46:             <%
+47:                 }  
+
+
+Ha tenido lugar un error en la línea: [44] en el archivo jsp: [/index.jsp]
+The method write(String) is undefined for the type index_jsp
+41:                 <td><% out.println(rs.getDouble(4)); %></td>
+42:                 <td><% out.println(rs.getString(5)); %></td>
+43:                 <td><% out.println(rs.getInt(6)); %></td>
+44:                 <td><a onclick="window.location.href = "factura_detalle.jsp?idFactura=" + <%id%>;">Ver Detalle</a></td>
+45:             </tr>
+46:             <%
+47:                 }  
+
+
+Stacktrace:] con causa raíz
+org.apache.jasper.JasperException: No se puede compilar la clase para JSP: 
+
+Ha tenido lugar un error en la línea: [44] en el archivo jsp: [/index.jsp]
+id cannot be resolved to a type
+41:                 <td><% out.println(rs.getDouble(4)); %></td>
+42:                 <td><% out.println(rs.getString(5)); %></td>
+43:                 <td><% out.println(rs.getInt(6)); %></td>
+44:                 <td><a onclick="window.location.href = "factura_detalle.jsp?idFactura=" + <%id%>;">Ver Detalle</a></td>
+45:             </tr>
+46:             <%
+47:                 }  
+
+
+Ha tenido lugar un error en la línea: [44] en el archivo jsp: [/index.jsp]
+Duplicate local variable out
+41:                 <td><% out.println(rs.getDouble(4)); %></td>
+42:                 <td><% out.println(rs.getString(5)); %></td>
+43:                 <td><% out.println(rs.getInt(6)); %></td>
+44:                 <td><a onclick="window.location.href = "factura_detalle.jsp?idFactura=" + <%id%>;">Ver Detalle</a></td>
+45:             </tr>
+46:             <%
+47:                 }  
+
+
+Ha tenido lugar un error en la línea: [44] en el archivo jsp: [/index.jsp]
+Syntax error on token ".", ; expected
+41:                 <td><% out.println(rs.getDouble(4)); %></td>
+42:                 <td><% out.println(rs.getString(5)); %></td>
+43:                 <td><% out.println(rs.getInt(6)); %></td>
+44:                 <td><a onclick="window.location.href = "factura_detalle.jsp?idFactura=" + <%id%>;">Ver Detalle</a></td>
+45:             </tr>
+46:             <%
+47:                 }  
+
+
+Ha tenido lugar un error en la línea: [44] en el archivo jsp: [/index.jsp]
+The method write(String) is undefined for the type index_jsp
+41:                 <td><% out.println(rs.getDouble(4)); %></td>
+42:                 <td><% out.println(rs.getString(5)); %></td>
+43:                 <td><% out.println(rs.getInt(6)); %></td>
+44:                 <td><a onclick="window.location.href = "factura_detalle.jsp?idFactura=" + <%id%>;">Ver Detalle</a></td>
+45:             </tr>
+46:             <%
+47:                 }  
+
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:392)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:594)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:400)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:370)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:354)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:660)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:400)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 7:44:24 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3_2] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/factura_detalle.jsp] en línea [26]
+
+23:             java.sql.ResultSet rs = state.executeQuery(query);
+24:         %>
+25:         
+26:         <p><b>NÃºmero: </b><% out.println(rs.getInt(2)); %></p>
+27:         <p><b>Fecha: </b><% out.println(rs.getString(1)); %></p>
+28:         <p><b>Proveedor: </b><% out.println(rs.getString(4)); %></p>
+29:         <p><b>Domicilio proveedor: </b><% out.println(rs.getString(5)); %></p>
+
+
+Stacktrace:] con causa raíz
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:492)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1294)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:797)
+	at org.apache.jsp.factura_005fdetalle_jsp._jspService(factura_005fdetalle_jsp.java:107)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 7:48:41 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3_2] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/factura_detalle.jsp] en línea [26]
+
+23:             java.sql.ResultSet rs = state.executeQuery(query);
+24:         %>
+25:         
+26:         <p><b>NÃºmero: </b><% out.println(rs.getInt(2)); %></p>
+27:         <p><b>Fecha: </b><% out.println(rs.getString(1)); %></p>
+28:         <p><b>Proveedor: </b><% out.println(rs.getString(4)); %></p>
+29:         <p><b>Domicilio proveedor: </b><% out.println(rs.getString(5)); %></p>
+
+
+Stacktrace:] con causa raíz
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:492)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1294)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:797)
+	at org.apache.jsp.factura_005fdetalle_jsp._jspService(factura_005fdetalle_jsp.java:107)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 7:50:17 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3_2] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/factura_detalle.jsp] en línea [26]
+
+23:             java.sql.ResultSet rs = state.executeQuery(query);
+24:         %>
+25:         
+26:         <p><b>NÃºmero: </b><% out.println(rs.getInt(2)); %></p>
+27:         <p><b>Fecha: </b><% out.println(rs.getString(1)); %></p>
+28:         <p><b>Proveedor: </b><% out.println(rs.getString(4)); %></p>
+29:         <p><b>Domicilio proveedor: </b><% out.println(rs.getString(5)); %></p>
+
+
+Stacktrace:] con causa raíz
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:492)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1294)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:797)
+	at org.apache.jsp.factura_005fdetalle_jsp._jspService(factura_005fdetalle_jsp.java:107)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 7:51:18 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3_2] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/factura_detalle.jsp] en línea [26]
+
+23:             java.sql.ResultSet rs = state.executeQuery(query);
+24:         %>
+25:         
+26:         <p><b>NÃºmero: </b><% out.println(rs.getInt(2)); %></p>
+27:         <p><b>Fecha: </b><% out.println(rs.getString(1)); %></p>
+28:         <p><b>Proveedor: </b><% out.println(rs.getString(4)); %></p>
+29:         <p><b>Domicilio proveedor: </b><% out.println(rs.getString(5)); %></p>
+
+
+Stacktrace:] con causa raíz
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:492)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1294)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:797)
+	at org.apache.jsp.factura_005fdetalle_jsp._jspService(factura_005fdetalle_jsp.java:107)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 7:52:42 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextDestroyed()
+nov 06, 2022 7:52:42 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextDestroyed()
+nov 06, 2022 7:52:52 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Hola!
+nov 06, 2022 7:52:54 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+nov 06, 2022 7:52:54 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+nov 06, 2022 7:52:54 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@590ebba0')
+nov 06, 2022 7:52:54 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@bcd6c80')
+nov 06, 2022 7:53:04 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3_2] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/factura_detalle.jsp] en línea [26]
+
+23:             java.sql.ResultSet rs = state.executeQuery(query);
+24:         %>
+25:         
+26:         <p><b>NÃºmero: </b><% out.println(rs.getInt(2)); %></p>
+27:         <p><b>Fecha: </b><% out.println(rs.getString(1)); %></p>
+28:         <p><b>Proveedor: </b><% out.println(rs.getString(4)); %></p>
+29:         <p><b>Domicilio proveedor: </b><% out.println(rs.getString(5)); %></p>
+
+
+Stacktrace:] con causa raíz
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:492)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1294)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:797)
+	at org.apache.jsp.factura_005fdetalle_jsp._jspService(factura_005fdetalle_jsp.java:107)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 7:55:24 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3_2] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/factura_detalle.jsp] en línea [26]
+
+23:             java.sql.ResultSet rs = state.executeQuery(query);
+24:         %>
+25:         
+26:         <p><b>NÃºmero: </b><% out.println(rs.getString(2)); %></p>
+27:         <p><b>Fecha: </b><% out.println(rs.getString(1)); %></p>
+28:         <p><b>Proveedor: </b><% out.println(rs.getString(4)); %></p>
+29:         <p><b>Domicilio proveedor: </b><% out.println(rs.getString(5)); %></p>
+
+
+Stacktrace:] con causa raíz
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:492)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:845)
+	at org.apache.jsp.factura_005fdetalle_jsp._jspService(factura_005fdetalle_jsp.java:107)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 7:56:18 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3_2] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/factura_detalle.jsp] en línea [26]
+
+23:             java.sql.ResultSet rs = state.executeQuery(query);
+24:         %>
+25:         
+26:         <p><b>NÃºmero: </b><% out.println(rs.getInt(2)); %></p>
+27:         <p><b>Fecha: </b><% out.println(rs.getString(1)); %></p>
+28:         <p><b>Proveedor: </b><% out.println(rs.getString(3)); %></p>
+29:         <p><b>Domicilio proveedor: </b><% out.println(rs.getString(4)); %></p>
+
+
+Stacktrace:] con causa raíz
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:492)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getObject(ResultSetImpl.java:1294)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getInt(ResultSetImpl.java:797)
+	at org.apache.jsp.factura_005fdetalle_jsp._jspService(factura_005fdetalle_jsp.java:107)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 7:58:11 P. M. org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: El Servlet.service() para el servlet [jsp] en el contexto con ruta [/Pr_cticaParcial2_Prog3_2] lanzó la excepción [Ha sucedido una excepción al procesar la página JSP [/factura_detalle.jsp] en línea [25]
+
+22:             String query = "SELECT fecha, numero, proveedor, domicilio_proveedor FROM factura WHERE id=" + id + ";";
+23:             java.sql.ResultSet rs = state.executeQuery(query);
+24:             
+25:             out.println(rs.getString(1));
+26:         %>
+27:         
+28:         <p><b>NÃºmero: </b><% out.println(rs.getInt(2)); %></p>
+
+
+Stacktrace:] con causa raíz
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:492)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:845)
+	at org.apache.jsp.factura_005fdetalle_jsp._jspService(factura_005fdetalle_jsp.java:104)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:71)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:477)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:165)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:452)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1201)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:654)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:319)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+

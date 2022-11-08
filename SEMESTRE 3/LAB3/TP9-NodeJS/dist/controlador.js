@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.eliminarEmpleado = exports.actualizarEmpleado = exports.crearEmpleado = exports.getEmpleadosXLegajo = exports.getEmpleados = void 0;
+exports.getEmpleadosXApellido = exports.eliminarEmpleado = exports.actualizarEmpleado = exports.crearEmpleado = exports.getEmpleadosXLegajo = exports.getEmpleados = void 0;
 const mysqldb_1 = require("./mysqldb");
 const getEmpleados = (req, res) => new Promise((resolve, reject) => {
     mysqldb_1.cxMysql.getConnection((err, connection) => {
@@ -30,7 +30,7 @@ const getEmpleadosXLegajo = (req, res) => new Promise((resolve, reject) => {
         connection.query('SELECT * FROM empleado WHERE legajo = ?', [ljEmp], (err, results) => {
             if (err)
                 console.error(err);
-            res.send(results);
+            res.send(results[0]);
         });
     });
 });
@@ -103,3 +103,20 @@ const eliminarEmpleado = (req, res) => new Promise((resolve, reject) => {
     });
 });
 exports.eliminarEmpleado = eliminarEmpleado;
+const getEmpleadosXApellido = (req, res) => new Promise((resolve, reject) => {
+    const apellido = (req.params.apellido);
+    mysqldb_1.cxMysql.getConnection((err, connection) => {
+        if (err) {
+            console.error(err);
+            res.send(err);
+            return;
+        }
+        console.log('MySQL Connection: ', connection.threadId);
+        connection.query('SELECT * FROM empleado WHERE apellido LIKE "%' + apellido + '%" limit 30', (err, results) => {
+            if (err)
+                console.error(err);
+            res.send(results);
+        });
+    });
+});
+exports.getEmpleadosXApellido = getEmpleadosXApellido;

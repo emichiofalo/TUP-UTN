@@ -27,7 +27,7 @@ export const getEmpleadosXLegajo = (req:Request, res:Response) => new Promise((r
         } 
         connection.query('SELECT * FROM empleado WHERE legajo = ?', [ljEmp], (err, results) => {
           if (err) console.error(err);
-          res.send(results)
+          res.send(results[0])
         });
       });
   });
@@ -97,4 +97,20 @@ export const eliminarEmpleado = (req:Request, res:Response) => new Promise((reso
           
         });
       });
+});
+
+export const getEmpleadosXApellido = (req:Request, res:Response) => new Promise((resolve, reject) => {
+  const apellido = (req.params.apellido);
+  cxMysql.getConnection((err, connection) => {
+    if (err){ 
+      console.error(err);
+      res.send(err);
+      return;
+    }
+    console.log('MySQL Connection: ', connection.threadId);
+    connection.query('SELECT * FROM empleado WHERE apellido LIKE "%'+apellido+'%" limit 30', (err, results) => {
+      if (err) console.error(err);
+      res.send(results)
+    });
+  });
 });

@@ -1,0 +1,394 @@
+nov 07, 2022 10:34:29 A. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 10:34:29 A. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 3:28:51 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 3:28:51 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 5:53:31 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 5:53:31 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 5:53:31 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 5:53:32 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context1512615697907062029.xml'
+nov 07, 2022 5:53:34 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 5:54:08 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 5:54:08 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 5:54:08 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 5:54:09 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context7456275994326464979.xml'
+nov 07, 2022 5:54:11 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 5:55:48 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 5:55:48 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 5:55:48 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 5:55:48 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context8043941036476599330.xml'
+nov 07, 2022 5:55:50 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 6:18:30 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:18:30 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 6:32:56 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:32:56 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:51:54 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:51:54 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:51:54 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context2942779719125293381.xml'
+nov 07, 2022 6:51:58 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 6:52:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:52:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:52:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:52:22 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:52:22 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:52:35 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:52:35 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:52:36 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:55:43 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:55:51 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:55:51 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:55:51 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 6:55:52 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context15974191294216703015.xml'
+nov 07, 2022 6:55:55 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 6:56:17 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:56:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:56:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:56:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 6:56:19 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context4298627393965039335.xml'
+nov 07, 2022 6:56:22 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 6:56:45 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:56:45 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:56:45 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 6:56:45 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 6:56:46 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context14030990607070291636.xml'
+nov 07, 2022 6:56:49 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 7:00:10 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:00:10 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:00:10 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 7:00:11 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context1244214151350126336.xml'
+nov 07, 2022 7:00:13 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 7:09:54 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:09:54 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:11:14 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:11:18 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:11:18 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:11:18 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 7:11:18 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context8274369036612767592.xml'
+nov 07, 2022 7:11:22 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 7:11:45 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:11:47 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:11:47 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:11:47 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 7:11:47 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context12142827395150085077.xml'
+nov 07, 2022 7:11:50 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 7:12:03 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:12:05 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:12:05 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:12:05 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 7:12:05 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context5044303451141882142.xml'
+nov 07, 2022 7:12:08 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 7:12:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:12:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:12:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:12:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 7:12:22 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context5043967063991066845.xml'
+nov 07, 2022 7:12:25 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 7:18:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:18:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:18:29 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:18:29 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:18:34 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:18:34 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:18:38 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:18:38 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:18:57 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:18:57 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:19:04 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:19:04 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:19:49 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:19:49 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:19:58 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:19:58 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:20:02 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:20:02 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:20:05 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:20:05 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:20:09 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:20:09 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:20:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:20:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:20:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 7:20:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context3245738170913888476.xml'
+nov 07, 2022 7:20:15 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 7:25:00 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:25:00 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:25:18 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:25:18 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:25:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:25:21 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:26:28 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:26:28 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:27:52 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:27:52 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:28:02 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:28:02 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:28:32 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:28:32 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:31:47 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:31:47 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:32:07 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:32:07 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:32:11 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:32:11 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:33:50 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:33:50 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:33:55 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:33:55 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:33:55 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 7:33:56 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context6947840313065700468.xml'
+nov 07, 2022 7:34:00 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 7:35:29 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:35:29 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:36:28 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:36:28 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:36:52 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:36:52 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:36:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:36:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:39:25 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:40:28 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:40:28 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:42:18 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:42:18 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:44:04 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:44:04 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:44:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:44:20 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:44:25 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:44:25 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:45:49 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:45:49 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:49:01 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:49:01 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:57:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:57:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 7:58:26 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:58:26 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 7:58:26 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 7:58:27 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context3351853561579349201.xml'
+nov 07, 2022 7:58:29 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 8:00:09 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 8:00:09 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 8:05:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 8:05:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 8:05:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 8:05:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 8:05:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 8:05:12 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context11892490764687028093.xml'
+nov 07, 2022 8:05:15 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 8:07:30 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 8:07:30 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 8:07:30 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 8:07:31 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context7206432214812901992.xml'
+nov 07, 2022 8:07:35 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 8:07:44 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 8:07:44 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 8:07:44 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: undeploy: Undeploying web application at '/apprest'
+nov 07, 2022 8:07:45 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: install: Installing context configuration at 'file:/C:/Users/EMICHI~1/AppData/Local/Temp/context16829884849288241870.xml'
+nov 07, 2022 8:07:47 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: start: Starting web application '/apprest'
+nov 07, 2022 8:08:49 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 8:08:50 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 8:09:00 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 8:09:00 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 8:09:50 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 8:09:50 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 8:09:58 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 8:09:59 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'
+nov 07, 2022 8:11:03 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+nov 07, 2022 8:11:03 P. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/apprest'

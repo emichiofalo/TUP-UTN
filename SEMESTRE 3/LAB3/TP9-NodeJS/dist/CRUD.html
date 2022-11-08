@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="bootstrap-5.2.2-dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body onload="getEmpleadosJSON()">
+        <h1>CRUD Empleados</h1>
+       
+        <div id="frmEmpleado" style="width: 50%;" class="container text-left">
+            <div class="row">
+                <div class="col">Legajo (solo lectura)</div>
+                <div class="col"><input type="text" id="empLgj" name="empLgj" readonly/></div>
+            </div>
+            <div class="row">
+                <div class="col">Apellido</div>
+                <div class="col"><input type="text" id="empApellido" name="empApellido" required /></div>
+            </div>
+            <div class="row">
+                <div class="col">Nombre</div>
+                <div class="col"><input type="text" id="empNombre" name="empNombre" required/></div>
+            </div>
+            <div class="row">
+                <div class="col">DNI</div>
+                <div class="col"><input type="number" id="empDNI" name="empDNI" required /></div>
+            </div>
+            <div class="row">
+                <div class="col">Sector</div>
+                <div class="col"><input type="text" id="empSector" name="empSector" required/></div>
+            </div>
+            <div class="row">
+                <div class="col">Fecha Ingreso</div>
+                <div class="col"><input type="date" id="empFecha" name="empFecha"/></div>
+            </div>
+            <div class="row">
+                <div class="col">Activo</div>
+                <div class="col">
+                    <select id="empActivo" name="empActivo">
+                        <option value="true">SI</option>
+                        <option value="false">NO</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="txtMensaje" style="color: rgb(0, 153, 255); font-weight: bold;"></div>
+                </div>
+                <div class="col">
+                    <button onclick="limpiarDatos()">LIMPIAR</button>
+                    <button onclick="insertarActualizarDatos()">GUARDAR</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div style="text-align: center;">
+            <input type="text" id="txtSearch" name="txtSearch"  />
+            <button id="btListar" onclick="getEmpleadosJSON()">BUSCAR POR APELLIDO</button>
+        </div>
+        <hr style="border: white">
+        <div id="listaEmpleados" class="container text-center">
+        <br>
+        </div>
+
+        <script>var exports = {};</script>
+        <script src="frm_empleado.js"></script>
+    </body>
+</html>

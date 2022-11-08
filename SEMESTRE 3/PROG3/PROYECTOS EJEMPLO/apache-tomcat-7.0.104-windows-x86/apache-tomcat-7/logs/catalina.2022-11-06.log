@@ -1,0 +1,484 @@
+nov 06, 2022 10:30:56 A. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3.xml]
+nov 06, 2022 10:30:57 A. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 10:30:57 A. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3.xml] has finished in [549] ms
+nov 06, 2022 10:30:57 A. M. org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Pr_cticaParcial2_Prog3]] after start() had already been called. The second call will be ignored.
+nov 06, 2022 10:33:09 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 10:33:09 A. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 06, 2022 10:33:09 A. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 10:33:09 A. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 10:33:09 A. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 10:33:09 A. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 10:33:09 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 10:33:09 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 10:33:10 A. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 10:33:10 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 10:33:27 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 10:33:27 A. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 10:33:27 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 10:35:53 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 10:35:53 A. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 06, 2022 10:35:53 A. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 10:35:53 A. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 10:35:53 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 10:35:57 A. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 10:41:59 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 10:41:59 A. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 06, 2022 10:41:59 A. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 10:41:59 A. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 10:41:59 A. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 10:41:59 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 10:42:00 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 10:42:00 A. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 10:42:00 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 10:42:21 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 10:42:21 A. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 10:42:21 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 10:45:59 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 10:46:00 A. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 10:46:00 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 10:48:01 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 10:48:01 A. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 10:48:01 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 10:51:26 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 10:51:26 A. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 10:51:26 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 10:55:15 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 10:55:15 A. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 06, 2022 10:55:15 A. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 10:55:15 A. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 10:55:15 A. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 10:55:16 A. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 10:55:16 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 11:01:26 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 11:01:26 A. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 06, 2022 11:01:26 A. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 11:01:26 A. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 11:01:26 A. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 11:01:26 A. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 11:01:26 A. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 11:01:26 A. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 11:01:27 A. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 11:01:27 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 11:05:59 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 11:05:59 A. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 06, 2022 11:05:59 A. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 11:06:00 A. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 11:06:00 A. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 11:06:00 A. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 12:53:30 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 12:53:30 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 06, 2022 12:53:30 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 12:53:31 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 12:53:31 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 12:53:31 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 12:53:31 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 12:53:32 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 12:53:32 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 12:55:50 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 12:55:50 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 12:55:50 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 12:58:43 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 12:58:43 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 12:58:43 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 12:58:57 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 12:58:58 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 12:58:58 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 2:38:39 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 2:38:39 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 06, 2022 2:38:39 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 2:38:39 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 2:38:39 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 2:38:39 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 2:38:52 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 2:38:52 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 2:38:52 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 2:39:03 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3]
+nov 06, 2022 2:39:03 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 2:39:03 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 6:24:35 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3_2.xml]
+nov 06, 2022 6:24:37 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 6:24:37 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3_2.xml] has finished in [1.219] ms
+nov 06, 2022 6:24:37 P. M. org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Pr_cticaParcial2_Prog3_2]] after start() had already been called. The second call will be ignored.
+nov 06, 2022 6:59:03 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3_2]
+nov 06, 2022 6:59:03 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 06, 2022 6:59:03 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 6:59:03 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 06, 2022 6:59:03 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 6:59:03 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 6:59:03 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3_2]
+nov 06, 2022 6:59:03 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 6:59:04 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 6:59:04 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 7:01:00 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3_2]
+nov 06, 2022 7:01:00 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 7:01:00 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 7:01:00 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 7:02:27 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3_2]
+nov 06, 2022 7:02:27 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 7:02:28 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 7:02:28 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 7:02:28 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3_2]
+nov 06, 2022 7:02:28 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 7:02:29 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 7:02:29 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 06, 2022 7:52:42 P. M. org.apache.catalina.core.StandardServer await
+INFO: Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+nov 06, 2022 7:52:42 P. M. org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+nov 06, 2022 7:52:42 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Parando servicio [Catalina]
+nov 06, 2022 7:52:42 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 06, 2022 7:52:42 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 7:52:42 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 06, 2022 7:52:42 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 06, 2022 7:52:42 P. M. org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+nov 06, 2022 7:52:42 P. M. org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.core.AprLifecycleListener init
+WARNING: The Apache Tomcat Native library failed to load. The error reported was [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\bin\tcnative-1.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform]
+java.lang.UnsatisfiedLinkError: C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\bin\tcnative-1.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+	at java.base/jdk.internal.loader.NativeLibraries.load(Native Method)
+	at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:383)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:227)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:169)
+	at java.base/jdk.internal.loader.NativeLibraries.findFromPaths(NativeLibraries.java:310)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:282)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2416)
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:808)
+	at java.base/java.lang.System.loadLibrary(System.java:1893)
+	at org.apache.tomcat.jni.Library.<init>(Library.java:42)
+	at org.apache.tomcat.jni.Library.initialize(Library.java:178)
+	at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:200)
+	at org.apache.catalina.core.AprLifecycleListener.isAprAvailable(AprLifecycleListener.java:108)
+	at org.apache.catalina.connector.Connector.setProtocol(Connector.java:639)
+	at org.apache.catalina.connector.Connector.<init>(Connector.java:72)
+	at org.apache.catalina.startup.ConnectorCreateRule.begin(ConnectorCreateRule.java:62)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1263)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1386)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1525)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:637)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Nombre de la versión del servidor:   Apache Tomcat/7.0.104
+
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2020 19:31:18 UTC
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Número de versión de servidor:         7.0.104.0
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Versión de Systema Operativo:      10.0
+
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Arquitectura:          amd64
+
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk-16.0.2
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           16.0.2+7-67
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Vededor JVM:     Oracle Corporation
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\logging.properties
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|EMI-CHIOFALO
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -agentlib:jdwp=transport=dt_shmem,address=tomcat_shared_memory_id,server=y,suspend=n
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\temp
+nov 06, 2022 7:52:48 P. M. org.apache.coyote.AbstractProtocol init
+INFO: Inicializando el manejador de protocolo ["http-bio-8080"]
+
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1227 ms
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Arrancando servicio [Catalina]
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.104
+nov 06, 2022 7:52:48 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml]
+nov 06, 2022 7:52:50 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 7:52:50 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 06, 2022 7:52:50 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 06, 2022 7:52:50 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.ClienteRest
+  class com.utn.apprest.HelloWorldRest
+nov 06, 2022 7:52:50 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 06, 2022 7:52:50 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 06, 2022 7:52:51 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml] has finished in [2.998] ms
+nov 06, 2022 7:52:51 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\EjemploJSP.xml]
+nov 06, 2022 7:52:52 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\EjemploJSP.xml] has finished in [158] ms
+nov 06, 2022 7:52:52 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3.xml]
+nov 06, 2022 7:52:52 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 7:52:52 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3.xml] has finished in [700] ms
+nov 06, 2022 7:52:52 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3_2.xml]
+nov 06, 2022 7:52:53 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 7:52:53 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3_2.xml] has finished in [774] ms
+nov 06, 2022 7:52:53 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\ROOT.xml]
+nov 06, 2022 7:52:53 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\ROOT.xml] has finished in [145] ms
+nov 06, 2022 7:52:53 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\TP7-JSP.xml]
+nov 06, 2022 7:52:53 P. M. org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error arrancando Recursos estáticos
+java.lang.IllegalArgumentException: El Documento base [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\TP7-JSP\build\web] no existe o no es un directorio legible
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5256)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5448)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 7:52:53 P. M. org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5449)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 7:52:53 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error durante el despliegue del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\TP7-JSP.xml]
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1011)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 06, 2022 7:52:53 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\TP7-JSP.xml] has finished in [60] ms
+nov 06, 2022 7:52:53 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\docs] de la aplicación web
+nov 06, 2022 7:52:53 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\docs] has finished in [106] ms
+nov 06, 2022 7:52:53 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\examples] de la aplicación web
+nov 06, 2022 7:52:54 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\examples] has finished in [796] ms
+nov 06, 2022 7:52:54 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\host-manager] de la aplicación web
+nov 06, 2022 7:52:54 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\host-manager] has finished in [154] ms
+nov 06, 2022 7:52:54 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\manager] de la aplicación web
+nov 06, 2022 7:52:54 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\manager] has finished in [108] ms
+nov 06, 2022 7:52:54 P. M. org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+nov 06, 2022 7:52:54 P. M. org.apache.catalina.startup.Catalina start
+INFO: Server startup in 6210 ms
+nov 06, 2022 7:52:57 P. M. org.apache.catalina.startup.HostConfig undeploy
+INFO: Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Pr_cticaParcial2_Prog3_2]
+nov 06, 2022 7:52:57 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3_2.xml]
+nov 06, 2022 7:52:58 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 06, 2022 7:52:58 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3_2.xml] has finished in [956] ms
+nov 06, 2022 7:52:58 P. M. org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Pr_cticaParcial2_Prog3_2]] after start() had already been called. The second call will be ignored.
