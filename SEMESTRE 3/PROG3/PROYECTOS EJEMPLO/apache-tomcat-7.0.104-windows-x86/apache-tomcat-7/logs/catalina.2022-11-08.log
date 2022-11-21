@@ -1,0 +1,112 @@
+nov 08, 2022 3:00:28 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3_2]
+nov 08, 2022 3:00:28 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 08, 2022 3:00:28 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 08, 2022 3:00:29 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 08, 2022 3:00:29 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 08, 2022 3:00:30 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3_2]
+nov 08, 2022 3:00:30 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 08, 2022 3:00:30 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 08, 2022 3:00:30 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 08, 2022 3:00:30 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 08, 2022 3:00:30 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 08, 2022 3:01:40 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3_2]
+nov 08, 2022 3:01:40 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 08, 2022 3:01:41 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 08, 2022 3:01:41 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 08, 2022 3:01:41 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3_2]
+nov 08, 2022 3:01:42 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 08, 2022 3:01:42 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 08, 2022 3:01:42 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 08, 2022 3:03:48 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3_2]
+nov 08, 2022 3:03:48 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 08, 2022 3:03:48 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 08, 2022 3:03:48 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 08, 2022 3:38:37 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3_2]
+nov 08, 2022 3:38:37 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 08, 2022 3:38:37 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 08, 2022 3:38:37 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 08, 2022 3:38:37 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 08, 2022 3:38:38 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 08, 2022 3:38:43 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3_2]
+nov 08, 2022 3:38:43 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 08, 2022 3:38:44 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 08, 2022 3:38:44 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 08, 2022 3:38:44 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3_2]
+nov 08, 2022 3:38:44 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 08, 2022 3:38:45 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 08, 2022 3:38:45 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 08, 2022 3:42:42 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/Pr_cticaParcial2_Prog3_2]
+nov 08, 2022 3:42:42 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 08, 2022 3:42:42 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 08, 2022 3:42:42 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 08, 2022 7:04:07 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\punto_12_jsp.xml]
+nov 08, 2022 7:04:08 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 08, 2022 7:04:08 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\punto_12_jsp.xml] has finished in [1.084] ms
+nov 08, 2022 7:04:08 P. M. org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/punto_12_jsp]] after start() had already been called. The second call will be ignored.
+nov 08, 2022 7:55:39 P. M. org.apache.catalina.core.StandardServer await
+INFO: Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+nov 08, 2022 7:55:39 P. M. org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+nov 08, 2022 7:55:39 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Parando servicio [Catalina]
+nov 08, 2022 7:55:39 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 08, 2022 7:55:39 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/apprest] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 08, 2022 7:55:39 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 08, 2022 7:55:39 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/Pr_cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 08, 2022 7:55:39 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/punto_12_jsp] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 08, 2022 7:55:39 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/punto_12_jsp] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 08, 2022 7:55:39 P. M. org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+nov 08, 2022 7:55:39 P. M. org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]

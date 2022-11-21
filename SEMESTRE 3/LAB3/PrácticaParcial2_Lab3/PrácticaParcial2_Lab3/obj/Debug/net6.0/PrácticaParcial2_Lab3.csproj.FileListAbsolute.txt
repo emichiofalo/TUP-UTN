@@ -1,0 +1,15 @@
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\bin\Debug\net6.0\PrácticaParcial2_Lab3.exe
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\bin\Debug\net6.0\PrácticaParcial2_Lab3.deps.json
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\bin\Debug\net6.0\PrácticaParcial2_Lab3.runtimeconfig.json
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\bin\Debug\net6.0\PrácticaParcial2_Lab3.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\bin\Debug\net6.0\PrácticaParcial2_Lab3.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\obj\Debug\net6.0\PrácticaParcial2_Lab3.csproj.AssemblyReference.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\obj\Debug\net6.0\PrácticaParcial2_Lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\obj\Debug\net6.0\PrácticaParcial2_Lab3.AssemblyInfoInputs.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\obj\Debug\net6.0\PrácticaParcial2_Lab3.AssemblyInfo.cs
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\obj\Debug\net6.0\PrácticaParcial2_Lab3.csproj.CoreCompileInputs.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\obj\Debug\net6.0\PrácticaParcial2_Lab3.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\obj\Debug\net6.0\refint\PrácticaParcial2_Lab3.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\obj\Debug\net6.0\PrácticaParcial2_Lab3.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\obj\Debug\net6.0\PrácticaParcial2_Lab3.genruntimeconfig.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\PrácticaParcial2_Lab3\PrácticaParcial2_Lab3\obj\Debug\net6.0\ref\PrácticaParcial2_Lab3.dll

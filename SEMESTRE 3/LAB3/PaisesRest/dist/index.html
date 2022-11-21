@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="getPaisesJSON()">
+    <h3>LISTA PAISES</h3>
+    <hr>
+    <div style="text-align: center;">
+        <input type="text" id="txtSearchMax" name="txtSearchMax"  />  Población Maxima<br>
+        <input type="text" id="txtSearchMin" name="txtSearchMin"  />  Población Mínima<br><br>
+        <button id="btListar" onclick="getPaisesJSON()">BUSCAR</button>
+    </div>
+    <hr>
+    <table id="listaPaises">
+
+    </table>
+
+    </div>
+    <script>var exports = {};</script>
+    <script src="paises.js"></script>
+</body>
+</body>
+</html>

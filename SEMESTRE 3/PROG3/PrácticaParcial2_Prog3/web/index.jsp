@@ -33,18 +33,17 @@
                 <%
                     }
                 %>
-                </select>
-                <%
-                    
-                    String variable = (String) request.getParameter("paises");
-                    if (variable != null) {
-                        String a = variable.substring(0, 1);
-                        Metodos m = new Metodos();
-                        out.println(m.getSelect(Integer.valueOf(a)));
-                    }
+            </select>
+            <%
+                String variable = (String) request.getParameter("paises");
+                if (variable != null) {
+                    String a = variable.substring(0, 1);
+                    Metodos m = new Metodos();
+                    out.println(m.getSelect(Integer.valueOf(a)));
+                }
 
-                %>
-            
+            %>
+
         </form>
 
 

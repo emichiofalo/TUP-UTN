@@ -1,0 +1,15 @@
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\bin\Debug\net6.0\Parcial2_Lab3_Linq_Chiofalo.exe
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\bin\Debug\net6.0\Parcial2_Lab3_Linq_Chiofalo.deps.json
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\bin\Debug\net6.0\Parcial2_Lab3_Linq_Chiofalo.runtimeconfig.json
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\bin\Debug\net6.0\Parcial2_Lab3_Linq_Chiofalo.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\bin\Debug\net6.0\Parcial2_Lab3_Linq_Chiofalo.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\obj\Debug\net6.0\Parcial2_Lab3_Linq_Chiofalo.csproj.AssemblyReference.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\obj\Debug\net6.0\Parcial2_Lab3_Linq_Chiofalo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\obj\Debug\net6.0\Parcial2_Lab3_Linq_Chiofalo.AssemblyInfoInputs.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\obj\Debug\net6.0\Parcial2_Lab3_Linq_Chiofalo.AssemblyInfo.cs
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\obj\Debug\net6.0\Parcial2_Lab3_Linq_Chiofalo.csproj.CoreCompileInputs.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\obj\Debug\net6.0\Parcial2_Lab3_Linq_Chiofalo.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\obj\Debug\net6.0\refint\Parcial2_Lab3_Linq_Chiofalo.dll
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\obj\Debug\net6.0\Parcial2_Lab3_Linq_Chiofalo.pdb
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\obj\Debug\net6.0\Parcial2_Lab3_Linq_Chiofalo.genruntimeconfig.cache
+C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\LAB3\Parcial2_Lab3_Linq_Chiofalo\Parcial2_Lab3_Linq_Chiofalo\obj\Debug\net6.0\ref\Parcial2_Lab3_Linq_Chiofalo.dll

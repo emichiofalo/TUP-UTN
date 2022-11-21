@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <style>
+        table{
+            margin-left: 1%;
+            margin-top: 1%;
+        }
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+          padding: 4px;
+        }
+    </style>
+    <head>
+        
+    </head>
+    <body onload="getRubrosJSON()">
+        <h2 style="margin-left: 1%;">Rubros - Productos</h2>
+
+        <select name="rubrosSLCT" id="rubrosSLCT" style="margin-left: 2%;"></select>
+
+        <button id="btListar" onclick="getProductosJSON()">BUSCAR</button>
+
+        <div id="tablaProductos" name="tablaProductos"></div>
+
+        <script>var exports = {};</script>
+        <script src="productos.js"></script>
+    </body>
+</html>

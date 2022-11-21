@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <link href="bootstrap-5.2.2-dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+        <script src="bootstrap-5.2.2-dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    </head>
+    <body onload="getClientesJSON()">
+        <h1>CRUD Clientes</h1>
+       
+        <div id="clientes" style="width: 50%;" class="container text-left">
+            <div class="row">
+                <div class="col">ID (solo lectura)</div>
+                <div class="col"><input type="text" id="cId" name="cId" readonly/></div>
+            </div>
+            <div class="row">
+                <div class="col">Nombre</div>
+                <div class="col"><input type="text" id="cNombre" name="cNombre" required /></div>
+            </div>
+            <div class="row">
+                <div class="col">Apellido</div>
+                <div class="col"><input type="text" id="cApellido" name="cApellido" required/></div>
+            </div>
+            <div class="row">
+                <div class="col">Saldo</div>
+                <div class="col"><input type="number" id="cSaldo" name="cSaldo" required /></div>
+            </div>
+            <div class="row">
+                <div class="col">Domicilio</div>
+                <div class="col"><input type="text" id="cDomicilio" name="cDomicilio" required/></div>
+            </div>
+            <div class="row">
+                <div class="col">Teléfono</div>
+                <div class="col"><input type="number" id="cTelefono" name="cTelefono"/></div>
+            </div>
+            <div class="row">
+                <div class="col">Cuit</div>
+                <div class="col"><input type="number" id="cCuit" name="cCuit"/></div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="txtMensaje" style="color: rgb(0, 153, 255); font-weight: bold;"></div>
+                </div>
+                <div class="col">
+                    <button onclick="limpiarDatos()">LIMPIAR</button>
+                    <button onclick="insertarActualizarDatos()">GUARDAR</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div style="text-align: center;">
+            <input type="text" id="txtSearch" name="txtSearch"  />
+            <button id="btListar" onclick="getClientesJSON()">BUSCAR POR APELLIDO</button>
+        </div>
+        <hr style="border: white">
+        <div id="listaClientes" class="container text-center">
+        <br>
+        </div>
+
+        <script>var exports = {};</script>
+        <script src="clientes.js"></script>
+    </body>
+</html>
