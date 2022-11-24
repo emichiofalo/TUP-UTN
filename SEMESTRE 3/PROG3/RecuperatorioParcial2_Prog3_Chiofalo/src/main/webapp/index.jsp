@@ -60,7 +60,7 @@
         </table>
         <hr>
         <hr style="border: white">
-        <div id="listaContactos" class="container text-center">
+        <div id="listaContactos">
            
         </div>
     </body>

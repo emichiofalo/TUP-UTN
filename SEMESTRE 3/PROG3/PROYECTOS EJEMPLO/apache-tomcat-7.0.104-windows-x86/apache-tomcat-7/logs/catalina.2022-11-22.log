@@ -1,0 +1,361 @@
+nov 22, 2022 4:38:27 P. M. org.apache.catalina.core.AprLifecycleListener init
+WARNING: The Apache Tomcat Native library failed to load. The error reported was [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\bin\tcnative-1.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform]
+java.lang.UnsatisfiedLinkError: C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\bin\tcnative-1.dll: Can't load IA 32-bit .dll on a AMD 64-bit platform
+	at java.base/jdk.internal.loader.NativeLibraries.load(Native Method)
+	at java.base/jdk.internal.loader.NativeLibraries$NativeLibraryImpl.open(NativeLibraries.java:383)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:227)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:169)
+	at java.base/jdk.internal.loader.NativeLibraries.findFromPaths(NativeLibraries.java:310)
+	at java.base/jdk.internal.loader.NativeLibraries.loadLibrary(NativeLibraries.java:282)
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2416)
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:808)
+	at java.base/java.lang.System.loadLibrary(System.java:1893)
+	at org.apache.tomcat.jni.Library.<init>(Library.java:42)
+	at org.apache.tomcat.jni.Library.initialize(Library.java:178)
+	at org.apache.catalina.core.AprLifecycleListener.init(AprLifecycleListener.java:200)
+	at org.apache.catalina.core.AprLifecycleListener.isAprAvailable(AprLifecycleListener.java:108)
+	at org.apache.catalina.connector.Connector.setProtocol(Connector.java:639)
+	at org.apache.catalina.connector.Connector.<init>(Connector.java:72)
+	at org.apache.catalina.startup.ConnectorCreateRule.begin(ConnectorCreateRule.java:62)
+	at org.apache.tomcat.util.digester.Digester.startElement(Digester.java:1263)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1386)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1525)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:637)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:686)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:244)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:414)
+
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Nombre de la versión del servidor:   Apache Tomcat/7.0.104
+
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          May 7 2020 19:31:18 UTC
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Número de versión de servidor:         7.0.104.0
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Windows 10
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Versión de Systema Operativo:      10.0
+
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Arquitectura:          amd64
+
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             C:\Program Files\Java\jdk-16.0.2
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           16.0.2+7-67
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Vededor JVM:     Oracle Corporation
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\logging.properties
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|EMI-CHIOFALO
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\temp
+nov 22, 2022 4:38:28 P. M. org.apache.coyote.AbstractProtocol init
+INFO: Inicializando el manejador de protocolo ["http-bio-8080"]
+
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1629 ms
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.core.StandardService startInternal
+INFO: Arrancando servicio [Catalina]
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.104
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apirest.xml]
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.core.StandardContext setPath
+WARNING: Una ruta de contexto debe de ser o una cadena vacía o comenzar con "/". La ruta [apirest] no cumple con estos criterios y ha sido cambiada por [/apirest]
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error arrancando Recursos estáticos
+java.lang.IllegalArgumentException: El Documento base [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\APIREST-Paises\target\APIREST-Paises-1.0-SNAPSHOT] no existe o no es un directorio legible
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5256)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5448)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5449)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error durante el despliegue del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apirest.xml]
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1011)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apirest.xml] has finished in [141] ms
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml]
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error arrancando Recursos estáticos
+java.lang.IllegalArgumentException: El Documento base [C:\Users\Emi Chiófalo\Desktop\TUP-UTN-main\TUP-UTN-main\SEMESTRE 3\PROG3\APIREST-Rubros\target\apprest-1.0-SNAPSHOT] no existe o no es un directorio legible
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5256)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5448)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5449)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 22, 2022 4:38:28 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error durante el despliegue del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml]
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1011)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 22, 2022 4:38:29 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml] has finished in [173] ms
+nov 22, 2022 4:38:29 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\EjemploJSP.xml]
+nov 22, 2022 4:38:29 P. M. org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+WARNING: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [115] milliseconds.
+nov 22, 2022 4:38:29 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\EjemploJSP.xml] has finished in [924] ms
+nov 22, 2022 4:38:29 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3.xml]
+nov 22, 2022 4:38:30 P. M. org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error arrancando Recursos estáticos
+java.lang.IllegalArgumentException: El Documento base [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PrácticaParcial2_Prog3\build\web] no existe o no es un directorio legible
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5256)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5448)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 22, 2022 4:38:30 P. M. org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5449)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 22, 2022 4:38:30 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error durante el despliegue del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3.xml]
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1011)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 22, 2022 4:38:30 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3.xml] has finished in [45] ms
+nov 22, 2022 4:38:30 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3_2.xml]
+nov 22, 2022 4:38:30 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 22, 2022 4:38:30 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\Pr_cticaParcial2_Prog3_2.xml] has finished in [791] ms
+nov 22, 2022 4:38:30 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\punto_12_jsp.xml]
+nov 22, 2022 4:38:30 P. M. org.apache.catalina.core.StandardContext resourcesStart
+SEVERE: Error arrancando Recursos estáticos
+java.lang.IllegalArgumentException: El Documento base [C:\Users\Emi Chiófalo\Downloads\punto_12_jsp\punto_12_jsp\build\web] no existe o no es un directorio legible
+	at org.apache.naming.resources.FileDirContext.setDocBase(FileDirContext.java:136)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:5256)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5448)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 22, 2022 4:38:30 P. M. org.apache.catalina.core.ContainerBase addChildInternal
+SEVERE: ContainerBase.addChild: start: 
+org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5449)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1007)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 22, 2022 4:38:30 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+SEVERE: Error durante el despliegue del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\punto_12_jsp.xml]
+java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Error in resourceStart()
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:1011)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:983)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:639)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:712)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:2001)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+nov 22, 2022 4:38:30 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\punto_12_jsp.xml] has finished in [43] ms
+nov 22, 2022 4:38:30 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\TP7-JSP.xml]
+nov 22, 2022 4:38:31 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 22, 2022 4:38:31 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\TP7-JSP.xml] has finished in [679] ms
+nov 22, 2022 4:38:31 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\docs] de la aplicación web
+nov 22, 2022 4:38:31 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\docs] has finished in [101] ms
+nov 22, 2022 4:38:31 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\examples] de la aplicación web
+nov 22, 2022 4:38:32 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\examples] has finished in [752] ms
+nov 22, 2022 4:38:32 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\host-manager] de la aplicación web
+nov 22, 2022 4:38:32 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\host-manager] has finished in [159] ms
+nov 22, 2022 4:38:32 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Desplegando el directorio [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\manager] de la aplicación web
+nov 22, 2022 4:38:32 P. M. org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\webapps\manager] has finished in [136] ms
+nov 22, 2022 4:38:32 P. M. org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+nov 22, 2022 4:38:32 P. M. org.apache.catalina.startup.Catalina start
+INFO: Server startup in 4170 ms
+nov 22, 2022 4:38:33 P. M. org.apache.catalina.startup.HostConfig undeploy
+INFO: Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/Pr_cticaParcial2_Prog3_2]
+nov 22, 2022 4:38:33 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\JSP-PrÃ¡cticaParcial2_Prog3_2.xml]
+nov 22, 2022 4:38:34 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 22, 2022 4:38:34 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\JSP-PrÃ¡cticaParcial2_Prog3_2.xml] has finished in [510] ms
+nov 22, 2022 4:38:34 P. M. org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/JSP-PrÃ¡cticaParcial2_Prog3_2]] after start() had already been called. The second call will be ignored.
+nov 22, 2022 4:49:42 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\JSP-FormSalario.xml]
+nov 22, 2022 4:49:42 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\JSP-FormSalario.xml] has finished in [106] ms
+nov 22, 2022 4:49:42 P. M. org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/JSP-FormSalario]] after start() had already been called. The second call will be ignored.

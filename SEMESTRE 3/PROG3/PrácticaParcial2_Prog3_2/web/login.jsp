@@ -5,7 +5,7 @@
 --%>
 
 
-<%@page import="Modelo.Connection2"%>
+<%@page import="Modelo.Connection"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -64,7 +64,6 @@
             String usuario = request.getParameter("usuario");
             String clave = request.getParameter("clave");
             
-            String id = (String) request.getParameter("id");
             Connection2 cn = new Connection2();
             java.sql.Connection con = cn.getConnection();
             java.sql.Statement state = con.createStatement();

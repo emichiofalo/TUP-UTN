@@ -1,0 +1,652 @@
+nov 23, 2022 3:07:02 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\JSP-RecuperatorioParcial2_Prog3.xml]
+nov 23, 2022 3:07:04 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\JSP-RecuperatorioParcial2_Prog3.xml] has finished in [1.444] ms
+nov 23, 2022 3:07:04 P. M. org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/JSP-RecuperatorioParcial2_Prog3]] after start() had already been called. The second call will be ignored.
+nov 23, 2022 4:10:34 P. M. org.apache.catalina.startup.HostConfig undeploy
+INFO: Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/apprest]
+nov 23, 2022 4:10:35 P. M. org.apache.catalina.startup.HostConfig undeploy
+INFO: Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/apprest]
+nov 23, 2022 4:10:35 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml]
+nov 23, 2022 4:10:37 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:10:37 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:10:39 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:10:39 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:10:39 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:10:39 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:10:40 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml] has finished in [4.605] ms
+nov 23, 2022 4:10:40 P. M. org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/apprest]] after start() had already been called. The second call will be ignored.
+nov 23, 2022 4:20:51 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:20:51 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/apprest] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 23, 2022 4:20:51 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:20:51 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:20:51 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:20:52 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:20:52 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:20:53 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:20:53 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:20:53 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:20:53 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:20:54 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:21:03 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:21:03 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:21:04 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:21:05 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:21:05 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:21:05 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:21:05 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:21:05 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:21:06 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:21:06 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:21:06 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:21:08 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:21:08 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:21:08 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:21:08 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:21:08 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:21:08 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:21:10 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:21:15 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:21:15 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:21:17 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:21:17 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:21:17 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:21:17 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:21:17 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:21:17 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:21:18 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:21:39 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:21:39 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:21:41 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:21:41 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:21:41 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:21:41 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:21:41 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:21:41 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:21:42 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:22:14 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:22:14 P. M. org.apache.catalina.startup.HostConfig undeploy
+INFO: Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/apprest]
+nov 23, 2022 4:22:14 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml]
+nov 23, 2022 4:22:15 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:22:15 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:22:16 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:22:16 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:22:16 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:22:16 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:22:16 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml] has finished in [2.144] ms
+nov 23, 2022 4:22:16 P. M. org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/apprest]] after start() had already been called. The second call will be ignored.
+nov 23, 2022 4:22:47 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:22:47 P. M. org.apache.catalina.startup.HostConfig undeploy
+INFO: Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/apprest]
+nov 23, 2022 4:22:47 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml]
+nov 23, 2022 4:22:50 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:22:50 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:22:50 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:22:50 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:22:50 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:22:50 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:22:51 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml] has finished in [3.953] ms
+nov 23, 2022 4:22:57 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:22:58 P. M. org.apache.catalina.startup.HostConfig undeploy
+INFO: Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/apprest]
+nov 23, 2022 4:22:58 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml]
+nov 23, 2022 4:22:59 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:22:59 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:23:00 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:23:00 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:23:00 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:23:00 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:23:01 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml] has finished in [3.364] ms
+nov 23, 2022 4:23:01 P. M. org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/apprest]] after start() had already been called. The second call will be ignored.
+nov 23, 2022 4:23:02 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:27:19 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:27:19 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/apprest] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 23, 2022 4:27:19 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:27:19 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:27:19 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:27:19 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:27:19 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:27:20 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:27:20 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:27:20 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:27:20 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:27:20 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:27:23 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:27:23 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:27:25 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:27:25 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:27:26 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:27:26 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:27:26 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:27:26 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:27:27 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:27:27 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:27:27 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:27:28 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:27:28 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:27:29 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:27:29 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:27:29 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:27:29 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:27:29 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:28:58 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:28:58 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:28:59 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:28:59 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:28:59 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:28:59 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:28:59 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:28:59 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:29:00 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:29:01 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:29:01 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:29:02 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:29:02 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:29:03 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:29:03 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:29:03 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:29:03 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:29:03 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:31:34 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:31:34 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:31:35 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:31:35 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:31:36 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:31:36 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:31:36 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:31:36 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:31:37 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:32:21 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:32:21 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:32:23 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:32:23 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:32:23 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:32:23 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:32:23 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:32:23 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:32:24 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:32:38 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:32:38 P. M. org.apache.catalina.startup.HostConfig undeploy
+INFO: Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto [/apprest]
+nov 23, 2022 4:32:38 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Desplieque del descriptor de configuración [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml]
+nov 23, 2022 4:32:40 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:32:40 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:32:40 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:32:40 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:32:40 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:32:40 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:32:41 P. M. org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of deployment descriptor [C:\Users\Emi Chiófalo\Documents\TUP-UTN\SEMESTRE 3\PROG3\PROYECTOS EJEMPLO\apache-tomcat-7.0.104-windows-x86\apache-tomcat-7\conf\Catalina\localhost\apprest.xml] has finished in [2.479] ms
+nov 23, 2022 4:32:41 P. M. org.apache.catalina.util.LifecycleBase start
+INFO: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/apprest]] after start() had already been called. The second call will be ignored.
+nov 23, 2022 4:32:52 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:32:52 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/apprest] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 23, 2022 4:32:52 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:32:52 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:32:52 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:32:54 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:32:54 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:32:55 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:32:55 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:32:55 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:32:55 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:32:56 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:51:31 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:51:31 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/apprest] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 23, 2022 4:51:31 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:51:32 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:51:32 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:51:32 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:51:32 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:51:32 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:51:32 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:51:32 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:51:32 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:51:32 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:51:32 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:51:33 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:51:33 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:51:33 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:51:33 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:51:34 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:51:34 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:51:34 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:51:36 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:51:36 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:51:36 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:51:36 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:51:36 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:51:36 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:51:36 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:53:02 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:53:02 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:53:03 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:53:03 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:53:03 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:53:03 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:53:03 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:53:03 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:53:04 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:53:26 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:53:26 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:53:28 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:53:28 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:53:28 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:53:28 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:53:28 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:53:28 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:53:29 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:54:11 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:54:11 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:54:12 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:54:12 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:54:13 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:54:13 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:54:13 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:54:13 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:54:13 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:54:29 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:54:29 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:54:30 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:54:30 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:54:30 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:54:30 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:54:30 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:54:30 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:54:31 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:54:51 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:54:51 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:54:53 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:54:53 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:54:54 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:54:54 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:54:54 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:54:54 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:54:54 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:54:55 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:54:55 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:54:56 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:54:56 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:54:56 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:54:56 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:54:56 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:54:56 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:54:57 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:55:14 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:55:14 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:55:15 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:55:15 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:55:16 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:55:16 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:55:16 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:55:16 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:55:17 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 4:55:18 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Ha comenzado la recarga de Contexto [/apprest]
+nov 23, 2022 4:55:18 P. M. org.apache.catalina.core.StandardWrapper unload
+INFO: Esperando por [1] instancia(s) para recuperar su espacio reservado
+nov 23, 2022 4:55:18 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/apprest] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 23, 2022 4:55:18 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:55:18 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [http-bio-8080-exec-120] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 4:55:19 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:55:19 P. M. org.apache.catalina.loader.WebappClassLoaderBase findResourceInternal
+INFO: Acceso ilegal: esta instancia de aplicación web ya ha sido parada.  Could not load [].  La eventual traza de pila que sigue ha sido motivada por un error lanzado con motivos de depuración así como para intentar terminar el hilo que motivó el acceso ilegal y no tiene impacto funcional.
+nov 23, 2022 4:55:20 P. M. org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+nov 23, 2022 4:55:20 P. M. com.sun.jersey.server.impl.container.servlet.JerseyServletContainerInitializer addServletWithApplication
+SEVERE: Mapping conflict. A Servlet declaration exists with same mapping as the Jersey servlet application, named com.utn.apprest.Aplicacion, at the servlet mapping, /rest/*. The Jersey servlet is not deployed.
+nov 23, 2022 4:55:20 P. M. com.sun.jersey.api.core.PackagesResourceConfig init
+INFO: Scanning for root resource and provider classes in the packages:
+  com.utn.apprest
+nov 23, 2022 4:55:20 P. M. com.sun.jersey.api.core.ScanningResourceConfig logClasses
+INFO: Root resource classes found:
+  class com.utn.apprest.FacturaRest
+nov 23, 2022 4:55:20 P. M. com.sun.jersey.api.core.ScanningResourceConfig init
+INFO: No provider classes found.
+nov 23, 2022 4:55:20 P. M. com.sun.jersey.server.impl.application.WebApplicationImpl _initiate
+INFO: Initiating Jersey application, version 'Jersey: 1.8 06/24/2011 12:17 PM'
+nov 23, 2022 4:55:21 P. M. org.apache.catalina.core.StandardContext reload
+INFO: Se ha completado la recarga de este Contexto
+nov 23, 2022 5:01:30 P. M. org.apache.catalina.core.StandardServer await
+INFO: Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+nov 23, 2022 5:01:30 P. M. org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+nov 23, 2022 5:01:30 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Parando servicio [Catalina]
+nov 23, 2022 5:01:30 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/TP7-JSP] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 5:01:30 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/JSP-PrÃ¡cticaParcial2_Prog3_2] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 23, 2022 5:01:30 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/JSP-PrÃ¡cticaParcial2_Prog3_2] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 5:01:30 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/apprest] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+nov 23, 2022 5:01:30 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/apprest] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+nov 23, 2022 5:01:30 P. M. org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+nov 23, 2022 5:01:30 P. M. org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]

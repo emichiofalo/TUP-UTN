@@ -57,9 +57,7 @@ public class AgendaRest {
     @Produces(MediaType.APPLICATION_JSON)
     public List<Agenda> updateAgenda(Agenda agendaUpdate) {
         //Ejemplo http://localhost:8080/apprest/rest/agenda/update
-
         AgendaManager mAgenda = new AgendaManager();
-
         mAgenda.update(agendaUpdate);
         return mAgenda.getAll();
     }
