@@ -1,0 +1,71 @@
+.input1{
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: Verdana;
+    padding: 0.5%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.input2{
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: Verdana;
+    padding: 0.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+label{
+    font-family: Verdana;
+    text-align: center;
+    font-size: small;
+}
+
+.label2{
+    font-family: Verdana;
+    text-align: center;
+    font-size: medium;
+}
+
+body{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.button1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 71%;
+    height: 40px;
+    border: outset;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+
+.button2{
+    height: 33px;
+    border: outset;
+    border-radius: 5px;
+    margin-top: 1%;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-self: center;
+}
+
+th, td {
+    padding: 5px;
+    font-family: Verdana;
+}
