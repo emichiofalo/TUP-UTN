@@ -1,0 +1,14 @@
+abr 05, 2023 7:34:54 P. M. org.apache.catalina.core.StandardServer await
+INFO: Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+abr 05, 2023 7:34:54 P. M. org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+abr 05, 2023 7:34:54 P. M. org.apache.catalina.core.StandardService stopInternal
+INFO: Parando servicio [Catalina]
+abr 05, 2023 7:34:54 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+SEVERE: La aplicación web [/TP7-JSP] registró el conductor JDBC [com.mysql.cj.jdbc.Driver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+abr 05, 2023 7:34:54 P. M. org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: La aplicación web [/TP7-JSP] parece haber arrancado un hilo llamado [mysql-cj-abandoned-connection-cleanup] pero no ha podido pararlo. Esto tiene todas las papeletas de convertirse en un fallo de memoria.
+abr 05, 2023 7:34:54 P. M. org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+abr 05, 2023 7:34:54 P. M. org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]

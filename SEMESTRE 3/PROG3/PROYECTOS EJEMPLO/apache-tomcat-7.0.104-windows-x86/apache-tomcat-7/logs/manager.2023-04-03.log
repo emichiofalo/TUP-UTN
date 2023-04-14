@@ -1,0 +1,10 @@
+abr 03, 2023 10:51:15 A. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+abr 03, 2023 10:51:15 A. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: init: Global resources are available
+abr 03, 2023 10:51:15 A. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+abr 03, 2023 10:51:15 A. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: list: Listing contexts for virtual host 'localhost'
+abr 03, 2023 10:51:15 A. M. org.apache.catalina.core.ApplicationContext log
+INFO: Manager: restart: Reloading web application '/TP7-JSP'

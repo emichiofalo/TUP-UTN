@@ -1,0 +1,10 @@
+abr 03, 2023 10:51:11 A. M. org.apache.catalina.core.ApplicationContext log
+INFO: Hola!
+abr 03, 2023 10:51:14 A. M. org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: contextInitialized()
+abr 03, 2023 10:51:14 A. M. org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: contextInitialized()
+abr 03, 2023 10:51:14 A. M. org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('StockTicker', 'async.Stockticker@21140479')
+abr 03, 2023 10:51:14 A. M. org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1ebb500')

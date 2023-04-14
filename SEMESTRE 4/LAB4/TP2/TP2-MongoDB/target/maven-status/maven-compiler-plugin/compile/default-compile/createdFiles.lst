@@ -1,0 +1,10 @@
+PaisesRelacional\TP2RelacionalDB.class
+Data\Conexion.class
+Model\Currency.class
+Model\RegionalBloc.class
+Model\Flags.class
+PaisesMongo\TP2MongoDB.class
+Data\PaisManager.class
+Model\Translations.class
+Model\Language.class
+Model\Pais.class

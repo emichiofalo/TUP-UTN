@@ -1,7 +1,7 @@
 const user = document.getElementById("user");
 const pass = document.getElementById("pass");
 const btnLogin = document.getElementById("btnLogin");
-const msjError = document.getElementById("labelError")
+const msjError = document.getElementById("labelError");
 
 btnLogin.addEventListener('click', async() => {
     try{
