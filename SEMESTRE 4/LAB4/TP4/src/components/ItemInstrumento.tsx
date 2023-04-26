@@ -1,20 +1,25 @@
 import { useNavigate } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
+import Instrumento from './Instrumento';
 
-type InstrumentoParams = {
-    id: string; 
-    instrumento: string; 
-    marca: string;
-    modelo: string; 
-    imagen: string; 
-    precio: string; 
-    costoEnvio: string;
-    cantidadVendida: string;
-    descripcion: string; 
+//type InstrumentoParams = {
+//    id: string; 
+//    instrumento: string; 
+//    marca: string;
+//    modelo: string; 
+//    imagen: string; 
+//    precio: string; 
+//    costoEnvio: string;
+//    cantidadVendida: string;
+//    descripcion: string; 
+//}
+
+interface props{
+    args: Instrumento;
 }
 
-export const ItemInstrumento = (args : InstrumentoParams) => {
+export const ItemInstrumento = ({args} : props) => {
     
     return (
         

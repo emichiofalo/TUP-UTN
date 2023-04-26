@@ -27,12 +27,9 @@ export const Productos = () => {
         <div className='productContainer'>
             <Container fluid="md">
                 <Row>  
-                {instrumentos.map((instrumento:Instrumento) => 
-                    <ItemInstrumento key={instrumento.id} id={instrumento.id} instrumento={instrumento.instrumento} 
-                    marca={instrumento.marca} modelo={instrumento.modelo} imagen={instrumento.imagen} 
-                    precio={instrumento.precio} costoEnvio={instrumento.costoEnvio}
-                    cantidadVendida={instrumento.cantidadVendida} descripcion={instrumento.descripcion}></ItemInstrumento>
-                )}
+                {instrumentos.map((instrumento:Instrumento, index:number) => (
+                    <ItemInstrumento key={index} args={instrumento} />
+                ))}
                 </Row>
             </Container>
         </div>
