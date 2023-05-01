@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import { Alert, Button, Card, Container, Row } from 'react-bootstrap';
-import { getInstrumentosJSON} from './FuncionesApi';
+import { Container, Row } from 'react-bootstrap';
+import { getInstrumentos } from './FuncionesApi';
 import { ItemInstrumento } from './ItemInstrumento';
 import Instrumento from './Instrumento';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,13 +11,13 @@ export const Productos = () => {
     
   const [instrumentos, setInstrumentos] = useState<Instrumento[]>([]);
     
-    const getInstrumentos = () => {
-      let datos:Instrumento[] = getInstrumentosJSON();
+    const getInstruments = async () => {
+      let datos: Instrumento[] = await getInstrumentos();
       setInstrumentos(datos);
     }
 
     useEffect(() => {
-      getInstrumentos();
+      getInstruments();
     }, []);
 
     

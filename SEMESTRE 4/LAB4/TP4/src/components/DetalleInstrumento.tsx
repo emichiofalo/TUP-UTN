@@ -1,22 +1,26 @@
 import { useEffect, useState } from 'react';
-import { Col, Container, ListGroup, Nav, Row } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import Instrumento from './Instrumento';
-import { getInstrumentosJSON } from './FuncionesApi';
-
+//import { getInstrumentosJSON } from './FuncionesApi';
+import { getInstrumentoById } from "./FuncionesApi";
 
 export const DetalleInstrumento = () => {
 
     const {idinstrumento} = useParams();
     const [instrumento, setInstrumento] = useState<Instrumento>();
     
-    const getInstrumento = () => {
-        let datos: Instrumento[] = getInstrumentosJSON();
-        const producto = datos.filter((dato) => {
-            return (dato.id === idinstrumento)
-        });
-        setInstrumento(producto[0])
-    };
+    // const getInstrumento = async () => {
+    //     let datos: Instrumento[] = await getInstrumentos();
+    //     const producto = datos.filter((dato) => {
+    //         return dato.id === parseInt(idinstrumento!)
+    //     });
+    //     setInstrumento(producto[0])
+    // };
+
+    const getInstrumento = async () => {
+        let dato : Instrumento = await getInstrumentoById(parseInt(idinstrumento!));
+        setInstrumento(dato);
+    }
 
     useEffect(() => {
         getInstrumento();
