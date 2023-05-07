@@ -1,6 +1,6 @@
 let legajo:number = 0; 
 
-class Empleado {
+export class Empleado {
     legajo:number = 0; 
     apellido: string = "";
     nombre: string = "";
@@ -23,7 +23,8 @@ async function getEmpleadosJSON(){
 			'Access-Control-Allow-Origin':'*'
 		},
         mode: 'cors'
-	});
+	}); 
+
 	console.log(response);
     let datos:Empleado[] = await response.json();
     let grillaHTML = "";

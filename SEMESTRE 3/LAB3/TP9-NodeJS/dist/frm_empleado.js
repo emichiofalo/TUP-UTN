@@ -8,6 +8,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Empleado = void 0;
 let legajo = 0;
 class Empleado {
     constructor() {
@@ -20,6 +22,7 @@ class Empleado {
         this.activo = false;
     }
 }
+exports.Empleado = Empleado;
 function getEmpleadosJSON() {
     return __awaiter(this, void 0, void 0, function* () {
         let urlServer = 'http://localhost:3000/empleados';
