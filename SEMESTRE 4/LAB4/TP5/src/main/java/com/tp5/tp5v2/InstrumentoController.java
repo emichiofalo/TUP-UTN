@@ -39,4 +39,45 @@ public class InstrumentoController {
         }
     }
 
+    @PostMapping(path="/instrumento")
+    public ResponseEntity<?> insertInstrument(@RequestBody Instrumento i){
+        try{
+            instrumentoRepository.save(i);
+            return ResponseEntity.ok(i);
+        }catch (Exception e) {
+            e.getStackTrace();
+        }
+        return null;
+    }
+
+    @PutMapping(path="/instrumento/{id}")
+    public ResponseEntity<?> updateInstrument(@RequestBody Instrumento i){
+        if (instrumentoRepository.findById(i.getId()).isPresent()){
+            try{
+                instrumentoRepository.save(i);
+                return ResponseEntity.ok(i);
+            }catch (Exception e) {
+                e.getStackTrace();
+            }
+        }else{
+            return ResponseEntity.notFound().build();
+        }
+        return null;
+    }
+
+    @DeleteMapping(path="/instrumento/{id}")
+    public ResponseEntity<?> deleteInstrument(@PathVariable Integer id){
+       try{
+           Optional<Instrumento> ins = instrumentoRepository.findById(id);
+            if (instrumentoRepository.findById(id).isPresent()){
+                    instrumentoRepository.delete(ins.get());
+                    return ResponseEntity.ok(id);
+            }else {
+                return ResponseEntity.notFound().build();
+            }
+        }catch (Exception e) {
+            e.getStackTrace();
+           return null;
+        }
+    }
 }

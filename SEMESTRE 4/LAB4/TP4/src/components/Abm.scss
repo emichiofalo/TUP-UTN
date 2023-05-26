@@ -1,0 +1,45 @@
+.instrument-table-abm {
+    margin-top: 3rem;
+    width: 90%;
+    margin-bottom: 3rem;
+}
+
+.input-button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 8rem;
+
+    .searchValue-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+        input {
+            background-color: white;
+            color: black;
+            margin: .5rem;
+            width: 20rem;
+            height: 2rem;
+        }
+    }
+
+    button {
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        background-color: gray;
+        margin: .5rem;
+        border-radius: .4rem;
+    }
+
+    .button-nuevo {
+        background-color: green;
+        border-color: green;
+    }
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

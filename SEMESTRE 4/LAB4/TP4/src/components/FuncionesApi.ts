@@ -1,8 +1,9 @@
 import Instrumento from "./Instrumento";
 
 async function getData<T>(path: string): Promise<T> {
-  const response = await fetch(`http://localhost:8080${path}`);
+  let response = await fetch(`http://localhost:8080${path}`);
   if (!response.ok) {
+    console.log(response);
     throw Error(response.statusText);
   }
   return response.json();
@@ -29,11 +30,42 @@ async function postPutData<T>(path: string, method: string, data: T): Promise<T>
       'Accept': 'application/json',
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify(data)});
+    mode: 'cors',
+    body: JSON.stringify(data)
+  });
   if (!response.ok) {
     throw Error(response.statusText);
   }
   return response.json();
+}
+
+export async function insertInstrument(instrumento: Instrumento) {
+  const url = "/instrumento";
+  return await postPutData<Instrumento>(url, "POST", instrumento);
+}
+
+export async function updateInstrument(instrumento: Instrumento) {
+  const url = "/instrumento";
+  return await postPutData<Instrumento>(url, "PUT", instrumento);
+}
+
+async function deleteData<T>(path: string): Promise<void> {
+  const response = await fetch(`http://localhost:8080${path}`, {
+    method: 'DELETE',
+    headers: {
+      'Content-type': 'application/json',
+			'Access-Control-Allow-Origin':'*'
+		},
+    mode: 'cors'
+  });
+  if (!response.ok) {
+    throw new Error(response.statusText);
+  }
+}
+
+export async function deleteInstrument(id: number) {
+  const url = `/instrumento/${id}`;
+  return await deleteData<Instrumento>(url);
 }
 
 /* 

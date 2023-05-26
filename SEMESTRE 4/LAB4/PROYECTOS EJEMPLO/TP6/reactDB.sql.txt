@@ -1,0 +1,57 @@
+/*
+SQLyog Community Edition- MySQL GUI v8.12 
+MySQL - 5.1.73-community : Database - react
+*********************************************************************
+*/
+
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`react` /*!40100 DEFAULT CHARACTER SET latin1 */;
+
+USE `react`;
+
+/*Table structure for table `ingrediente` */
+
+DROP TABLE IF EXISTS `ingrediente`;
+
+CREATE TABLE `ingrediente` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(250) NOT NULL,
+  `unidadMedida` varchar(250) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+
+/*Data for the table `ingrediente` */
+
+insert  into `ingrediente`(`id`,`nombre`,`unidadMedida`) values (1,'harina','gramos'),(2,'huevos','unidades'),(3,'queso','gramos'),(4,'salsa tomate','mililitros'),(5,'jamon cocido','gramos'),(6,'carne molida','gramos'),(7,'tomate','unidades'),(8,'lechuga','unidad'),(9,'agua','mililitro'),(10,'cebolla','unidades'),(11,'cebada','gramos'),(12,'lupulo','gramos'),(13,'pan burger','unidad');
+
+/*Table structure for table `plato` */
+
+DROP TABLE IF EXISTS `plato`;
+
+CREATE TABLE `plato` (
+  `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+  `nombre` varchar(255) NOT NULL,
+  `precio` double NOT NULL,
+  `rubro` varchar(255) NOT NULL,
+  `imagenPath` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+
+/*Data for the table `plato` */
+
+insert  into `plato`(`id`,`nombre`,`precio`,`rubro`,`imagenPath`) values (1,'Pizza Especial',900,'Comidas','pizza-especial.jpg'),(2,'Empanadas Docena',140,'Comidas','empanadas.jpg'),(3,'Lomo Completo',150,'Comidas','lomo-completo.jpg'),(4,'Mini Hamburguesa',250,'Comidas','hamburguesa.jpg'),(5,'test con ingredientes',600,'Bebidas','cerveza.jpg'),(6,'Hamburguesa con queso',990,'Alimentos','https://cocina-casera.com/wp-content/uploads/2016/11/hamburguesa-queso-receta.jpg'),(7,'Pizza Roquefort',2000,'Pizzas','https://placeralplato.com/files/2015/06/pizza-roquefort-640x480.jpg?width=1200&enable=upscale');
+
+/*Table structure for table `plato_ingrediente` */
+
+DROP TABLE IF EXISTS `plato_ingrediente`;
+
+CREATE TABLE `plato_ingrediente` (
+  `idplato` bigint(20) NOT NULL,
+  `idingrediente` bigint(20) NOT NULL,
+  `cantidad` double NOT NULL,
+  `idplatoingrediente` bigint(20) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`idplatoingrediente`)
+) ENGINE=InnoDB AUTO_INCREMENT=54 DEFAULT CHARSET=latin1;
+
+/*Data for the table `plato_ingrediente` */
+
+insert  into `plato_ingrediente`(`idplato`,`idingrediente`,`cantidad`,`idplatoingrediente`) values (1,1,200,1),(1,2,2,2),(1,3,300,3),(1,4,300,4),(1,5,150,5),(1,9,500,6),(2,1,3,7),(2,2,2,8),(2,6,300,9),(2,9,500,10),(2,10,2,11),(3,1,200,12),(3,2,1,13),(3,3,300,14),(3,4,444,15),(3,5,555,16),(3,6,666,17),(3,7,777,18),(3,8,888,19),(3,9,500,20),(4,1,3,21),(4,2,2,22),(4,6,500,23),(4,7,250,24),(4,8,300,25),(4,9,500,26),(5,3,300,36),(5,5,250,37),(5,10,2,40),(6,3,400,41),(6,6,400,42),(6,10,1,43),(7,1,400,44),(7,3,500,45),(7,9,500,46),(7,4,300,47),(7,2,4,48);
