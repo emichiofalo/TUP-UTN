@@ -1,0 +1,98 @@
+.instrument-table-abm {
+    margin-top: 3rem;
+    width: 90%;
+    margin-bottom: 3rem;
+}
+
+.input-button-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2rem;
+
+    .searchValue-form {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+        input {
+            background-color: white;
+            color: black;
+            margin: .5rem;
+            width: 20rem;
+            height: 2rem;
+            border-radius: .5rem;
+            padding: 1rem;
+        }
+    }
+
+    button {
+        height: 2.2rem;
+        width: 5rem;
+        display: flex;
+        align-items: center;
+        margin: .5rem;
+        border-radius: .5rem;
+        justify-content: center;
+    }
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.detalle-provincia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10%;
+
+    table {
+        border-collapse: collapse;
+        width: 60%;
+
+        th,
+        td {
+            border: 1px solid gray;
+            padding: 10px;
+        }
+    }
+
+    .button-volver {
+        height: 2.2rem;
+        width: 5rem;
+        margin: .5rem;
+        border-radius: .5rem;
+        justify-content: center;
+    }
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    top: 4rem;
+    position: absolute;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 60%;
+    padding: 10px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: .4rem;
+    margin-bottom: .6rem;
+}
+
+.form-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
