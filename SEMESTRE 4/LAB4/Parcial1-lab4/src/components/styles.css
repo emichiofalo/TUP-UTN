@@ -1,0 +1,34 @@
+.container-grilla {
+    margin: 3rem;
+
+    .container {
+        margin-bottom: 2rem;
+    }
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    top: 4rem;
+    position: absolute;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 60%;
+    padding: 10px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: .4rem;
+    margin-bottom: .6rem;
+}
+
+.form-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+}
